@@ -1,0 +1,432 @@
+\documentclass[b5paper,zihao=-4]{ctexbook}
+\setmainfont{Times New Roman}
+\setCJKmainfont[BoldFont=方正兰亭黑_GBK, ItalicFont=方正楷体_GBK]{方正书宋_GBK}
+\makeatletter
+
+% 无上标的 \@makefnmark
+\def\nosuper@makefnmark{\hbox{\normalfont\@thefnmark\space}}
+
+% 补丁
+\usepackage{etoolbox}
+\patchcmd\@makefntext{\@makefnmark}{\nosuper@makefnmark}{}{}
+
+\usepackage{xunicode-addon}
+\newfontfamily\fnmarkfont{ipam.ttf}
+\renewcommand\thefootnote{\hspace{-0.1em}{\footnotesize\fnmarkfont\textcircled{\arabic{footnote}}}}
+
+\makeatother
+\usepackage[left=1.27cm,right=1.27cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{makeidx}
+\usepackage{graphicx}
+	\graphicspath{{./Pics/}}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{wasysym}
+\usepackage{array}
+\usepackage{lscape}
+\usepackage{fancyhdr}
+	\pagestyle{fancy}
+	\fancyhf{}
+	\fancyhead[RO,RE]{\rightmark}
+	\fancyhead[LE,LO]{\leftmark}
+	\fancyfoot[LE,RO]{\thepage}
+	\fancyhead[CO,CE]{\hyperref[mulu]{生物竞赛提分秘籍}}
+	\renewcommand{\headrulewidth}{0.1mm}
+	\renewcommand{\footrulewidth}{0mm}
+
+	\fancypagestyle{plain}
+	{\fancyhf{}
+		\fancyfoot[LE,RO]{\thepage}
+		\renewcommand{\headrulewidth}{0mm}
+		\renewcommand{\footrulewidth}{0mm}}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{makecell}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{pifont}
+\usepackage{xpinyin}
+	\xpinyinsetup{font={\fontspec{GB Pinyinok-B}},ratio=0.5}
+\usepackage{chemfig}
+\usepackage[version=4]{mhchem}
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=0pt, partopsep=0pt, parsep=0pt}
+\setlist[description]{labelindent=2em,itemsep=0pt, partopsep=0pt, parsep=0pt,style=unboxed,leftmargin=0em}
+\setlist[itemize]{itemsep=0pt, partopsep=0pt, parsep=0pt}
+\usepackage{siunitx}
+\usepackage{ulem}
+\usepackage{subcaption}
+\usepackage{titlesec}
+\usepackage{multicol}
+\titleformat{\paragraph}
+{\normalfont\bfseries\filright} % 设置段落为加粗
+{}{0.5em}{\hspace{2em}} % 设置段落编号后缩进1em
+
+\titleformat{\subparagraph}
+{\normalfont\CJKfontspec{方正小标宋简体}\filright} % 设置子段落为不加粗
+{}{0.5em}{} % 设置子段落编号后缩进1em
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{nicematrix}
+\usepackage{upgreek}
+\usepackage[most]{tcolorbox}
+	\tcbuselibrary{breakable}
+	\tcbuselibrary{skins}
+	% 定义“巧记”箱子，支持自定义标题
+	\newtcolorbox{qj}[1][]{
+		colback=yellow!10, % 背景颜色
+		colframe=yellow!50!black,
+		breakable,enhanced jigsaw,% 边框颜色
+		fonttitle=\bfseries, % 标题字体
+		title={巧记#1}, % 箱子标题为传入的参数，默认为空
+	}
+
+	% 定义“小故事”箱子，支持自定义标题
+	\newtcolorbox{gs}[1][]{
+		colback=cyan!10, % 背景颜色
+		colframe=cyan!50!black, % 边框颜色
+		fonttitle=\bfseries, % 标题字体
+		breakable,enhanced jigsaw,
+		title={小故事#1}, % 箱子标题为传入的参数，默认为空
+	}
+
+	\newtcolorbox{tx}[1][]{
+		colback=red!10, % 背景颜色
+		colframe=red!50!black, % 边框颜色
+		fonttitle=\bfseries, % 标题字体
+		breakable,enhanced jigsaw,
+		title={提醒#1}, % 箱子标题为传入的参数，默认为空
+	}
+
+\usepackage{unicode-math}
+\setmathfont{TeX Gyre Termes Math}
+\setmonofont{Consolas}
+\usepackage{forest}
+\usetikzlibrary{decorations.pathreplacing}
+\usepackage{hyperref}
+
+\forestset{
+	forest scheme/.style={
+		for tree={
+			inner sep=0pt,
+			outer sep=0pt,
+			fit=band,
+			child anchor=west,
+			parent anchor=east,
+			grow'=0,
+			anchor=west,
+			align=left,
+			if n=1{
+				edge path'={(!u1.west) -- (!ul.west);}
+			}{no edge},
+			edge={decorate, decoration={brace,amplitude=1.5mm,mirror,raise=2mm}},
+		},
+	}
+}
+
+\newcommand{\sy}[1]{{\color[RGB]{150,78,21}#1\index{#1}}}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\newcolumntype{L}{X}
+\renewcommand{\figureautorefname}{图}
+\renewcommand{\tableautorefname}{表}
+
+\title{\fontsize{40}{40} \hyperref[mulu]{\textbf{生物竞赛提分秘籍}}}
+\date{编译日期：\today}
+\author{}
+
+\makeindex
+\begin{document}
+	\frontmatter
+	\maketitle
+	\tableofcontents
+	\label{mulu}
+
+	\mainmatter
+	\part{生物化学、分子生物学、细胞生物学、微生物学、生物技术}
+	\chapter{结构生物化学}
+		\input{结构生物化学.tex}
+	\chapter{代谢生物化学}
+		\input{代谢生物化学.tex}
+	\chapter{分子生物学}
+		\input{分子生物学.tex}
+	\chapter{细胞生物学}
+		\input{细胞生物学.tex}
+	\chapter{微生物学}
+		\input{微生物学.tex}
+	\chapter{生物技术}
+		\input{生物技术.tex}
+
+	\part{植物学、植物生理学}
+	\chapter{植物形态解剖}
+		\input{植物形态解剖.tex}
+	\chapter{植物分类学}
+		\input{植物分类学.tex}
+	\chapter{植物生理学}
+		\input{植物生理学.tex}
+	\part{动物学、动物生理学、生态学、动物行为学}
+	\chapter{动物学概论}
+		\input{动物学.tex}
+	\chapter{无脊椎动物学}
+		\input{无脊椎动物比较解剖.tex}
+	\chapter[脊椎比解]{脊椎动物比较解剖学}
+		\input{脊椎动物比较解剖.tex}
+	\chapter{动物生理学}
+		\input{动物生理学.tex}
+	\chapter{生态学}
+		\input{生态学.tex}
+	\chapter{动物行为学}
+		\input{动物行为学.tex}
+
+	\part{遗传学、进化生物学、生物信息和统计}
+	\chapter{遗传学}
+		\input{遗传学.tex}
+	\chapter{进化生物学}
+		\input{进化生物学.tex}
+	\chapter{生物信息和统计}
+		\input{生物信息学.tex}
+
+
+%	\chapter*{附录\markboth{附录}{附录}}
+%	\addcontentsline{toc}{chapter}{附录}
+
+\part{附录}
+
+\appendix
+
+\chapter{希腊字母表}
+\begin{table}[h!]
+	\centering
+	\begin{tabularx}{\textwidth}{|c|c|C|C||c|c|C|C|}
+		\hline
+		\textbf{大写} & \textbf{小写} & \textbf{英文读音} & \textbf{中文谐音} & \textbf{大写} & \textbf{小写} & \textbf{英文读音} & \textbf{中文谐音} \\ \hline
+		A & $\upalpha$ & Alpha & 阿尔法 & N & $\upnu$ & Nu & 纽 \\ \hline
+		B & $\upbeta$ & Beta & 贝塔 & $\upXi$ & $\upxi$ & Xi & 克西 \\ \hline
+		$\upGamma$ & $\upgamma$ & Gamma & 伽玛 & O & o & Omicron & 奥密克戎 \\ \hline
+		$\upDelta$ & $\updelta$ & Delta & 德尔塔 & $\upPi$ & $\uppi$ & Pi & 派 \\ \hline
+		E & $\upvarepsilon$ & Epsilon & 艾普西龙 & P & $\uprho$ & Rho & 柔 \\ \hline
+		Z & $\upzeta$ & Zeta & 截塔 & $\upSigma$ & $\upsigma$ & Sigma & 西格玛 \\ \hline
+		H & $\upeta$ & Eta & 埃塔 & T & $\uptau$ & Tau & 套 \\ \hline
+		$\upTheta$ & $\uptheta$ & Theta & 西塔 & $\upUpsilon$ & $\upupsilon$ & Upsilon & 宇普西龙 \\ \hline
+		I & $\upiota$ & Iota & 约塔 & $\upPhi$ & $\upphi$ & Phi & 斐 \\ \hline
+		K & $\upkappa$ & Kappa & 卡帕 & X & $\upchi$ & Chi & 凯 \\ \hline
+		$\upLambda$ & $\uplambda$ & Lambda & 兰姆达 & $\upPsi$ & $\uppsi$ & Psi & 普西 \\ \hline
+		M & $\upmu$ & Mu & 缪 & $\upOmega$ & $\upomega$ & Omega & 欧米伽 \\ \hline
+	\end{tabularx}
+	\caption{希腊字母表}
+	\label{tab:greeks}
+\end{table}
+
+\chapter{地质年代表}
+	\begin{landscape}
+		\begin{table}[h!]
+			\zihao{5}
+			\centering
+			\begin{tabular}{|ccc|c|l|}
+				\hline
+				\multicolumn{3}{|c|}{地层年代} & 距今（百万年） & \multicolumn{1}{c|}{标志事件} \\ \hline
+				\multicolumn{3}{|c|}{冥古宙} & 4600\textasciitilde 4000 & 地球形成，原始大气和海洋出现 \\ \hline
+				\multicolumn{3}{|c|}{太古宙} & 4000\textasciitilde   2500 & 最早生命形式出现，原始大陆形成 \\ \hline
+				\multicolumn{3}{|c|}{元古宙} & 2500\textasciitilde   541 & 氧气水平上升，多细胞生物出现 \\ \hline
+				\multicolumn{1}{|c|}{\multirow{12}{*}{显生宙}} & \multicolumn{1}{c|}{\multirow{6}{*}{古生代}} & 寒武纪（Cambrian） & 541\textasciitilde   485 & 寒武纪生命大爆发 \\ \cline{3-5}
+				\multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & 奥陶纪（Ordovician） & 4.85\textasciitilde   444 & 海洋生物繁盛 \\ \cline{3-5}
+				\multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & 志留纪（Silurian） & 444\textasciitilde   419 & 鱼类和珊瑚礁繁盛 \\ \cline{3-5}
+				\multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & 泥盆纪（Devonian） & 419\textasciitilde   359 & 鱼类、两栖类出现 \\ \cline{3-5}
+				\multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & 石炭纪（Carboniferous） & 359\textasciitilde   299 & 森林繁盛，煤炭形成 \\ \cline{3-5}
+				\multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & 二叠纪（Permian） & 299\textasciitilde   252 & 爬行类出现，末期大灭绝 \\ \cline{2-5}
+				\multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{\multirow{3}{*}{中生代}} & 三叠纪（Triassic） & 252\textasciitilde   201 & 恐龙出现，哺乳类和鸟类出现 \\ \cline{3-5}
+				\multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & 侏罗纪（Jurassic） & 201\textasciitilde   145 & 恐龙统治地球，被子植物出现 \\ \cline{3-5}
+				\multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & 白垩纪（Cretaceous） & 145\textasciitilde   66 & 恐龙繁盛，末期大灭绝 \\ \cline{2-5}
+				\multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{\multirow{3}{*}{新生代}} & 古近纪（Paleogene） & 66\textasciitilde   23 & 哺乳类、鸟类和被子植物统治地球 \\ \cline{3-5}
+				\multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & 新近纪（Neogene） & 23\textasciitilde   2.6 & 人类祖先出现，现代哺乳类和鸟类出现 \\ \cline{3-5}
+				\multicolumn{1}{|c|}{} & \multicolumn{1}{c|}{} & 第四纪（Quaternary） & 2.6\textasciitilde   现在 & 人类出现并发展，冰期频繁发生 \\ \hline
+			\end{tabular}
+			\caption{地质年代表}
+			\label{tab:earth_age}
+		\end{table}
+		\end{landscape}
+
+\chapter[生物学名和缩写]{常见生物的学名和缩写}
+
+	\begin{table}[h]
+		\centering
+		\begin{tabularx}{\textwidth}{|m{6em}|L|L|}
+			\hline
+			\multicolumn{1}{|c|}{\textbf{中文名}} & \multicolumn{1}{c|}{\textbf{学名}} & \multicolumn{1}{c|}{\textbf{缩写}} \\ \hline
+			大肠杆菌 & \textit{Escherichia coli} & \textit{E.coli} \\ \hline
+			枯草芽孢杆菌 & \textit{Bacillus subtilis} & \textit{Bs} \\ \hline
+			酿酒酵母 & \textit{Saccharomyces cerevisiae} & \textit{Sc} \\ \hline
+			秀丽隐杆线虫 & \textit{Caenorhabditis elegans} & \textit{Ce} \\ \hline
+			黑腹果蝇 & \textit{Drosophila melanogaster} & \textit{Dm} \\ \hline
+			小鼠 & \textit{Mus musculus} & \textit{Mm} \\ \hline
+			大鼠 & \textit{Rattus noivegicus} & \textit{Rn} \\ \hline
+			家鸡 & \textit{Gallus gallus domesticus} & \textit{} \\ \hline
+			智人 & \textit{Homo sapiens} & \textit{Hs} \\ \hline
+			拟南芥 & \textit{Arabidopsis thaliana} & \textit{At} \\ \hline
+			水稻 & \textit{Oryza sativa} & \textit{Os} \\ \hline
+			拟黑曲霉 & \textit{Aspergillus niger} & \textit{An} \\ \hline
+			二穗短柄草 & \textit{Brachypodium distachyon} & \textit{Bd} \\ \hline
+			非洲爪蟾 & \textit{Xenopus laevis} & \textit{Xl} \\ \hline
+			文昌鱼 & \textit{Branchiostoma lanceolatum} & \textit{Bl} \\ \hline
+		\end{tabularx}
+		\caption{常见生物的学名}
+		\label{tab:model_creatures_latin}
+	\end{table}
+
+\chapter{易读错的字}
+
+	\begin{table}[h]
+		\centering
+		\begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}m{5em}|>{\centering\arraybackslash}m{5em}|X|}
+			\hline
+			\textbf{字词} & \textbf{拼音} & \multicolumn{1}{c|}{\textbf{释义}} \\ \hline
+			鳔 & \pinyin{biao4} &  \\ \hline
+			跖/蹠 & \pinyin{zhi2} & 二字同义，脚掌。 \\ \hline
+			妊娠 & \pinyin{ren4 shen1} & 从受孕至分娩的生理过程。 \\ \hline
+		\end{tabularx}
+		\caption{易读错的字}
+		\label{tab:mistaken_pronunciation}
+	\end{table}
+
+\chapter{常见名词的别名}
+
+
+	\begin{table}[htbp]
+		\centering
+		\begin{tabularx}{\textwidth}{|C|C|}
+			\hline
+			\textbf{高频名} & \textbf{别名} \\ \hline
+			牛油果 & 鳄梨 \\ \hline
+			肽聚糖 & 黏肽 \\ \hline
+			&  \\ \hline
+			&  \\ \hline
+			&  \\ \hline
+		\end{tabularx}
+		\caption{常见生物学名词的别名}
+		\label{tab:names}
+	\end{table}
+
+	\chapter{Genbank X01714}
+	\label{chapter:GenbankX01714}
+	{\zihao{5}
+	\begin{verbatim}
+	LOCUS       X01714                  1609 bp    DNA     linear   BCT 23-OCT-2008
+	DEFINITION  E. coli dut gene for dUTPase (EC 3.6.1.23) (deoxyuridine
+	5'-triphosphate nucleotidohydrolase).
+	ACCESSION   X01714
+	VERSION     X01714.1
+	KEYWORDS    dUTPase; unidentified reading frame.
+	SOURCE      Escherichia coli
+	ORGANISM  Escherichia coli
+	Bacteria; Pseudomonadati; Pseudomonadota; Gammaproteobacteria;
+	Enterobacterales; Enterobacteriaceae; Escherichia.
+	REFERENCE   1  (bases 1 to 1609)
+	AUTHORS   Lundberg,L.G., Thoresson,H.O., Karlstrom,O.H. and Nyman,P.O.
+	TITLE     Nucleotide sequence of the structural gene for dUTPase of
+	Escherichia coli K-12
+	JOURNAL   EMBO J. 2 (6), 967-971 (1983)
+	PUBMED   6139280
+	COMMENT     Data kindly reviewed (25-NOV-1985) by L. Lundberg.
+	FEATURES             Location/Qualifiers
+	source          1..1609
+	/organism="Escherichia coli"
+	/mol_type="genomic DNA"
+	/db_xref="taxon:562"
+	regulatory      286..291
+	/regulatory_class="promoter"
+	/note="-35 region"
+	regulatory      310..316
+	/regulatory_class="promoter"
+	/note="-10 region"
+	misc_feature    322..324
+	/note="put. transcription start region"
+	regulatory      330..333
+	/regulatory_class="ribosome_binding_site"
+	/note="put. rRNA binding site"
+	CDS             343..798
+	/note="unnamed protein product; dUTP-ase (aa 1-151)"
+	/codon_start=1
+	/transl_table=11
+	/protein_id="CAA25859.1"
+	/db_xref="GOA:P06968"
+	/db_xref="InterPro:IPR008180"
+	/db_xref="InterPro:IPR008181"
+	/db_xref="PDB:1DUD"
+	/db_xref="PDB:1DUP"
+	/db_xref="PDB:1EU5"
+	/db_xref="PDB:1EUW"
+	/db_xref="PDB:1RN8"
+	/db_xref="PDB:1RNJ"
+	/db_xref="PDB:1SEH"
+	/db_xref="PDB:1SYL"
+	/db_xref="PDB:2HR6"
+	/db_xref="PDB:2HRM"
+	/db_xref="UniProtKB/Swiss-Prot:P06968"
+	/translation="MKKIDVKILDPRVGKEFPLPTYATSGSAGLDLRACLNDAVELAP
+	GDTTLVPTGLAIHIADPSLAAMMLPRSGLGHKHGIVLGNLVGLIDSDYQGQLMISVWN
+	RGQDSFTIQPGERIAQMIFVPVVQAEFNLVEDFDATDRGEGGFGHSGRQ"
+	misc_feature    831..851
+	/note="put.stem-loop structure"
+	repeat_region   831..838
+	/note="inverted repeat A"
+	repeat_region   844..851
+	/note="inverted repeat A'"
+	misc_feature    866..893
+	/note="put. stem-loop structure"
+	repeat_region   866..872
+	/note="imp. inverted repeat B"
+	repeat_region   888..893
+	/note="imp. inverted repeat B'"
+	regulatory      889..895
+	/regulatory_class="ribosome_binding_site"
+	/note="pot. rRNA binding site"
+	CDS             905..1540
+	/note="unnamed protein product; unidentified reading
+	frame"
+	/codon_start=1
+	/transl_table=11
+	/protein_id="CAA25860.1"
+	/db_xref="GOA:P0C093"
+	/db_xref="InterPro:IPR001647"
+	/db_xref="InterPro:IPR009057"
+	/db_xref="InterPro:IPR011075"
+	/db_xref="InterPro:IPR015893"
+	/db_xref="UniProtKB/Swiss-Prot:P0C093"
+	/translation="MAEKQTAKRNRREEILQSLALMLESSDGSQRITTAKLAASVGVS
+	EAALYRHFPSKTRMFDSLIEFIEDSLITRINLILKDEKDTTARLRLIVLLLLGFGERN
+	PGLTRILTGHALMFEQDRLQGRINQLFERIEAQLRQVLREKRMREGEGYTTDETLLAS
+	QILAFCEGMLSRFVRSEFKYRPTDDFDARWPLIAASCSNMTPDDFSSGEFL"
+	ORIGIN
+	1 cagagaaaat caaaaagcag gccacgcagg gtgatgaatt aacaataaaa atggttaaaa
+	61 accccgatat cgtcgcaggc gttgccgcac taaaagacca tcgaccctac gtcgttggat
+	121 ttgccgccga aacaaataat gtggaagaat acgcccggca aaaacgtatc cgtaaaaacc
+	181 ttgatctgat ctgcgcgaac gatgtttccc agccaactca aggatttaac agcgacaaca
+	241 acgcattaca ccttttctgg caggacggag ataaagtctt accgcttgag cgcaaagagc
+	301 tccttggcca attattactc gacgagatcg tgacccgtta tgatgaaaaa aatcgacgtt
+	361 aagattctgg acccgcgcgt tgggaaggaa tttccgctcc cgacttatgc cacctctggc
+	421 tctgccggac ttgacctgcg tgcctgtctc aacgacgccg tagaactggc tccgggtgac
+	481 actacgctgg ttccgaccgg gctggcgatt catattgccg atccttcact ggcggcaatg
+	541 atgctgccgc gctccggatt gggacataag cacggtatcg tgcttggtaa cctggtagga
+	601 ttgatcgatt ctgactatca gggccagttg atgatttccg tgtggaaccg tggtcaggac
+	661 agcttcacca ttcaacctgg cgaacgcatc gcccagatga tttttgttcc ggtagtacag
+	721 gctgaattta atctggtgga agatttcgac gccaccgacc gcggtgaagg cggctttggt
+	781 cactctggtc gtcagtaaca catacgcatc cgaataacgt cataacatag ccgcaaacat
+	841 ttcgtttgcg gtcatagcgt gggtgccgcc tggcaagtgc ttattttcag gggtattttg
+	901 taacatggca gaaaaacaaa ctgcgaaaag gaaccgtcgc gaggaaatac ttcagtctct
+	961 ggcgctgatg ctggaatcca gcgatggaag ccaacgtatc acgacggcaa aactggccgc
+	1021 ctctgtcggc gtttccgaag cggcactgta tcgccacttc cccagtaaga cccgcatgtt
+	1081 cgatagcctg attgagttta tcgaagatag cctgattact cgcatcaacc tgattctgaa
+	1141 agatgagaaa gacaccacag cgcgcctgcg tctgattgtg ttgctgcttc tcggttttgg
+	1201 tgagcgtaat cctggcctga cccgcatcct cactggtcat gcgctaatgt ttgaacagga
+	1261 tcgcctgcaa gggcgcatca accagctgtt cgagcgtatt gaagcgcagc tgcgccaggt
+	1321 attgcgtgaa aagagaatgc gtgagggtga aggttacacc accgatgaaa ccctgctggc
+	1381 aagccagatc ctggccttct gtgaaggtat gctgtcacgt tttgtccgca gcgaatttaa
+	1441 ataccgcccg acggatgatt ttgacgcccg ctggccgcta attgcggcca gttgcagtaa
+	1501 tatgacgccg gatgactttt catccggcga gtttctttaa acgccaaact cttcgcgata
+	1561 ggccttaacc gccgccagat gttccgccat ttccggcttc tcttccagg
+	//
+	\end{verbatim}
+}
+	\printindex
+
+\end{document}
