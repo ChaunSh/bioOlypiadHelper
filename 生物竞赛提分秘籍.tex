@@ -13,10 +13,11 @@
 \usepackage{xunicode-addon}
 \newfontfamily\fnmarkfont{ipam.ttf}
 \renewcommand\thefootnote{\hspace{-0.1em}{\footnotesize\fnmarkfont\textcircled{\arabic{footnote}}}}
-
 \makeatother
-\usepackage[left=1.27cm,right=1.27cm,top=2cm,bottom=2cm]{geometry}
+
+\usepackage[left=1.27cm,right=1.27cm,top=2cm,bottom=2cm,headheight=15.0638pt]{geometry}
 \usepackage{makeidx}
+\usepackage[table,xcdraw]{xcolor}
 \usepackage{graphicx}
 	\graphicspath{{./Pics/}}
 \usepackage{amsmath}
@@ -67,7 +68,6 @@
 \titleformat{\subparagraph}
 {\normalfont\CJKfontspec{方正小标宋简体}\filright} % 设置子段落为不加粗
 {}{0.5em}{} % 设置子段落编号后缩进1em
-\usepackage[table,xcdraw]{xcolor}
 \usepackage{nicematrix}
 \usepackage{upgreek}
 \usepackage[most]{tcolorbox}
