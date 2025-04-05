@@ -518,316 +518,326 @@
 \contentsline {subsubsection}{动作电位的传导、传递}{198}{subsubsection*.474}%
 \contentsline {subsection}{\numberline {13.2.3}电紧张电位和局部电位}{198}{subsection.13.2.3}%
 \contentsline {subsubsection}{细胞膜和胞质的被动电学特征}{198}{subsubsection*.475}%
-\contentsline {section}{\numberline {13.3}肌细胞}{198}{section.13.3}%
-\contentsline {section}{\numberline {13.4}呼吸}{198}{section.13.4}%
-\contentsline {subsection}{\numberline {13.4.1}肺通气}{199}{subsection.13.4.1}%
-\contentsline {subsubsection}{肺通气的动力}{199}{subsubsection*.477}%
-\contentsline {subsubsection}{肺通气的阻力}{200}{subsubsection*.479}%
-\contentsline {paragraph}{弹性阻力}{201}{paragraph*.480}%
-\contentsline {subparagraph}{顺应性}{201}{subparagraph*.481}%
-\contentsline {subparagraph}{肺弹性阻力$C_{\text {L}}$}{201}{subparagraph*.482}%
-\contentsline {subparagraph}{肺表面活性物质}{201}{subparagraph*.484}%
-\contentsline {paragraph}{胸廓弹性阻力$C_{\text {chw}}$}{202}{paragraph*.486}%
-\contentsline {subsubsection}{非弹性阻力}{203}{subsubsection*.488}%
-\contentsline {section}{\numberline {13.5}能量代谢与体温}{203}{section.13.5}%
-\contentsline {subsection}{\numberline {13.5.1}能量代谢}{203}{subsection.13.5.1}%
-\contentsline {subsubsection}{能量的来源和去路}{203}{subsubsection*.490}%
-\contentsline {subsubsection}{能量代谢的测定}{203}{subsubsection*.491}%
-\contentsline {paragraph}{基本概念}{203}{paragraph*.492}%
-\contentsline {paragraph}{能量代谢的测定原理}{205}{paragraph*.493}%
-\contentsline {paragraph}{能量代谢的测定方法}{205}{paragraph*.494}%
-\contentsline {subsubsection}{影响能量代谢的因素}{205}{subsubsection*.495}%
-\contentsline {subsubsection}{能量平衡}{206}{subsubsection*.496}%
-\contentsline {paragraph}{能量平衡的调节}{206}{paragraph*.497}%
-\contentsline {paragraph}{瘦素}{206}{paragraph*.498}%
-\contentsline {subsubsection}{基础代谢}{207}{subsubsection*.499}%
-\contentsline {subsection}{\numberline {13.5.2}体温及其调节}{207}{subsection.13.5.2}%
-\contentsline {subsubsection}{体温}{207}{subsubsection*.500}%
-\contentsline {subsubsection}{机体的产热反应}{207}{subsubsection*.501}%
-\contentsline {subsubsection}{散热反应}{208}{subsubsection*.502}%
-\contentsline {subsubsection}{体温调节}{208}{subsubsection*.505}%
-\contentsline {paragraph}{自主性体温调节}{209}{paragraph*.506}%
-\contentsline {subparagraph}{感受器和中枢}{209}{subparagraph*.507}%
-\contentsline {subparagraph}{体温调定点学说}{209}{subparagraph*.509}%
-\contentsline {paragraph}{行为性体温调节}{209}{paragraph*.510}%
-\contentsline {section}{\numberline {13.6}尿的生成和排出}{210}{section.13.6}%
-\contentsline {subsection}{\numberline {13.6.1}肾的功能解剖}{210}{subsection.13.6.1}%
-\contentsline {subsubsection}{肾单位}{210}{subsubsection*.511}%
-\contentsline {subsubsection}{球旁器}{211}{subsubsection*.514}%
-\contentsline {subsubsection}{滤过膜}{211}{subsubsection*.516}%
-\contentsline {subsubsection}{神经支配}{211}{subsubsection*.517}%
-\contentsline {subsection}{\numberline {13.6.2}肾的血流}{211}{subsection.13.6.2}%
-\contentsline {subsubsection}{血管分支}{211}{subsubsection*.518}%
-\contentsline {subsubsection}{血流供应}{212}{subsubsection*.519}%
-\contentsline {paragraph}{自身调节}{212}{paragraph*.520}%
-\contentsline {paragraph}{神经和体液调节}{212}{paragraph*.521}%
-\contentsline {paragraph}{其他因素}{212}{paragraph*.522}%
-\contentsline {subsection}{\numberline {13.6.3}肾小球的滤过功能}{212}{subsection.13.6.3}%
-\contentsline {subsubsection}{超滤液、滤过率、滤过分数}{212}{subsubsection*.523}%
-\contentsline {subsubsection}{有效滤过压}{213}{subsubsection*.524}%
-\contentsline {paragraph}{影响肾小球滤过的因素}{213}{paragraph*.525}%
-\contentsline {subsection}{\numberline {13.6.4}肾小管和集合管的物质转运功能}{213}{subsection.13.6.4}%
-\contentsline {subsubsection}{物质转运的方式}{213}{subsubsection*.526}%
-\contentsline {subsubsection}{肾小管和集合管中各种物质的重吸收与分泌}{214}{subsubsection*.527}%
-\contentsline {section}{\numberline {13.7}神经系统}{214}{section.13.7}%
-\contentsline {subsection}{\numberline {13.7.1}神经系统的基本原理}{214}{subsection.13.7.1}%
-\contentsline {subsubsection}{神经元}{214}{subsubsection*.528}%
-\contentsline {paragraph}{神经元的结构}{214}{paragraph*.529}%
-\contentsline {paragraph}{神经纤维}{214}{paragraph*.530}%
-\contentsline {subparagraph}{神经纤维的兴奋传导特性}{214}{subparagraph*.531}%
-\contentsline {subparagraph}{神经纤维的分类}{215}{subparagraph*.532}%
-\contentsline {subparagraph}{神经纤维的轴浆运输}{215}{subparagraph*.533}%
-\contentsline {subparagraph}{神经对效应组织的营养性作用、神经营养因子对神经元的调控作用}{215}{subparagraph*.535}%
-\contentsline {subsubsection}{{\color [RGB]{150,78,21}神经胶质细胞}}{216}{subsubsection*.536}%
-\contentsline {paragraph}{{\color [RGB]{150,78,21}星形胶质细胞}}{216}{paragraph*.537}%
-\contentsline {paragraph}{{\color [RGB]{150,78,21}少突胶质细胞}、{\color [RGB]{150,78,21}施万细胞}}{217}{paragraph*.538}%
-\contentsline {paragraph}{其他胶质细胞}{217}{paragraph*.539}%
-\contentsline {subsubsection}{突触}{217}{subsubsection*.540}%
-\contentsline {paragraph}{{\color [RGB]{150,78,21}电突触}}{217}{paragraph*.541}%
-\contentsline {paragraph}{{\color [RGB]{150,78,21}化学突触}}{217}{paragraph*.542}%
-\contentsline {subparagraph}{定向突触传递}{217}{subparagraph*.543}%
-\contentsline {subsection}{\numberline {13.7.2}神经系统的感觉分析功能}{218}{subsection.13.7.2}%
-\contentsline {subsection}{\numberline {13.7.3}神经系统对躯体运动的调控}{218}{subsection.13.7.3}%
-\contentsline {subsubsection}{运动概述}{218}{subsubsection*.545}%
-\contentsline {subsubsection}{三级运动中枢}{218}{subsubsection*.546}%
-\contentsline {subsection}{\numberline {13.7.4}脑电活动、睡眠与觉醒}{218}{subsection.13.7.4}%
-\contentsline {subsubsection}{脑电活动}{218}{subsubsection*.547}%
-\contentsline {paragraph}{自发脑电活动}{219}{paragraph*.548}%
-\contentsline {subparagraph}{脑电波的形态}{219}{subparagraph*.549}%
-\contentsline {subparagraph}{脑电波的产生机制}{219}{subparagraph*.551}%
-\contentsline {paragraph}{皮层诱发电位}{220}{paragraph*.552}%
-\contentsline {subsection}{\numberline {13.7.5}睡眠与觉醒}{220}{subsection.13.7.5}%
-\contentsline {subsubsection}{睡眠的两种状态}{220}{subsubsection*.553}%
-\contentsline {subsubsection}{觉醒的产生机制}{220}{subsubsection*.555}%
-\contentsline {subsubsection}{睡眠的产生机制}{221}{subsubsection*.556}%
-\contentsline {paragraph}{促进NREM的脑区}{221}{paragraph*.557}%
-\contentsline {paragraph}{促进REM的脑区}{221}{paragraph*.558}%
-\contentsline {subsection}{\numberline {13.7.6}人脑的高级功能}{221}{subsection.13.7.6}%
-\contentsline {section}{\numberline {13.8}内分泌}{221}{section.13.8}%
-\contentsline {section}{\numberline {13.9}生殖}{221}{section.13.9}%
-\contentsline {subsection}{\numberline {13.9.1}男性生殖功能}{221}{subsection.13.9.1}%
-\contentsline {subsubsection}{睾丸}{221}{subsubsection*.559}%
-\contentsline {paragraph}{睾丸的生精功能}{222}{paragraph*.561}%
-\contentsline {subparagraph}{精子生成过程}{222}{subparagraph*.562}%
-\contentsline {subparagraph}{支持细胞在生精过程中的作用}{222}{subparagraph*.565}%
-\contentsline {paragraph}{睾丸的内分泌功能——产生雄激素}{224}{paragraph*.566}%
-\contentsline {subparagraph}{雄激素的代谢}{224}{subparagraph*.567}%
-\contentsline {subparagraph}{睾酮的生理作用}{224}{subparagraph*.569}%
-\contentsline {subsubsection}{睾丸功能的调节}{225}{subsubsection*.570}%
-\contentsline {paragraph}{下丘脑-垂体-睾丸轴的调节}{225}{paragraph*.571}%
-\contentsline {paragraph}{睾丸内的局部调节}{226}{paragraph*.573}%
-\contentsline {subsection}{\numberline {13.9.2}女性生殖功能}{226}{subsection.13.9.2}%
-\contentsline {subsubsection}{卵巢的功能}{226}{subsubsection*.574}%
-\contentsline {paragraph}{卵巢的生卵作用}{226}{paragraph*.575}%
-\contentsline {subparagraph}{卵子的生命历程}{226}{subparagraph*.576}%
-\contentsline {subparagraph}{卵泡的生长发育}{227}{subparagraph*.577}%
-\contentsline {subparagraph}{排卵}{228}{subparagraph*.578}%
-\contentsline {subparagraph}{黄体的形成和退化}{228}{subparagraph*.579}%
-\contentsline {subparagraph}{卵泡闭锁}{228}{subparagraph*.580}%
-\contentsline {paragraph}{卵巢的内分泌功能}{228}{paragraph*.581}%
-\contentsline {subparagraph}{卵巢性激素的代谢}{228}{subparagraph*.582}%
-\contentsline {subparagraph}{雌激素和孕激素的作用}{229}{subparagraph*.584}%
-\contentsline {subsubsection}{月经周期}{229}{subsubsection*.586}%
-\contentsline {paragraph}{月经周期的分期}{231}{paragraph*.587}%
-\contentsline {paragraph}{月经周期的调控}{231}{paragraph*.589}%
-\contentsline {subparagraph}{下丘脑-垂体-卵巢轴的功能}{231}{subparagraph*.590}%
-\contentsline {subparagraph}{月经周期各期的内分泌调控}{231}{subparagraph*.592}%
-\contentsline {subparagraph}{其他激素对月经周期的影响}{232}{subparagraph*.594}%
-\contentsline {subsubsection}{卵巢功能的衰退}{232}{subsubsection*.595}%
-\contentsline {subsection}{\numberline {13.9.3}\xpinyin *{妊娠}}{232}{subsection.13.9.3}%
-\contentsline {subsubsection}{受精}{232}{subsubsection*.596}%
-\contentsline {paragraph}{精子运动}{232}{paragraph*.597}%
-\contentsline {paragraph}{精子获能}{234}{paragraph*.598}%
-\contentsline {paragraph}{顶体反应}{234}{paragraph*.599}%
-\contentsline {paragraph}{受精卵形成}{234}{paragraph*.601}%
-\contentsline {subsubsection}{着床}{234}{subsubsection*.602}%
-\contentsline {subsubsection}{妊娠的维持}{235}{subsubsection*.603}%
-\contentsline {paragraph}{胎盘}{235}{paragraph*.604}%
-\contentsline {subparagraph}{胎盘的物质转运功能}{235}{subparagraph*.605}%
-\contentsline {subparagraph}{胎盘的内分泌功能}{235}{subparagraph*.606}%
-\contentsline {paragraph}{母体的适应性变化}{235}{paragraph*.607}%
-\contentsline {subsubsection}{分娩}{236}{subsubsection*.608}%
-\contentsline {chapter}{\numberline {第十四章\hspace {.3em}}生态学}{237}{chapter.14}%
-\contentsline {section}{\numberline {14.1}绪论}{237}{section.14.1}%
-\contentsline {subsection}{\numberline {14.1.1}生态学四大学派}{237}{subsection.14.1.1}%
-\contentsline {section}{\numberline {14.2}个体生态学（生物与环境）}{237}{section.14.2}%
-\contentsline {subsection}{\numberline {14.2.1}环境和生态因子}{237}{subsection.14.2.1}%
-\contentsline {subsubsection}{环境}{237}{subsubsection*.609}%
-\contentsline {subsubsection}{生态因子}{237}{subsubsection*.610}%
-\contentsline {subsection}{\numberline {14.2.2}光的生态作用}{238}{subsection.14.2.2}%
-\contentsline {subsubsection}{光照强度的作用}{238}{subsubsection*.611}%
-\contentsline {subsubsection}{光质的作用}{238}{subsubsection*.612}%
-\contentsline {subsubsection}{光周期现象}{238}{subsubsection*.613}%
-\contentsline {subsection}{\numberline {14.2.3}温度的生态作用}{239}{subsection.14.2.3}%
-\contentsline {subsubsection}{极端温度对生物的影响}{239}{subsubsection*.614}%
-\contentsline {subsubsection}{动物与温度}{239}{subsubsection*.615}%
-\contentsline {subsubsection}{温度的影响}{239}{subsubsection*.616}%
-\contentsline {subsection}{\numberline {14.2.4}水的生态作用}{239}{subsection.14.2.4}%
-\contentsline {subsection}{\numberline {14.2.5}火的生态作用}{240}{subsection.14.2.5}%
-\contentsline {section}{\numberline {14.3}种群生态学}{240}{section.14.3}%
-\contentsline {subsection}{\numberline {14.3.1}种群的概念}{240}{subsection.14.3.1}%
-\contentsline {subsection}{\numberline {14.3.2}种群大小的估计}{240}{subsection.14.3.2}%
-\contentsline {subsubsection}{绝对密度统计方法}{240}{subsubsection*.617}%
-\contentsline {subsubsection}{相对密度统计方法}{240}{subsubsection*.618}%
-\contentsline {paragraph}{标记重捕法}{240}{paragraph*.619}%
-\contentsline {subparagraph}{林可指数法（林可--彼得森法）}{240}{subparagraph*.620}%
-\contentsline {subparagraph}{施夸贝尔法}{240}{subparagraph*.621}%
-\contentsline {subparagraph}{乔利--西贝尔法}{241}{subparagraph*.623}%
-\contentsline {paragraph}{去除取样法}{241}{paragraph*.624}%
-\contentsline {subsubsection}{等效种群数量}{241}{subsubsection*.625}%
-\contentsline {paragraph}{性别比例不均衡}{242}{paragraph*.626}%
-\contentsline {paragraph}{种群数量波动}{242}{paragraph*.627}%
-\contentsline {subsection}{\numberline {14.3.3}生物多样性的类别及计算}{242}{subsection.14.3.3}%
-\contentsline {subsubsection}{$\mitalpha $多样性}{242}{subsubsection*.628}%
-\contentsline {subsubsection}{$\mitbeta $多样性}{243}{subsubsection*.629}%
-\contentsline {subsubsection}{$\mitgamma $多样性}{244}{subsubsection*.630}%
-\contentsline {subsection}{\numberline {14.3.4}种群的动态}{244}{subsection.14.3.4}%
-\contentsline {subsubsection}{生存曲线}{244}{subsubsection*.631}%
-\contentsline {subsubsection}{生命表}{244}{subsubsection*.632}%
-\contentsline {subsubsection}{种群增长}{245}{subsubsection*.633}%
-\contentsline {subsubsection}{种群数量的调节}{245}{subsubsection*.634}%
-\contentsline {chapter}{\numberline {第十五章\hspace {.3em}}动物行为学}{247}{chapter.15}%
-\contentsline {part}{第四部分\hspace {1em}遗传学、进化生物学、生物信息和统计}{249}{part.4}%
-\contentsline {chapter}{\numberline {第十六章\hspace {.3em}}遗传学}{251}{chapter.16}%
-\contentsline {section}{\numberline {16.1}孟德尔遗传}{251}{section.16.1}%
-\contentsline {subsection}{\numberline {16.1.1}遗传学数据的统计处理}{251}{subsection.16.1.1}%
-\contentsline {subsubsection}{组合}{251}{subsubsection*.635}%
-\contentsline {subsubsection}{$\mitchi ^{2}$检验}{251}{subsubsection*.636}%
-\contentsline {subsection}{\numberline {16.1.2}孟德尔遗传病}{252}{subsection.16.1.2}%
-\contentsline {subsection}{\numberline {16.1.3}孟德尔遗传的拓展}{253}{subsection.16.1.3}%
-\contentsline {subsubsection}{环境对表型的影响}{253}{subsubsection*.639}%
-\contentsline {subsubsection}{性状的多基因决定}{254}{subsubsection*.640}%
-\contentsline {subsubsection}{基因的多效性}{254}{subsubsection*.641}%
-\contentsline {subsubsection}{表现度和外显率}{254}{subsubsection*.642}%
-\contentsline {subsubsection}{拟表型（表型模写）}{254}{subsubsection*.643}%
-\contentsline {subsection}{\numberline {16.1.4}显隐性的相对性}{254}{subsection.16.1.4}%
-\contentsline {subsubsection}{不完全显性}{254}{subsubsection*.644}%
-\contentsline {subsubsection}{镶嵌显性}{254}{subsubsection*.645}%
-\contentsline {subsubsection}{共显性}{255}{subsubsection*.646}%
-\contentsline {subsubsection}{显隐性可随所依据的标准更改}{255}{subsubsection*.647}%
-\contentsline {subsubsection}{显隐性关系与环境}{255}{subsubsection*.649}%
-\contentsline {subsection}{\numberline {16.1.5}致死基因}{255}{subsection.16.1.5}%
-\contentsline {subsubsection}{致死的时期}{256}{subsubsection*.650}%
-\contentsline {subsubsection}{环境的影响}{256}{subsubsection*.651}%
-\contentsline {subsection}{\numberline {16.1.6}复等位现象}{256}{subsection.16.1.6}%
-\contentsline {subsubsection}{瓢虫的鞘翅色斑}{256}{subsubsection*.652}%
-\contentsline {subsubsection}{孟买型、ABO血型}{256}{subsubsection*.653}%
-\contentsline {subsubsection}{Rh血型与母子不相容}{257}{subsubsection*.655}%
-\contentsline {subsubsection}{人类的母子不相容}{257}{subsubsection*.656}%
-\contentsline {subsubsection}{家畜的母子不相容}{257}{subsubsection*.657}%
-\contentsline {subsubsection}{自交不亲和}{257}{subsubsection*.658}%
-\contentsline {subsection}{\numberline {16.1.7}非等位基因间的相互作用}{258}{subsection.16.1.7}%
-\contentsline {subsubsection}{互补基因}{258}{subsubsection*.659}%
-\contentsline {subsubsection}{修饰基因}{258}{subsubsection*.660}%
-\contentsline {subsubsection}{上位效应}{258}{subsubsection*.661}%
-\contentsline {section}{\numberline {16.2}分子遗传}{258}{section.16.2}%
-\contentsline {subsubsection}{粗糙链孢霉的生化突变型}{258}{subsubsection*.662}%
-\contentsline {subsection}{\numberline {16.2.1}人的先天代谢缺陷}{259}{subsection.16.2.1}%
-\contentsline {subsubsection}{苯丙酮尿症、白化病、尿黑酸症}{259}{subsubsection*.664}%
-\contentsline {subsubsection}{半乳糖血症}{260}{subsubsection*.666}%
-\contentsline {subsection}{\numberline {16.2.2}位置效应}{260}{subsection.16.2.2}%
-\contentsline {subsection}{\numberline {16.2.3}顺反子}{260}{subsection.16.2.3}%
-\contentsline {section}{\numberline {16.3}性别决定}{260}{section.16.3}%
-\contentsline {subsection}{\numberline {16.3.1}常见的性别决定}{261}{subsection.16.3.1}%
-\contentsline {subsubsection}{XY型性别决定}{261}{subsubsection*.668}%
-\contentsline {subsubsection}{ZW型性别决定}{261}{subsubsection*.669}%
-\contentsline {subsection}{\numberline {16.3.2}特殊的性别决定}{261}{subsection.16.3.2}%
-\contentsline {subsubsection}{蜂的性别决定}{261}{subsubsection*.670}%
-\contentsline {subsubsection}{后螠的性别决定}{261}{subsubsection*.671}%
-\contentsline {subsubsection}{高等植物的性别决定}{261}{subsubsection*.672}%
-\contentsline {subsection}{\numberline {16.3.3}环境对决定的影响}{261}{subsection.16.3.3}%
-\contentsline {subsubsection}{温度}{261}{subsubsection*.673}%
-\contentsline {subsubsection}{激素}{262}{subsubsection*.674}%
-\contentsline {subsubsection}{日照}{262}{subsubsection*.675}%
-\contentsline {subsection}{\numberline {16.3.4}人类的性别决定}{262}{subsection.16.3.4}%
-\contentsline {subsubsection}{睾丸决定因子}{262}{subsubsection*.676}%
-\contentsline {subsubsection}{性指数}{262}{subsubsection*.677}%
-\contentsline {section}{\numberline {16.4}连锁分析}{263}{section.16.4}%
-\contentsline {subsection}{\numberline {16.4.1}连锁与交换}{263}{subsection.16.4.1}%
-\contentsline {subsection}{\numberline {16.4.2}普通连锁分析}{263}{subsection.16.4.2}%
-\contentsline {subsection}{\numberline {16.4.3}粗糙链孢霉的连锁分析}{263}{subsection.16.4.3}%
-\contentsline {section}{\numberline {16.5}细菌和噬菌体的重组和连锁}{263}{section.16.5}%
-\contentsline {subsection}{\numberline {16.5.1}细菌和噬菌体遗传分析的特点}{263}{subsection.16.5.1}%
-\contentsline {subsection}{\numberline {16.5.2}噬菌体的连锁分析}{263}{subsection.16.5.2}%
-\contentsline {subsection}{\numberline {16.5.3}细菌的连锁分析}{263}{subsection.16.5.3}%
-\contentsline {subsubsection}{F$^{+}$、F′、Hfr、F$^{-}$菌株}{263}{subsubsection*.679}%
-\contentsline {subsubsection}{转化及作图}{264}{subsubsection*.681}%
-\contentsline {subsubsection}{接合及作图}{264}{subsubsection*.682}%
-\contentsline {subsubsection}{中断杂交作图}{264}{subsubsection*.683}%
-\contentsline {subsubsection}{重组作图}{264}{subsubsection*.684}%
-\contentsline {subsubsection}{转导}{264}{subsubsection*.685}%
-\contentsline {section}{\numberline {16.6}数量性状遗传}{264}{section.16.6}%
-\contentsline {subsection}{\numberline {16.6.1}数量性状的遗传分析}{264}{subsection.16.6.1}%
-\contentsline {subsection}{\numberline {16.6.2}分析数量性状的基本统计学方法}{266}{subsection.16.6.2}%
-\contentsline {subsection}{\numberline {16.6.3}遗传率}{266}{subsection.16.6.3}%
-\contentsline {subsection}{\numberline {16.6.4}近交系数和亲缘系数}{266}{subsection.16.6.4}%
-\contentsline {section}{\numberline {16.7}遗传物质的改变}{266}{section.16.7}%
-\contentsline {subsection}{\numberline {16.7.1}染色体结构改变}{266}{subsection.16.7.1}%
-\contentsline {subsubsection}{研究方法}{266}{subsubsection*.686}%
-\contentsline {subsubsection}{缺失}{266}{subsubsection*.687}%
-\contentsline {subsubsection}{重复}{266}{subsubsection*.688}%
-\contentsline {subsubsection}{倒位}{266}{subsubsection*.689}%
-\contentsline {subsubsection}{易位}{266}{subsubsection*.690}%
-\contentsline {subsection}{\numberline {16.7.2}染色体数目改变}{266}{subsection.16.7.2}%
-\contentsline {subsection}{\numberline {16.7.3}基因突变}{266}{subsection.16.7.3}%
-\contentsline {section}{\numberline {16.8}细胞质和遗传的关系}{266}{section.16.8}%
-\contentsline {subsection}{\numberline {16.8.1}母性影响}{266}{subsection.16.8.1}%
-\contentsline {subsection}{\numberline {16.8.2}细胞质遗传}{266}{subsection.16.8.2}%
-\contentsline {subsection}{\numberline {16.8.3}核质互作与禾谷类作物雄性不育}{266}{subsection.16.8.3}%
-\contentsline {section}{\numberline {16.9}基因组}{266}{section.16.9}%
-\contentsline {section}{\numberline {16.10}遗传分析}{266}{section.16.10}%
-\contentsline {section}{\numberline {16.11}遗传与个体发育}{266}{section.16.11}%
-\contentsline {chapter}{\numberline {第十七章\hspace {.3em}}进化生物学}{267}{chapter.17}%
-\contentsline {chapter}{\numberline {第十八章\hspace {.3em}}生物信息和统计}{269}{chapter.18}%
-\contentsline {section}{\numberline {18.1}数据库}{269}{section.18.1}%
-\contentsline {subsection}{\numberline {18.1.1}生物信息学数据库的分类}{269}{subsection.18.1.1}%
-\contentsline {subsection}{\numberline {18.1.2}一级核酸数据库}{269}{subsection.18.1.2}%
-\contentsline {subsubsection}{GenBank}{270}{subsubsection*.692}%
-\contentsline {subsubsection}{基因组数据库}{271}{subsubsection*.694}%
-\contentsline {subsection}{\numberline {18.1.3}二级核酸数据库}{271}{subsection.18.1.3}%
-\contentsline {subsection}{\numberline {18.1.4}一级蛋白质数据库}{271}{subsection.18.1.4}%
-\contentsline {subsubsection}{UniProt}{271}{subsubsection*.695}%
-\contentsline {subsubsection}{PDB}{272}{subsubsection*.696}%
-\contentsline {subsection}{\numberline {18.1.5}二级蛋白质数据库}{272}{subsection.18.1.5}%
-\contentsline {subsubsection}{Pfam}{272}{subsubsection*.697}%
-\contentsline {subsubsection}{CATH}{272}{subsubsection*.698}%
-\contentsline {subsubsection}{SCOP2}{273}{subsubsection*.699}%
-\contentsline {subsection}{\numberline {18.1.6}专用数据库}{273}{subsection.18.1.6}%
-\contentsline {subsubsection}{PubMed}{273}{subsubsection*.700}%
-\contentsline {subsubsection}{OMIM}{273}{subsubsection*.701}%
-\contentsline {subsubsection}{KEGG}{273}{subsubsection*.702}%
-\contentsline {subsubsection}{ZINC}{273}{subsubsection*.703}%
-\contentsline {section}{\numberline {18.2}序列比对}{273}{section.18.2}%
-\contentsline {subsection}{\numberline {18.2.1}FASTA格式}{273}{subsection.18.2.1}%
-\contentsline {subsection}{\numberline {18.2.2}序列相似性分析}{274}{subsection.18.2.2}%
-\contentsline {subsubsection}{替换记分矩阵}{274}{subsubsection*.704}%
-\contentsline {paragraph}{DNA序列的替换计分矩阵}{275}{paragraph*.705}%
-\contentsline {paragraph}{蛋白质序列的替换记分矩阵}{275}{paragraph*.706}%
-\contentsline {subsubsection}{比较序列的方法}{275}{subsubsection*.707}%
-\contentsline {paragraph}{打点法}{275}{paragraph*.708}%
-\contentsline {paragraph}{序列比较法}{276}{paragraph*.709}%
-\contentsline {subparagraph}{双序列全局比对}{276}{subparagraph*.710}%
-\contentsline {subsection}{\numberline {18.2.3}BLAST}{277}{subsection.18.2.3}%
-\contentsline {subsubsection}{在NCBI网站上使用BLAST}{278}{subsubsection*.712}%
-\contentsline {section}{\numberline {18.3}分子进化}{278}{section.18.3}%
-\contentsline {subsection}{\numberline {18.3.1}同源}{278}{subsection.18.3.1}%
-\contentsline {subsection}{\numberline {18.3.2}系统发育树}{278}{subsection.18.3.2}%
-\contentsline {subsubsection}{用途}{278}{subsubsection*.714}%
-\contentsline {subsubsection}{结构}{278}{subsubsection*.715}%
-\contentsline {subsubsection}{信息来源}{279}{subsubsection*.716}%
-\contentsline {subsubsection}{算法和软件}{279}{subsubsection*.717}%
-\contentsline {section}{\numberline {18.4}蛋白质结构预测}{279}{section.18.4}%
-\contentsline {subsection}{\numberline {18.4.1}蛋白质结构数据库}{280}{subsection.18.4.1}%
-\contentsline {subsubsection}{PDB(Protein Data Bank)}{280}{subsubsection*.718}%
-\contentsline {subsubsection}{DSSP}{280}{subsubsection*.719}%
-\contentsline {subsection}{\numberline {18.4.2}蛋白质结构预测软件}{280}{subsection.18.4.2}%
-\contentsline {subsubsection}{二级结构预测}{280}{subsubsection*.720}%
-\contentsline {subsection}{\numberline {18.4.3}蛋白质分子查看器}{280}{subsection.18.4.3}%
-\contentsline {subsubsection}{VMD}{280}{subsubsection*.721}%
-\contentsline {part}{第五部分\hspace {1em}附录}{281}{part.5}%
-\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}希腊字母表}{283}{appendix.A}%
-\contentsline {chapter}{\numberline {附录 B\hspace {.3em}}地质年代表}{285}{appendix.B}%
-\contentsline {chapter}{\numberline {附录 C\hspace {.3em}}生物学名和缩写}{287}{appendix.C}%
-\contentsline {chapter}{\numberline {附录 D\hspace {.3em}}易读错的字}{289}{appendix.D}%
-\contentsline {chapter}{\numberline {附录 E\hspace {.3em}}常见名词的别名}{291}{appendix.E}%
-\contentsline {chapter}{\numberline {附录 F\hspace {.3em}}Genbank X01714}{293}{appendix.F}%
+\contentsline {section}{\numberline {13.3}肌细胞和肌肉}{199}{section.13.3}%
+\contentsline {section}{\numberline {13.4}血液}{199}{section.13.4}%
+\contentsline {section}{\numberline {13.5}血液循环}{199}{section.13.5}%
+\contentsline {subsection}{\numberline {13.5.1}心脏的泵血功能}{199}{subsection.13.5.1}%
+\contentsline {subsubsection}{心动周期}{199}{subsubsection*.476}%
+\contentsline {subsubsection}{影响心输出量的因素}{199}{subsubsection*.477}%
+\contentsline {subsubsection}{评价心脏泵血功能的指标}{199}{subsubsection*.478}%
+\contentsline {subsubsection}{心音}{199}{subsubsection*.479}%
+\contentsline {subsection}{\numberline {13.5.2}心脏的电生理}{199}{subsection.13.5.2}%
+\contentsline {subsection}{\numberline {13.5.3}心肌细胞的跨膜电位}{200}{subsection.13.5.3}%
+\contentsline {subsubsection}{工作细胞}{200}{subsubsection*.482}%
+\contentsline {section}{\numberline {13.6}呼吸}{200}{section.13.6}%
+\contentsline {subsection}{\numberline {13.6.1}肺通气}{201}{subsection.13.6.1}%
+\contentsline {subsubsection}{肺通气的动力}{201}{subsubsection*.484}%
+\contentsline {subsubsection}{肺通气的阻力}{202}{subsubsection*.486}%
+\contentsline {paragraph}{弹性阻力}{203}{paragraph*.487}%
+\contentsline {subparagraph}{顺应性}{203}{subparagraph*.488}%
+\contentsline {subparagraph}{肺弹性阻力$C_{\text {L}}$}{203}{subparagraph*.489}%
+\contentsline {subparagraph}{肺表面活性物质}{203}{subparagraph*.491}%
+\contentsline {paragraph}{胸廓弹性阻力$C_{\text {chw}}$}{204}{paragraph*.493}%
+\contentsline {subsubsection}{非弹性阻力}{205}{subsubsection*.495}%
+\contentsline {section}{\numberline {13.7}能量代谢与体温}{205}{section.13.7}%
+\contentsline {subsection}{\numberline {13.7.1}能量代谢}{205}{subsection.13.7.1}%
+\contentsline {subsubsection}{能量的来源和去路}{205}{subsubsection*.497}%
+\contentsline {subsubsection}{能量代谢的测定}{205}{subsubsection*.498}%
+\contentsline {paragraph}{基本概念}{205}{paragraph*.499}%
+\contentsline {paragraph}{能量代谢的测定原理}{207}{paragraph*.500}%
+\contentsline {paragraph}{能量代谢的测定方法}{207}{paragraph*.501}%
+\contentsline {subsubsection}{影响能量代谢的因素}{207}{subsubsection*.502}%
+\contentsline {subsubsection}{能量平衡}{208}{subsubsection*.503}%
+\contentsline {paragraph}{能量平衡的调节}{208}{paragraph*.504}%
+\contentsline {paragraph}{瘦素}{208}{paragraph*.505}%
+\contentsline {subsubsection}{基础代谢}{209}{subsubsection*.506}%
+\contentsline {subsection}{\numberline {13.7.2}体温及其调节}{209}{subsection.13.7.2}%
+\contentsline {subsubsection}{体温}{209}{subsubsection*.507}%
+\contentsline {subsubsection}{机体的产热反应}{209}{subsubsection*.508}%
+\contentsline {subsubsection}{散热反应}{210}{subsubsection*.509}%
+\contentsline {subsubsection}{体温调节}{210}{subsubsection*.512}%
+\contentsline {paragraph}{自主性体温调节}{211}{paragraph*.513}%
+\contentsline {subparagraph}{感受器和中枢}{211}{subparagraph*.514}%
+\contentsline {subparagraph}{体温调定点学说}{211}{subparagraph*.516}%
+\contentsline {paragraph}{行为性体温调节}{211}{paragraph*.517}%
+\contentsline {section}{\numberline {13.8}尿的生成和排出}{212}{section.13.8}%
+\contentsline {subsection}{\numberline {13.8.1}肾的功能解剖}{212}{subsection.13.8.1}%
+\contentsline {subsubsection}{肾单位}{212}{subsubsection*.518}%
+\contentsline {subsubsection}{球旁器}{213}{subsubsection*.521}%
+\contentsline {subsubsection}{滤过膜}{213}{subsubsection*.523}%
+\contentsline {subsubsection}{神经支配}{213}{subsubsection*.524}%
+\contentsline {subsection}{\numberline {13.8.2}肾的血流}{213}{subsection.13.8.2}%
+\contentsline {subsubsection}{血管分支}{213}{subsubsection*.525}%
+\contentsline {subsubsection}{血流供应}{214}{subsubsection*.526}%
+\contentsline {paragraph}{自身调节}{214}{paragraph*.527}%
+\contentsline {paragraph}{神经和体液调节}{214}{paragraph*.528}%
+\contentsline {paragraph}{其他因素}{214}{paragraph*.529}%
+\contentsline {subsection}{\numberline {13.8.3}肾小球的滤过功能}{214}{subsection.13.8.3}%
+\contentsline {subsubsection}{超滤液、滤过率、滤过分数}{214}{subsubsection*.530}%
+\contentsline {subsubsection}{有效滤过压}{215}{subsubsection*.531}%
+\contentsline {paragraph}{影响肾小球滤过的因素}{215}{paragraph*.532}%
+\contentsline {subsection}{\numberline {13.8.4}肾小管和集合管的物质转运功能}{215}{subsection.13.8.4}%
+\contentsline {subsubsection}{物质转运的方式}{215}{subsubsection*.533}%
+\contentsline {subsubsection}{肾小管和集合管中各种物质的重吸收与分泌}{216}{subsubsection*.534}%
+\contentsline {section}{\numberline {13.9}神经系统}{216}{section.13.9}%
+\contentsline {subsection}{\numberline {13.9.1}神经系统的基本原理}{216}{subsection.13.9.1}%
+\contentsline {subsubsection}{神经元}{216}{subsubsection*.535}%
+\contentsline {paragraph}{神经元的结构}{216}{paragraph*.536}%
+\contentsline {paragraph}{神经纤维}{216}{paragraph*.537}%
+\contentsline {subparagraph}{神经纤维的兴奋传导特性}{216}{subparagraph*.538}%
+\contentsline {subparagraph}{神经纤维的分类}{217}{subparagraph*.539}%
+\contentsline {subparagraph}{神经纤维的轴浆运输}{217}{subparagraph*.540}%
+\contentsline {subparagraph}{神经对效应组织的营养性作用、神经营养因子对神经元的调控作用}{217}{subparagraph*.542}%
+\contentsline {subsubsection}{{\color [RGB]{150,78,21}神经胶质细胞}}{218}{subsubsection*.543}%
+\contentsline {paragraph}{{\color [RGB]{150,78,21}星形胶质细胞}}{218}{paragraph*.544}%
+\contentsline {paragraph}{{\color [RGB]{150,78,21}少突胶质细胞}、{\color [RGB]{150,78,21}施万细胞}}{219}{paragraph*.545}%
+\contentsline {paragraph}{其他胶质细胞}{219}{paragraph*.546}%
+\contentsline {subsubsection}{突触}{219}{subsubsection*.547}%
+\contentsline {paragraph}{{\color [RGB]{150,78,21}电突触}}{219}{paragraph*.548}%
+\contentsline {paragraph}{{\color [RGB]{150,78,21}化学突触}}{219}{paragraph*.549}%
+\contentsline {subparagraph}{定向突触传递}{219}{subparagraph*.550}%
+\contentsline {subsection}{\numberline {13.9.2}神经系统的感觉分析功能}{220}{subsection.13.9.2}%
+\contentsline {subsection}{\numberline {13.9.3}神经系统对躯体运动的调控}{220}{subsection.13.9.3}%
+\contentsline {subsubsection}{运动概述}{220}{subsubsection*.552}%
+\contentsline {subsubsection}{三级运动中枢}{220}{subsubsection*.553}%
+\contentsline {subsection}{\numberline {13.9.4}脑电活动、睡眠与觉醒}{220}{subsection.13.9.4}%
+\contentsline {subsubsection}{脑电活动}{220}{subsubsection*.554}%
+\contentsline {paragraph}{自发脑电活动}{221}{paragraph*.555}%
+\contentsline {subparagraph}{脑电波的形态}{221}{subparagraph*.556}%
+\contentsline {subparagraph}{脑电波的产生机制}{221}{subparagraph*.558}%
+\contentsline {paragraph}{皮层诱发电位}{222}{paragraph*.559}%
+\contentsline {subsection}{\numberline {13.9.5}睡眠与觉醒}{222}{subsection.13.9.5}%
+\contentsline {subsubsection}{睡眠的两种状态}{222}{subsubsection*.560}%
+\contentsline {subsubsection}{觉醒的产生机制}{222}{subsubsection*.562}%
+\contentsline {subsubsection}{睡眠的产生机制}{223}{subsubsection*.563}%
+\contentsline {paragraph}{促进NREM的脑区}{223}{paragraph*.564}%
+\contentsline {paragraph}{促进REM的脑区}{223}{paragraph*.565}%
+\contentsline {subsection}{\numberline {13.9.6}人脑的高级功能}{223}{subsection.13.9.6}%
+\contentsline {section}{\numberline {13.10}内分泌}{223}{section.13.10}%
+\contentsline {section}{\numberline {13.11}生殖}{223}{section.13.11}%
+\contentsline {subsection}{\numberline {13.11.1}男性生殖功能}{223}{subsection.13.11.1}%
+\contentsline {subsubsection}{睾丸}{223}{subsubsection*.566}%
+\contentsline {paragraph}{睾丸的生精功能}{224}{paragraph*.568}%
+\contentsline {subparagraph}{精子生成过程}{224}{subparagraph*.569}%
+\contentsline {subparagraph}{支持细胞在生精过程中的作用}{224}{subparagraph*.572}%
+\contentsline {paragraph}{睾丸的内分泌功能——产生雄激素}{226}{paragraph*.573}%
+\contentsline {subparagraph}{雄激素的代谢}{226}{subparagraph*.574}%
+\contentsline {subparagraph}{睾酮的生理作用}{226}{subparagraph*.576}%
+\contentsline {subsubsection}{睾丸功能的调节}{227}{subsubsection*.577}%
+\contentsline {paragraph}{下丘脑-垂体-睾丸轴的调节}{227}{paragraph*.578}%
+\contentsline {paragraph}{睾丸内的局部调节}{228}{paragraph*.580}%
+\contentsline {subsection}{\numberline {13.11.2}女性生殖功能}{228}{subsection.13.11.2}%
+\contentsline {subsubsection}{卵巢的功能}{228}{subsubsection*.581}%
+\contentsline {paragraph}{卵巢的生卵作用}{228}{paragraph*.582}%
+\contentsline {subparagraph}{卵子的生命历程}{228}{subparagraph*.583}%
+\contentsline {subparagraph}{卵泡的生长发育}{229}{subparagraph*.584}%
+\contentsline {subparagraph}{排卵}{230}{subparagraph*.585}%
+\contentsline {subparagraph}{黄体的形成和退化}{230}{subparagraph*.586}%
+\contentsline {subparagraph}{卵泡闭锁}{230}{subparagraph*.587}%
+\contentsline {paragraph}{卵巢的内分泌功能}{230}{paragraph*.588}%
+\contentsline {subparagraph}{卵巢性激素的代谢}{231}{subparagraph*.589}%
+\contentsline {subparagraph}{雌激素和孕激素的作用}{231}{subparagraph*.591}%
+\contentsline {subsubsection}{月经周期}{233}{subsubsection*.593}%
+\contentsline {paragraph}{月经周期的分期}{233}{paragraph*.594}%
+\contentsline {paragraph}{月经周期的调控}{233}{paragraph*.596}%
+\contentsline {subparagraph}{下丘脑-垂体-卵巢轴的功能}{233}{subparagraph*.597}%
+\contentsline {subparagraph}{月经周期各期的内分泌调控}{233}{subparagraph*.599}%
+\contentsline {subparagraph}{其他激素对月经周期的影响}{234}{subparagraph*.601}%
+\contentsline {subsubsection}{卵巢功能的衰退}{234}{subsubsection*.602}%
+\contentsline {subsection}{\numberline {13.11.3}\xpinyin *{妊娠}}{234}{subsection.13.11.3}%
+\contentsline {subsubsection}{受精}{236}{subsubsection*.603}%
+\contentsline {paragraph}{精子运动}{236}{paragraph*.604}%
+\contentsline {paragraph}{精子获能}{236}{paragraph*.605}%
+\contentsline {paragraph}{顶体反应}{236}{paragraph*.606}%
+\contentsline {paragraph}{受精卵形成}{236}{paragraph*.608}%
+\contentsline {subsubsection}{着床}{237}{subsubsection*.609}%
+\contentsline {subsubsection}{妊娠的维持}{237}{subsubsection*.610}%
+\contentsline {paragraph}{胎盘}{237}{paragraph*.611}%
+\contentsline {subparagraph}{胎盘的物质转运功能}{237}{subparagraph*.612}%
+\contentsline {subparagraph}{胎盘的内分泌功能}{237}{subparagraph*.613}%
+\contentsline {paragraph}{母体的适应性变化}{237}{paragraph*.614}%
+\contentsline {subsubsection}{分娩}{238}{subsubsection*.615}%
+\contentsline {chapter}{\numberline {第十四章\hspace {.3em}}生态学}{239}{chapter.14}%
+\contentsline {section}{\numberline {14.1}绪论}{239}{section.14.1}%
+\contentsline {subsection}{\numberline {14.1.1}生态学四大学派}{239}{subsection.14.1.1}%
+\contentsline {section}{\numberline {14.2}个体生态学（生物与环境）}{239}{section.14.2}%
+\contentsline {subsection}{\numberline {14.2.1}环境和生态因子}{239}{subsection.14.2.1}%
+\contentsline {subsubsection}{环境}{239}{subsubsection*.616}%
+\contentsline {subsubsection}{生态因子}{239}{subsubsection*.617}%
+\contentsline {subsection}{\numberline {14.2.2}光的生态作用}{240}{subsection.14.2.2}%
+\contentsline {subsubsection}{光照强度的作用}{240}{subsubsection*.618}%
+\contentsline {subsubsection}{光质的作用}{240}{subsubsection*.619}%
+\contentsline {subsubsection}{光周期现象}{240}{subsubsection*.620}%
+\contentsline {subsection}{\numberline {14.2.3}温度的生态作用}{241}{subsection.14.2.3}%
+\contentsline {subsubsection}{极端温度对生物的影响}{241}{subsubsection*.621}%
+\contentsline {subsubsection}{动物与温度}{241}{subsubsection*.622}%
+\contentsline {subsubsection}{温度的影响}{241}{subsubsection*.623}%
+\contentsline {subsection}{\numberline {14.2.4}水的生态作用}{241}{subsection.14.2.4}%
+\contentsline {subsection}{\numberline {14.2.5}火的生态作用}{242}{subsection.14.2.5}%
+\contentsline {section}{\numberline {14.3}种群生态学}{242}{section.14.3}%
+\contentsline {subsection}{\numberline {14.3.1}种群的概念}{242}{subsection.14.3.1}%
+\contentsline {subsection}{\numberline {14.3.2}种群大小的估计}{242}{subsection.14.3.2}%
+\contentsline {subsubsection}{绝对密度统计方法}{242}{subsubsection*.624}%
+\contentsline {subsubsection}{相对密度统计方法}{242}{subsubsection*.625}%
+\contentsline {paragraph}{标记重捕法}{242}{paragraph*.626}%
+\contentsline {subparagraph}{林可指数法（林可--彼得森法）}{242}{subparagraph*.627}%
+\contentsline {subparagraph}{施夸贝尔法}{242}{subparagraph*.628}%
+\contentsline {subparagraph}{乔利--西贝尔法}{243}{subparagraph*.630}%
+\contentsline {paragraph}{去除取样法}{243}{paragraph*.631}%
+\contentsline {subsubsection}{等效种群数量}{243}{subsubsection*.632}%
+\contentsline {paragraph}{性别比例不均衡}{244}{paragraph*.633}%
+\contentsline {paragraph}{种群数量波动}{244}{paragraph*.634}%
+\contentsline {subsection}{\numberline {14.3.3}生物多样性的类别及计算}{244}{subsection.14.3.3}%
+\contentsline {subsubsection}{$\mitalpha $多样性}{244}{subsubsection*.635}%
+\contentsline {subsubsection}{$\mitbeta $多样性}{245}{subsubsection*.636}%
+\contentsline {subsubsection}{$\mitgamma $多样性}{246}{subsubsection*.637}%
+\contentsline {subsection}{\numberline {14.3.4}种群的动态}{246}{subsection.14.3.4}%
+\contentsline {subsubsection}{生存曲线}{246}{subsubsection*.638}%
+\contentsline {subsubsection}{生命表}{246}{subsubsection*.639}%
+\contentsline {subsubsection}{种群增长}{247}{subsubsection*.640}%
+\contentsline {subsubsection}{种群数量的调节}{247}{subsubsection*.641}%
+\contentsline {chapter}{\numberline {第十五章\hspace {.3em}}动物行为学}{249}{chapter.15}%
+\contentsline {part}{第四部分\hspace {1em}遗传学、进化生物学、生物信息和统计}{251}{part.4}%
+\contentsline {chapter}{\numberline {第十六章\hspace {.3em}}遗传学}{253}{chapter.16}%
+\contentsline {section}{\numberline {16.1}孟德尔遗传}{253}{section.16.1}%
+\contentsline {subsection}{\numberline {16.1.1}遗传学数据的统计处理}{253}{subsection.16.1.1}%
+\contentsline {subsubsection}{组合}{253}{subsubsection*.642}%
+\contentsline {subsubsection}{$\mitchi ^{2}$检验}{253}{subsubsection*.643}%
+\contentsline {subsection}{\numberline {16.1.2}孟德尔遗传病}{254}{subsection.16.1.2}%
+\contentsline {subsection}{\numberline {16.1.3}孟德尔遗传的拓展}{255}{subsection.16.1.3}%
+\contentsline {subsubsection}{环境对表型的影响}{255}{subsubsection*.646}%
+\contentsline {subsubsection}{性状的多基因决定}{256}{subsubsection*.647}%
+\contentsline {subsubsection}{基因的多效性}{256}{subsubsection*.648}%
+\contentsline {subsubsection}{表现度和外显率}{256}{subsubsection*.649}%
+\contentsline {subsubsection}{拟表型（表型模写）}{256}{subsubsection*.650}%
+\contentsline {subsection}{\numberline {16.1.4}显隐性的相对性}{256}{subsection.16.1.4}%
+\contentsline {subsubsection}{不完全显性}{256}{subsubsection*.651}%
+\contentsline {subsubsection}{镶嵌显性}{256}{subsubsection*.652}%
+\contentsline {subsubsection}{共显性}{257}{subsubsection*.653}%
+\contentsline {subsubsection}{显隐性可随所依据的标准更改}{257}{subsubsection*.654}%
+\contentsline {subsubsection}{显隐性关系与环境}{257}{subsubsection*.656}%
+\contentsline {subsection}{\numberline {16.1.5}致死基因}{257}{subsection.16.1.5}%
+\contentsline {subsubsection}{致死的时期}{258}{subsubsection*.657}%
+\contentsline {subsubsection}{环境的影响}{258}{subsubsection*.658}%
+\contentsline {subsection}{\numberline {16.1.6}复等位现象}{258}{subsection.16.1.6}%
+\contentsline {subsubsection}{瓢虫的鞘翅色斑}{258}{subsubsection*.659}%
+\contentsline {subsubsection}{孟买型、ABO血型}{258}{subsubsection*.660}%
+\contentsline {subsubsection}{Rh血型与母子不相容}{259}{subsubsection*.662}%
+\contentsline {subsubsection}{人类的母子不相容}{259}{subsubsection*.663}%
+\contentsline {subsubsection}{家畜的母子不相容}{259}{subsubsection*.664}%
+\contentsline {subsubsection}{自交不亲和}{259}{subsubsection*.665}%
+\contentsline {subsection}{\numberline {16.1.7}非等位基因间的相互作用}{260}{subsection.16.1.7}%
+\contentsline {subsubsection}{互补基因}{260}{subsubsection*.666}%
+\contentsline {subsubsection}{修饰基因}{260}{subsubsection*.667}%
+\contentsline {subsubsection}{上位效应}{260}{subsubsection*.668}%
+\contentsline {section}{\numberline {16.2}分子遗传}{260}{section.16.2}%
+\contentsline {subsubsection}{粗糙链孢霉的生化突变型}{260}{subsubsection*.669}%
+\contentsline {subsection}{\numberline {16.2.1}人的先天代谢缺陷}{261}{subsection.16.2.1}%
+\contentsline {subsubsection}{苯丙酮尿症、白化病、尿黑酸症}{261}{subsubsection*.671}%
+\contentsline {subsubsection}{半乳糖血症}{262}{subsubsection*.673}%
+\contentsline {subsection}{\numberline {16.2.2}位置效应}{262}{subsection.16.2.2}%
+\contentsline {subsection}{\numberline {16.2.3}顺反子}{262}{subsection.16.2.3}%
+\contentsline {section}{\numberline {16.3}性别决定}{262}{section.16.3}%
+\contentsline {subsection}{\numberline {16.3.1}常见的性别决定}{263}{subsection.16.3.1}%
+\contentsline {subsubsection}{XY型性别决定}{263}{subsubsection*.675}%
+\contentsline {subsubsection}{ZW型性别决定}{263}{subsubsection*.676}%
+\contentsline {subsection}{\numberline {16.3.2}特殊的性别决定}{263}{subsection.16.3.2}%
+\contentsline {subsubsection}{蜂的性别决定}{263}{subsubsection*.677}%
+\contentsline {subsubsection}{后螠的性别决定}{263}{subsubsection*.678}%
+\contentsline {subsubsection}{高等植物的性别决定}{263}{subsubsection*.679}%
+\contentsline {subsection}{\numberline {16.3.3}环境对决定的影响}{263}{subsection.16.3.3}%
+\contentsline {subsubsection}{温度}{263}{subsubsection*.680}%
+\contentsline {subsubsection}{激素}{264}{subsubsection*.681}%
+\contentsline {subsubsection}{日照}{264}{subsubsection*.682}%
+\contentsline {subsection}{\numberline {16.3.4}人类的性别决定}{264}{subsection.16.3.4}%
+\contentsline {subsubsection}{睾丸决定因子}{264}{subsubsection*.683}%
+\contentsline {subsubsection}{性指数}{264}{subsubsection*.684}%
+\contentsline {section}{\numberline {16.4}连锁分析}{265}{section.16.4}%
+\contentsline {subsection}{\numberline {16.4.1}连锁与交换}{265}{subsection.16.4.1}%
+\contentsline {subsection}{\numberline {16.4.2}普通连锁分析}{265}{subsection.16.4.2}%
+\contentsline {subsection}{\numberline {16.4.3}粗糙链孢霉的连锁分析}{265}{subsection.16.4.3}%
+\contentsline {section}{\numberline {16.5}细菌和噬菌体的重组和连锁}{265}{section.16.5}%
+\contentsline {subsection}{\numberline {16.5.1}细菌和噬菌体遗传分析的特点}{265}{subsection.16.5.1}%
+\contentsline {subsection}{\numberline {16.5.2}噬菌体的连锁分析}{265}{subsection.16.5.2}%
+\contentsline {subsection}{\numberline {16.5.3}细菌的连锁分析}{265}{subsection.16.5.3}%
+\contentsline {subsubsection}{F$^{+}$、F′、Hfr、F$^{-}$菌株}{265}{subsubsection*.686}%
+\contentsline {subsubsection}{转化及作图}{266}{subsubsection*.688}%
+\contentsline {subsubsection}{接合及作图}{266}{subsubsection*.689}%
+\contentsline {subsubsection}{中断杂交作图}{266}{subsubsection*.690}%
+\contentsline {subsubsection}{重组作图}{266}{subsubsection*.691}%
+\contentsline {subsubsection}{转导}{266}{subsubsection*.692}%
+\contentsline {section}{\numberline {16.6}数量性状遗传}{266}{section.16.6}%
+\contentsline {subsection}{\numberline {16.6.1}数量性状的遗传分析}{266}{subsection.16.6.1}%
+\contentsline {subsection}{\numberline {16.6.2}分析数量性状的基本统计学方法}{268}{subsection.16.6.2}%
+\contentsline {subsection}{\numberline {16.6.3}遗传率}{268}{subsection.16.6.3}%
+\contentsline {subsection}{\numberline {16.6.4}近交系数和亲缘系数}{268}{subsection.16.6.4}%
+\contentsline {section}{\numberline {16.7}遗传物质的改变}{268}{section.16.7}%
+\contentsline {subsection}{\numberline {16.7.1}染色体结构改变}{268}{subsection.16.7.1}%
+\contentsline {subsubsection}{研究方法}{268}{subsubsection*.693}%
+\contentsline {subsubsection}{缺失}{268}{subsubsection*.694}%
+\contentsline {subsubsection}{重复}{268}{subsubsection*.695}%
+\contentsline {subsubsection}{倒位}{268}{subsubsection*.696}%
+\contentsline {subsubsection}{易位}{268}{subsubsection*.697}%
+\contentsline {subsection}{\numberline {16.7.2}染色体数目改变}{268}{subsection.16.7.2}%
+\contentsline {subsection}{\numberline {16.7.3}基因突变}{268}{subsection.16.7.3}%
+\contentsline {section}{\numberline {16.8}细胞质和遗传的关系}{268}{section.16.8}%
+\contentsline {subsection}{\numberline {16.8.1}母性影响}{268}{subsection.16.8.1}%
+\contentsline {subsection}{\numberline {16.8.2}细胞质遗传}{268}{subsection.16.8.2}%
+\contentsline {subsection}{\numberline {16.8.3}核质互作与禾谷类作物雄性不育}{268}{subsection.16.8.3}%
+\contentsline {section}{\numberline {16.9}基因组}{268}{section.16.9}%
+\contentsline {section}{\numberline {16.10}遗传分析}{268}{section.16.10}%
+\contentsline {section}{\numberline {16.11}遗传与个体发育}{268}{section.16.11}%
+\contentsline {chapter}{\numberline {第十七章\hspace {.3em}}进化生物学}{269}{chapter.17}%
+\contentsline {chapter}{\numberline {第十八章\hspace {.3em}}生物信息和统计}{271}{chapter.18}%
+\contentsline {section}{\numberline {18.1}数据库}{271}{section.18.1}%
+\contentsline {subsection}{\numberline {18.1.1}生物信息学数据库的分类}{271}{subsection.18.1.1}%
+\contentsline {subsection}{\numberline {18.1.2}一级核酸数据库}{271}{subsection.18.1.2}%
+\contentsline {subsubsection}{GenBank}{272}{subsubsection*.699}%
+\contentsline {subsubsection}{基因组数据库}{273}{subsubsection*.701}%
+\contentsline {subsection}{\numberline {18.1.3}二级核酸数据库}{273}{subsection.18.1.3}%
+\contentsline {subsection}{\numberline {18.1.4}一级蛋白质数据库}{273}{subsection.18.1.4}%
+\contentsline {subsubsection}{UniProt}{273}{subsubsection*.702}%
+\contentsline {subsubsection}{PDB}{274}{subsubsection*.703}%
+\contentsline {subsection}{\numberline {18.1.5}二级蛋白质数据库}{274}{subsection.18.1.5}%
+\contentsline {subsubsection}{Pfam}{274}{subsubsection*.704}%
+\contentsline {subsubsection}{CATH}{274}{subsubsection*.705}%
+\contentsline {subsubsection}{SCOP2}{275}{subsubsection*.706}%
+\contentsline {subsection}{\numberline {18.1.6}专用数据库}{275}{subsection.18.1.6}%
+\contentsline {subsubsection}{PubMed}{275}{subsubsection*.707}%
+\contentsline {subsubsection}{OMIM}{275}{subsubsection*.708}%
+\contentsline {subsubsection}{KEGG}{275}{subsubsection*.709}%
+\contentsline {subsubsection}{ZINC}{275}{subsubsection*.710}%
+\contentsline {section}{\numberline {18.2}序列比对}{275}{section.18.2}%
+\contentsline {subsection}{\numberline {18.2.1}FASTA格式}{275}{subsection.18.2.1}%
+\contentsline {subsection}{\numberline {18.2.2}序列相似性分析}{276}{subsection.18.2.2}%
+\contentsline {subsubsection}{替换记分矩阵}{276}{subsubsection*.711}%
+\contentsline {paragraph}{DNA序列的替换计分矩阵}{277}{paragraph*.712}%
+\contentsline {paragraph}{蛋白质序列的替换记分矩阵}{277}{paragraph*.713}%
+\contentsline {subsubsection}{比较序列的方法}{277}{subsubsection*.714}%
+\contentsline {paragraph}{打点法}{277}{paragraph*.715}%
+\contentsline {paragraph}{序列比较法}{278}{paragraph*.716}%
+\contentsline {subparagraph}{双序列全局比对}{278}{subparagraph*.717}%
+\contentsline {subsection}{\numberline {18.2.3}BLAST}{279}{subsection.18.2.3}%
+\contentsline {subsubsection}{在NCBI网站上使用BLAST}{280}{subsubsection*.719}%
+\contentsline {section}{\numberline {18.3}分子进化}{280}{section.18.3}%
+\contentsline {subsection}{\numberline {18.3.1}同源}{280}{subsection.18.3.1}%
+\contentsline {subsection}{\numberline {18.3.2}系统发育树}{280}{subsection.18.3.2}%
+\contentsline {subsubsection}{用途}{280}{subsubsection*.721}%
+\contentsline {subsubsection}{结构}{280}{subsubsection*.722}%
+\contentsline {subsubsection}{信息来源}{281}{subsubsection*.723}%
+\contentsline {subsubsection}{算法和软件}{281}{subsubsection*.724}%
+\contentsline {section}{\numberline {18.4}蛋白质结构预测}{281}{section.18.4}%
+\contentsline {subsection}{\numberline {18.4.1}蛋白质结构数据库}{282}{subsection.18.4.1}%
+\contentsline {subsubsection}{PDB(Protein Data Bank)}{282}{subsubsection*.725}%
+\contentsline {subsubsection}{DSSP}{282}{subsubsection*.726}%
+\contentsline {subsection}{\numberline {18.4.2}蛋白质结构预测软件}{282}{subsection.18.4.2}%
+\contentsline {subsubsection}{二级结构预测}{282}{subsubsection*.727}%
+\contentsline {subsection}{\numberline {18.4.3}蛋白质分子查看器}{282}{subsection.18.4.3}%
+\contentsline {subsubsection}{VMD}{282}{subsubsection*.728}%
+\contentsline {part}{第五部分\hspace {1em}附录}{283}{part.5}%
+\contentsline {chapter}{\numberline {附录 A\hspace {.3em}}希腊字母表}{285}{appendix.A}%
+\contentsline {chapter}{\numberline {附录 B\hspace {.3em}}地质年代表}{287}{appendix.B}%
+\contentsline {chapter}{\numberline {附录 C\hspace {.3em}}生物学名和缩写}{289}{appendix.C}%
+\contentsline {chapter}{\numberline {附录 D\hspace {.3em}}易读错的字}{291}{appendix.D}%
+\contentsline {chapter}{\numberline {附录 E\hspace {.3em}}常见名词的别名}{293}{appendix.E}%
+\contentsline {chapter}{\numberline {附录 F\hspace {.3em}}Genbank X01714}{295}{appendix.F}%
