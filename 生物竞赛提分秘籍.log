@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.4.4)  6 APR 2025 22:20
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.4.4)  6 APR 2025 23:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3296,12 +3296,19 @@ Missing character: There is no ; ("3B) in font nullfont!
 
 [179]
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
 [180]
 File: ./Pics/大象的臼齿.jpg Graphic file (type bmp)
 <./Pics/大象的臼齿.jpg>
 
 
 [181]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [182]
 
@@ -3311,12 +3318,12 @@ File: Pics/反刍胃.png Graphic file (type bmp)
 
 
 [184]
-Underfull \hbox (badness 1077) in paragraph at lines 501--501
+Underfull \hbox (badness 1077) in paragraph at lines 509--509
 []|\TU/方正书宋_GBK(0)/m/n/12.045 中 肾 小 管 数 目 较 多、|
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 503--503
+Underfull \hbox (badness 1077) in paragraph at lines 511--511
 []|\TU/方正书宋_GBK(0)/m/n/12.045 体 腔 联 系 从 有 到 无、|
  []
 
@@ -3327,8 +3334,6 @@ Underfull \hbox (badness 1077) in paragraph at lines 503--503
 [186]
 
 [187]
-
-[188]
 
 Package fontspec Info: 
 (fontspec)             Could not resolve font "SimSun-ExtB/BI" (it probably
@@ -3357,10 +3362,12 @@ Package fontspec Info:
 
 
 
-[189]
+[188]
 File: Pics/袋鼠的睾丸.png Graphic file (type bmp)
 <Pics/袋鼠的睾丸.png>
 
+
+[189]
 
 [190]
 
@@ -3369,11 +3376,12 @@ File: Pics/袋鼠的睾丸.png Graphic file (type bmp)
 [192]
 
 [193]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
+)
 
-[194])
+[194]
 
 [195]
 
@@ -3797,7 +3805,7 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `生物竞赛提分秘籍.out' has not changed.
-(rerunfilecheck)             Checksum: DAEC8E9196A451AEB1F874FEFDDDD034;35993.
+(rerunfilecheck)             Checksum: EABB1432082A22EA3B02E710712F97D3;36082.
  ) 
 Here is how much of TeX's memory you used:
  134703 strings out of 473832
