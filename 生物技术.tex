@@ -21,20 +21,15 @@
 		[相差显微镜、微分干涉显微镜]
 		[荧光显微镜]
 		[激光扫描共聚焦显微镜]
-		[超高分辨率显微术
-		[TIRFM]
-		[PALM/STORM]
-		[4$\pi$]
-		[STED]
-		[SIM]]]
+		[超高分辨率显微术]]
 	\end{forest}
 	\caption{光学显微镜技术的分类}
 	\label{fig:opticalMicroscopyTechniquesClassification}
 \end{figure}
 
-\subsubsection{普通光学显微镜}
+\subsubsection{分辨率和普通光镜}
 
-显微镜最重要的参数是分辨率，即能分辨出的距离最小的两点之间的距离。分辨率\[D=\frac{0.61\lambda}{N\cdot\sin\dfrac{\alpha}{2}}\]
+分辨率是能分辨出的距离最小的两点之间的距离。分辨率\[D=\frac{0.61\lambda}{N\cdot\sin\dfrac{\alpha}{2}}\]
 
 其中；（\autoref{fig:opticalMicroscopeResolutionInfluencingFactors}）
 \begin{description}
@@ -62,18 +57,22 @@
 
 \subsubsection{相差显微镜和微分干涉显微镜}
 
-光通过不同密度的材质时发生不同程度的“滞留”，即光相位的差异。相差显微镜利用这点，把样品中密度的不同，转换为视野中图像亮度的差异。（\autoref{fig:interferenceBetweenTwoLightBeams}）因为无需染色，它还可以观察活细胞。
+二者的比较见\autoref{tab:相差显微镜和微分干涉显微镜的比较}。
 
-\begin{figure}[htbp]
+\begin{table}[htbp]
 	\centering
-	\includegraphics[width=0.3\linewidth]{Pics/两束光之间的相互干涉}
-	\caption{两束光之间的相互干涉}
-	\label{fig:interferenceBetweenTwoLightBeams}
-\end{figure}
-
-Nomarski在相差显微镜的基础上，改进出微分干涉显微镜。它以平面偏振光为光源，更适合研究活细胞。
-
-，计算机辅助的微分干涉显微镜接上了录像装置，大大提高了分辨率。应用这一原理制备的录像增差显微镜甚至可以直接观察微管参与的物质运输。
+	\begin{tabularx}{\textwidth}{|c|C|C|}
+		\hline
+		& \textbf{相差} & \textbf{微分干涉} \\ \hline
+		原理 & 衍射与干涉 & 干涉 \\ \hline
+		特殊结构 & 环状光阑与相位板 & 起偏器与合偏器 \\ \hline
+		两束光来源 & 衍射 & 棱镜 \\ \hline
+		相位差主要来源 & 样品不同区域密度不同 & 厚度不同 \\ \hline
+		观察结果 & 明暗反差 & 浮雕状 \\ \hline
+	\end{tabularx}
+	\caption{相差显微镜和微分干涉显微镜的比较}
+	\label{tab:相差显微镜和微分干涉显微镜的比较}
+\end{table}
 
 \subsubsection{暗视野显微镜}
 
@@ -148,32 +147,7 @@ Nomarski在相差显微镜的基础上，改进出微分干涉显微镜。它以
 
 \subsubsection{超高分辨率显微术}
 
-\paragraph{全内反射荧光显微术（TIRFM）}
-
-降低噪声是提高显微镜分辨率的有效途径。在LSCM中，已经通过小孔来阻挡非焦平面的光线，可是小孔不可以无限缩小。在TIRFM中，光线发生全反射时，在介质另一侧激发出的隐失波波长在\SI{200}{\nm}之内，而且衰减快，故可激发很薄一层样品内的荧光。该技术的特点是只能观细胞紧靠玻片约\SI{100}{\nm}的范围。（\autoref{fig:TIRFM}）
-
-\begin{figure}
-	\centering
-	\includegraphics[width=0.7\linewidth]{Pics/TIMFR}
-	\caption{TIRFM的原理}
-	\label{fig:TIRFM}
-\end{figure}
-
-
-\paragraph{PALM/STORM}
-
-见书本。
-
-\paragraph{$4\pi$和STED显微术}
-
-$4\pi$显微镜通过在样品的两侧各放置一个高性能物镜，使镜口角扩大到接近$4\pi$，从而提高了数值口径，有效提高了z轴分辨率。
-
-但是，$4\pi$显微镜并没有突破衍射极限。在受激发射损耗（STED）显微术中，通过环状激光使一个点周围的荧光基团淬灭，只有中间那个点可以被观察到。理论上，只要减小环状激光中间的孔径，就可以实现纳米级别的分辨率。STED并没有提高z轴方向的分辨率。
-
-\paragraph{结构照明显微术}
-
-在显微镜中增加光栅和控制元件。优点是对于普通的样本，可以不经特殊处理直接观察。缺点是分辨率远低于其他超高分辨率显微术。
-
+在该领域，\zhongdian{我国}科学家庄小威发明了\sy{STORM技术}。它基于单分子荧光检测，通过用光控制每次仅有少量随机离散的单个荧光分子发光，并准确定位单个荧光分子点的中心，通过多张图片叠加形成一幅超高分辨率图像。
 \subsection{电子显微镜}
 
 \subsubsection{电子显微镜的基本知识}
