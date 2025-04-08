@@ -147,7 +147,15 @@
 
 \subsubsection{超高分辨率显微术}
 
-在该领域，\zhongdian{我国}科学家庄小威发明了\sy{STORM技术}。它基于单分子荧光检测，通过用光控制每次仅有少量随机离散的单个荧光分子发光，并准确定位单个荧光分子点的中心，通过多张图片叠加形成一幅超高分辨率图像。
+在该领域，\zhongdian{我国}科学家庄小威发明了\sy{STORM技术}。它基于单分子荧光检测，在任一时刻，只有极少数荧光分子被随机激活，成像后加以精确定位。经过多次重复，由大量荧光分子的精确位点组合成了一幅STORM图像。（\autoref{fig:storm}）
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.7\linewidth]{STORM.png}
+	\caption{STORM技术}
+	\label{fig:storm}
+\end{figure}
+
 \subsection{电子显微镜}
 
 \subsubsection{电子显微镜的基本知识}
@@ -170,15 +178,15 @@
 
 \paragraph{电镜的分辨率}
 
-电子显微镜的图像不可直接观察，要通过荧光屏、感光胶片或电荷耦合器件（CCD）来成像。
+电子显微镜的图像不可直接观察，要通过荧光屏、感光胶片或CCD来成像。
 
-电镜的分辨率和分辨本领并不是一回事。分辨本领指的是最理想情况下的分辨率，也即最大分辨率。而实际的分辨率常常受到制样技术的限制，如超薄切片样品中，分辨率约为超薄切片厚度的$\frac{1}{10}$。
+电镜的分辨率和分辨本领并不是一回事。分辨本领指的是最理想情况下的分辨率。而实际的分辨率常常受到制样技术的限制。
 
 人眼的分辨率约为\SI{0.2}{\mm}。用人眼分辨率除以光镜和电镜的分辨率即可得到各自的放大倍数。所以，光镜的放大倍数约为1000，电镜的放大倍数约为$10^6$。
 
 \paragraph{电子显微镜的构造}
 
-较为原始的电子显微镜的结构如\autoref{fig:emstrctr}所示，但是其成像原理并没有和现代的电镜有很大不同。
+较为原始的电子显微镜的结构如\autoref{fig:emstrctr}所示，其成像原理和现代的电镜相近。
 
 \begin{figure}[htbp]
 	\centering
@@ -244,6 +252,25 @@
 	\caption{冷冻蚀刻技术示意图}
 	\label{fig:cryoFractureTechniqueSchematicDiagram}
 \end{figure}
+
+\subsubsection{不同电镜技术的对比}
+
+如\autoref{tab:电子显微镜技术}所示。
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabularx}{\textwidth}{|c|C|C|C|}
+		\hline
+		\textbf{技术类型} & \textbf{样品制备} & \textbf{成像信息} & \textbf{观察目标} \\ \hline
+		透射电镜技术 & 超薄切片、重金属染色 & 透射电子 & 样品内部层面结构 \\ \hline
+		扫描电镜技术 & 镀金 & 二次电子 & 样品表面形貌 \\ \hline
+		低温电镜技术 & 冷冻 & 透射电子 & 复合体立体结构 \\ \hline
+		电子断层成像电镜 & 冷冻超薄切片 & 透射电子 & 层面结构 \\ \hline
+		扫描电镜背散射电子成像技术 & 超薄切片 & 背散射电子 & 层面结构图 \\ \hline
+	\end{tabularx}
+	\caption{电子显微镜技术}
+	\label{tab:电子显微镜技术}
+\end{table}
 
 \subsection{扫描隧道显微镜（STM）}
 
