@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.4.4)  9 APR 2025 00:00
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.4.4)  11 APR 2025 22:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3305,32 +3305,35 @@ File: ./Pics/大象的臼齿.jpg Graphic file (type bmp)
 
 
 [181]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [182]
-
-[183]
 File: Pics/反刍胃.png Graphic file (type bmp)
 <Pics/反刍胃.png>
 
 
+[183]
+
 [184]
-Underfull \hbox (badness 1077) in paragraph at lines 509--509
+Underfull \hbox (badness 1077) in paragraph at lines 508--508
 []|\TU/方正书宋_GBK(0)/m/n/12.045 中 肾 小 管 数 目 较 多、|
  []
 
 
-Underfull \hbox (badness 1077) in paragraph at lines 511--511
+Underfull \hbox (badness 1077) in paragraph at lines 510--510
 []|\TU/方正书宋_GBK(0)/m/n/12.045 体 腔 联 系 从 有 到 无、|
  []
+
+
+Underfull \vbox (badness 2050) has occurred while \output is active []
 
 
 
 [185]
 
 [186]
+Underfull \vbox (badness 2671) has occurred while \output is active []
+
+
 
 [187]
 
@@ -3819,10 +3822,10 @@ Package rerunfilecheck Info: File `生物竞赛提分秘籍.out' has not changed
 Here is how much of TeX's memory you used:
  134675 strings out of 473832
  3149913 string characters out of 5729482
- 3397746 words of memory out of 5000000
+ 3403752 words of memory out of 5000000
  156505 multiletter control sequences out of 15000+600000
  579811 words of font info for 262 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 153i,21n,141p,1626b,47347s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 153i,21n,142p,1626b,47347s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on 生物竞赛提分秘籍.pdf (316 pages).

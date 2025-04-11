@@ -463,8 +463,8 @@
 \contentsline {subsection}{\numberline {12.7.1}肠}{180}{subsection.12.7.1}%
 \contentsline {subsection}{\numberline {12.7.2}牙齿}{180}{subsection.12.7.2}%
 \contentsline {subsection}{\numberline {12.7.3}舌}{181}{subsection.12.7.3}%
-\contentsline {subsection}{\numberline {12.7.4}口腺}{183}{subsection.12.7.4}%
-\contentsline {subsection}{\numberline {12.7.5}咽}{183}{subsection.12.7.5}%
+\contentsline {subsection}{\numberline {12.7.4}口腺}{182}{subsection.12.7.4}%
+\contentsline {subsection}{\numberline {12.7.5}咽}{182}{subsection.12.7.5}%
 \contentsline {subsection}{\numberline {12.7.6}食道与胃}{184}{subsection.12.7.6}%
 \contentsline {subsection}{\numberline {12.7.7}肠}{184}{subsection.12.7.7}%
 \contentsline {section}{\numberline {12.8}呼吸系统}{185}{section.12.8}%
