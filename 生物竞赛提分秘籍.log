@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.4.4)  13 APR 2025 13:58
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.4.4)  13 APR 2025 20:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2193,33 +2193,6 @@ LaTeX Font Info:    Font shape `TU/TeXGyreTermesMath(3)/m/n' will be
 
 [10]
 
-Package fontspec Info: 
-(fontspec)             Could not resolve font "GB Pinyinok-B/BI" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "GB Pinyinok-B/B" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "GB Pinyinok-B/I" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: 
-(fontspec)             Font family 'GBPinyinok-B(0)' created for font 'GB
-(fontspec)             Pinyinok-B' with options [].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"GB
-(fontspec)             Pinyinok-B/OT:language=dflt;"
-
-
-
 [11]
 
 [12]
@@ -2840,7 +2813,7 @@ File: Pics/Sanger法DNA测序.png Graphic file (type bmp)
 <Pics/Sanger法DNA测序.png>
 
 
-LaTeX Warning: Float too large for page by 16.92798pt on input line 331.
+LaTeX Warning: Float too large for page by 16.92798pt on input line 332.
 
 
 
@@ -2854,7 +2827,7 @@ File: Pics/化学断裂法测序.png Graphic file (type bmp)
 [102]
 
 [103]
-Overfull \hbox (23.8579pt too wide) in paragraph at lines 410--411
+Overfull \hbox (23.8579pt too wide) in paragraph at lines 411--412
 []\TU/方正书宋_GBK(0)/m/n/12.045 浓 度 换 算 关 系：| \TU/TimesNewRoman(0)/m/n/12.045 1OD 
 \TU/方正书宋_GBK(0)/m/n/12.045 相 当 于$[][]$$[] [][]$ 的 \TU/TimesNewRoman(0)/m/n/12.0
 45 dsDNA\TU/方正书宋_GBK(0)/m/n/12.045 、| $[][]$$[] [][]$ 的 \TU/TimesNewRoman(0)/m/
@@ -2862,28 +2835,18 @@ n/12.045 ssDNA\TU/方正书宋_GBK(0)/m/n/12.045 、| $[][]$$[] [][]$
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [104]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
+[105])
 
+[106]
 
-[105]
-
-[106])
-
-[107]
-
-[108
+[107
 
 ]
 
-[109]
-
-[110]
+[108]
 第七章
 (./植物形态解剖.tex
 File: Pics/植物细胞的多种形态.png Graphic file (type bmp)
@@ -2895,28 +2858,28 @@ Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
 
 
-[111
+[109
 
 ]
 
-[112]
+[110]
 
-[113]
+[111]
 File: Pics/次生壁的3层.png Graphic file (type bmp)
 <Pics/次生壁的3层.png>
 
 
-[114]
+[112]
 File: Pics/纹孔.png Graphic file (type bmp)
 <Pics/纹孔.png>
 
 
-[115]
+[113]
 File: ./Pics/质体的转化.pdf Graphic file (type pdf)
 <use ./Pics/质体的转化.pdf>
 
 
-[116]
+[114]
 File: Pics/淀粉粒的类型.png Graphic file (type bmp)
 <Pics/淀粉粒的类型.png>
 
@@ -2931,9 +2894,9 @@ File: Pics/蓖麻的磷酸盐球形体.png Graphic file (type bmp)
 <Pics/蓖麻的磷酸盐球形体.png>
 
 
-[117]
+[115]
 
-[118]
+[116]
 File: Pics/晶体的类型.png Graphic file (type bmp)
 <Pics/晶体的类型.png>
 
@@ -2944,17 +2907,17 @@ Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
 
 
-[119]
+[117]
 File: ./Pics/分生组织的分类.pdf Graphic file (type pdf)
 <use ./Pics/分生组织的分类.pdf>
 
 
-[120]
+[118]
 File: Pics/薄壁组织的类型.png Graphic file (type bmp)
 <Pics/薄壁组织的类型.png>
 
 
-[121]
+[119]
 File: Pics/南瓜茎横切示皮层厚角组织.png Graphic file (type bmp)
 <Pics/南瓜茎横切示皮层厚角组织.png>
 File: ./Pics/不同形状的石细胞.png Graphic file (type bmp)
@@ -2963,7 +2926,7 @@ File: ./Pics/纤维细胞.png Graphic file (type bmp)
 <./Pics/纤维细胞.png>
 
 
-[122]
+[120]
 File: ./Pics/管胞.png Graphic file (type bmp)
 <./Pics/管胞.png>
 File: ./Pics/导管.png Graphic file (type bmp)
@@ -2973,9 +2936,9 @@ Underfull \vbox (badness 5817) has occurred while \output is active []
 
 
 
-[123]
+[121]
 
-[124]
+[122]
 File: ./Pics/溶生型分泌腔.png Graphic file (type bmp)
 <./Pics/溶生型分泌腔.png>
 File: ./Pics/裂生型分泌腔.png Graphic file (type bmp)
@@ -2989,11 +2952,11 @@ Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
 
 
+[123]
+
+[124]
+
 [125]
-
-[126]
-
-[127]
 File: Pics/ABCDE模型.pdf Graphic file (type pdf)
 <use Pics/ABCDE模型.pdf>
 
@@ -3002,56 +2965,56 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 )
 
-[128]
+[126]
 
-[129]
+[127]
 
-[130
+[128
 
 ]
 第八章
 (./植物分类学.tex
 
+[129]
+
+[130]
+
 [131]
-
-[132]
-
-[133]
 File: Pics/藻殖段.png Graphic file (type bmp)
 <Pics/藻殖段.png>
 
 
-[134]
+[132]
 File: Pics/内生孢子和外生孢子.png Graphic file (type bmp)
 <Pics/内生孢子和外生孢子.png>
 File: Pics/色球藻属的胶质鞘.png Graphic file (type bmp)
 <Pics/色球藻属的胶质鞘.png>
 
 
-[135]
+[133]
 
-[136]
+[134]
 File: Pics/微囊藻属.png Graphic file (type bmp)
 <Pics/微囊藻属.png>
 File: Pics/颤藻属.png Graphic file (type bmp)
 <Pics/颤藻属.png>
 
 
-[137]
+[135]
 File: Pics/念珠藻属.png Graphic file (type bmp)
 <Pics/念珠藻属.png>
 File: Pics/鱼腥藻属.png Graphic file (type bmp)
 <Pics/鱼腥藻属.png>
 
 
-[138]
+[136]
 File: Pics/真枝藻属等.png Graphic file (type bmp)
 <Pics/真枝藻属等.png>
 
 
-[139]
+[137]
 
-[140]
+[138]
 Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
@@ -3060,51 +3023,51 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[141]
+[139]
 File: Pics/发网菌.png Graphic file (type bmp)
 <Pics/发网菌.png>
 File: Pics/发网菌的生活史.png Graphic file (type bmp)
 <Pics/发网菌的生活史.png>
 
 
-[142]
+[140]
 File: Pics/菌丝的种类.png Graphic file (type bmp)
 <Pics/菌丝的种类.png>
 
 
-[143]
+[141]
 File: Pics/菌丝组织体.png Graphic file (type bmp)
 <Pics/菌丝组织体.png>
 
 
-[144]
+[142]
 File: Pics/真菌营养繁殖和无性生殖的各种孢子.png Graphic file (type bmp)
 <Pics/真菌营养繁殖和无性生殖的各种孢子.png>
 
 
-[145])
+[143])
 
-[146]
+[144]
 第九章
 (./植物生理学.tex
 
-[147
+[145
 
 ]
 
-[148]
+[146]
 File: Pics/叶绿素a和叶绿素b.png Graphic file (type bmp)
 <Pics/叶绿素a和叶绿素b.png>
 
 
-[149]
+[147]
 File: ./Pics/叶绿素溶液2.jpg Graphic file (type bmp)
 <./Pics/叶绿素溶液2.jpg>
 File: ./Pics/叶绿素溶液3.jpg Graphic file (type bmp)
 <./Pics/叶绿素溶液3.jpg>
 
 
-[150]
+[148]
 File: ./Pics/叶绿素吸收光之后的能量转变.png Graphic file (type bmp)
 <./Pics/叶绿素吸收光之后的能量转变.png>
 
@@ -3126,30 +3089,30 @@ Missing character: There is no 巴 (U+5DF4) in font TeXGyreTermesMath-Regular/OT
 script=math;language=dflt;+ssty=0;!
 
 
-[151]
+[149]
 File: ./Pics/光呼吸.png Graphic file (type bmp)
 <./Pics/光呼吸.png>
 )
 
-[152]
+[150]
+
+[151]
+
+[152
+
+]
 
 [153]
 
-[154
-
-]
-
-[155]
-
-[156]
+[154]
 第十章
 (./动物学.tex
 
-[157
+[155
 
 ]
 
-[158]
+[156]
 File: ./Pics/脂肪组织.jpg Graphic file (type bmp)
 <./Pics/脂肪组织.jpg>
 
@@ -3158,16 +3121,16 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 
+[157]
+
+[158]
+
 [159]
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
 
 [160]
-
-[161]
-Missing character: There is no ; ("3B) in font nullfont!
-Missing character: There is no ; ("3B) in font nullfont!
-
-
-[162]
 \g__nicematrix_block_box_11_box=\box191
 \g__nicematrix_block_box_12_box=\box192
 \g__nicematrix_block_box_13_box=\box193
@@ -3177,7 +3140,7 @@ Missing character: There is no ; ("3B) in font nullfont!
 \g__nicematrix_block_box_17_box=\box197
 
 
-[163]
+[161]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -3223,27 +3186,54 @@ Package fontspec Info:
 
 
 
+[162]
+
+[163]
+
 [164]
 
 [165]
 
 [166]
 
+Package fontspec Info: 
+(fontspec)             Could not resolve font "GB Pinyinok-B/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "GB Pinyinok-B/B" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "GB Pinyinok-B/I" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'GBPinyinok-B(0)' created for font 'GB
+(fontspec)             Pinyinok-B' with options [].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"GB
+(fontspec)             Pinyinok-B/OT:language=dflt;"
+
+)
+
 [167]
 
-[168])
-
-[169]
-
-[170
+[168
 
 ]
 第十一章
 (./无脊椎动物比较解剖.tex)
 
-[171]
+[169]
 
-[172
+[170
 
 ]
 第十二章
@@ -3265,10 +3255,19 @@ Package wrapfig Warning: Stationary wrapfigure forced to float on input line 25
 
 
 
-[173]
+[171]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+
+[172]
+
+[173]
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
 
 
 [174]
@@ -3278,42 +3277,33 @@ Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
 
 
 [176]
 
 [177]
-Missing character: There is no ; ("3B) in font nullfont!
-Missing character: There is no ; ("3B) in font nullfont!
-Missing character: There is no ; ("3B) in font nullfont!
-Missing character: There is no ; ("3B) in font nullfont!
-Missing character: There is no ; ("3B) in font nullfont!
-Missing character: There is no ; ("3B) in font nullfont!
-
-
-[178]
-
-[179]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[180]
+[178]
 File: ./Pics/大象的臼齿.jpg Graphic file (type bmp)
 <./Pics/大象的臼齿.jpg>
+
+
+[179]
+
+[180]
+File: Pics/反刍胃.png Graphic file (type bmp)
+<Pics/反刍胃.png>
 
 
 [181]
 
 [182]
-File: Pics/反刍胃.png Graphic file (type bmp)
-<Pics/反刍胃.png>
-
-
-[183]
-
-[184]
 Underfull \hbox (badness 1077) in paragraph at lines 508--508
 []|\TU/方正书宋_GBK(0)/m/n/12.045 中 肾 小 管 数 目 较 多、|
  []
@@ -3328,14 +3318,14 @@ Underfull \vbox (badness 2050) has occurred while \output is active []
 
 
 
-[185]
+[183]
 
-[186]
+[184]
 Underfull \vbox (badness 2671) has occurred while \output is active []
 
 
 
-[187]
+[185]
 
 Package fontspec Info: 
 (fontspec)             Could not resolve font "SimSun-ExtB/BI" (it probably
@@ -3364,10 +3354,14 @@ Package fontspec Info:
 
 
 
-[188]
+[186]
 File: Pics/袋鼠的睾丸.png Graphic file (type bmp)
 <Pics/袋鼠的睾丸.png>
 
+
+[187]
+
+[188]
 
 [189]
 
@@ -3375,23 +3369,23 @@ File: Pics/袋鼠的睾丸.png Graphic file (type bmp)
 
 [191]
 
-[192]
-
-[193]
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 )
 
-[194]
+[192]
 
-[195]
+[193]
 
-[196
+[194
 
 ]
 第十三章
 (./动物生理学.tex
+
+[195]
+
+[196]
 
 [197]
 
@@ -3402,34 +3396,40 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [200]
 
 [201]
+Overfull \hbox (11.60042pt too wide) in paragraph at lines 284--285
+[]\TU/方正书宋_GBK(0)/m/n/12.045 造 血 干 细 胞 $[]$ 红 系 造 血 祖 细 胞 $[]$ 原 红 细 胞 $[]$ 早 幼
+ 红 细 胞 $[]$
+ []
+
+
 
 [202]
-Missing character: There is no ; ("3B) in font nullfont!
-Missing character: There is no ; ("3B) in font nullfont!
-Missing character: There is no ; ("3B) in font nullfont!
-Missing character: There is no ; ("3B) in font nullfont!
-
 
 [203]
-File: Pics/呼吸的三个环节.png Graphic file (type bmp)
-<Pics/呼吸的三个环节.png>
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
 
 
 [204]
 
 [205]
+File: Pics/呼吸的三个环节.png Graphic file (type bmp)
+<Pics/呼吸的三个环节.png>
+
 
 [206]
 
 [207]
+
+[208]
 File: Pics/肺的压力-容积曲线.png Graphic file (type bmp)
 <Pics/肺的压力-容积曲线.png>
 
 Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
 
-
-[208]
 
 [209]
 
@@ -3442,43 +3442,43 @@ Missing character: There is no ; ("3B) in font nullfont!
 [213]
 
 [214]
-Missing character: There is no ; ("3B) in font nullfont!
-Missing character: There is no ; ("3B) in font nullfont!
-Missing character: There is no ; ("3B) in font nullfont!
-
-Overfull \hbox (15.36694pt too wide) in paragraph at lines 694--695
- [][] 
- []
-
-
 
 [215]
 Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
-Missing character: There is no ; ("3B) in font nullfont!
-Missing character: There is no ; ("3B) in font nullfont!
-Missing character: There is no ; ("3B) in font nullfont!
-Missing character: There is no ; ("3B) in font nullfont!
 
-
-[216]
-
-[217]
-
-[218]
-Overfull \hbox (60.4517pt too wide) in paragraph at lines 840--841
-[]$[] [] [] [] [] [] [][] []
+Overfull \hbox (15.36694pt too wide) in paragraph at lines 815--816
+ [][] 
  []
 
 
 
+[216]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[217]
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
+
+[218]
+
 [219]
-Underfull \vbox (badness 2772) has occurred while \output is active []
-
-
 
 [220]
+Overfull \hbox (60.4517pt too wide) in paragraph at lines 961--962
+[]$[] [] [] [] [] [] [][] []
+ []
+
+
 
 [221]
 
@@ -3493,57 +3493,59 @@ Underfull \vbox (badness 2772) has occurred while \output is active []
 [226]
 
 [227]
+
+[228]
 Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
 File: ./Pics/精子的产生过程.pdf Graphic file (type pdf)
 <use ./Pics/精子的产生过程.pdf>
+
+
+[229]
 File: ./Pics/曲细精管结构示意图.jpg Graphic file (type bmp)
 <./Pics/曲细精管结构示意图.jpg>
 
 
-[228]
-
-[229]
-
 [230]
-File: ./Pics/雄激素合成路径.png Graphic file (type bmp)
-<./Pics/雄激素合成路径.png>
-
 
 [231]
-File: Pics/睾丸的分级调节.png Graphic file (type bmp)
-<Pics/睾丸的分级调节.png>
+File: ./Pics/雄激素合成路径.png Graphic file (type bmp)
+<./Pics/雄激素合成路径.png>
 
 
 [232]
 
 [233]
+File: Pics/睾丸的分级调节.png Graphic file (type bmp)
+<Pics/睾丸的分级调节.png>
+
 
 [234]
-File: Pics/雌激素的合成.png Graphic file (type bmp)
-<Pics/雌激素的合成.png>
-
 
 [235]
-File: Pics/卵巢的分级调节.png Graphic file (type bmp)
-<Pics/卵巢的分级调节.png>
-
-Underfull \vbox (badness 1009) has occurred while \output is active []
-
+File: Pics/雌激素的合成.png Graphic file (type bmp)
+<Pics/雌激素的合成.png>
 
 
 [236]
 
 [237]
+
+[238]
+File: Pics/卵巢的分级调节.png Graphic file (type bmp)
+<Pics/卵巢的分级调节.png>
+
+
+[239]
 File: Pics/月经周期中生殖激素、卵巢和子宫内膜的变化.png Graphic file (type bmp)
 <Pics/月经周期中生殖激素、卵巢和子宫内膜的变化.png>
 
 
-[238]
+[240]
 
-[239]
-Overfull \hbox (25.00847pt too wide) in paragraph at lines 1486--1487
+[241]
+Overfull \hbox (25.00847pt too wide) in paragraph at lines 1607--1608
 []\TU/方正书宋_GBK(0)/m/n/12.045 精 子 头 部 的 顶 体 外 膜 破 裂，|  释 放 出 酶 溶 解 卵 细 胞 外 围 的 透
  明 带 和 放 射 冠。 （[]图 \TU/TimesNewRoman(0)/m/n/12.045 13.16[][]\TU/方正书宋_GBK(0)/m/n
 /12.045 ）| 
@@ -3553,21 +3555,17 @@ File: Pics/精卵相互作用的示意图.png Graphic file (type bmp)
 <Pics/精卵相互作用的示意图.png>
 
 
-[240]
-
-[241])
-
 [242]
+
+[243])
+
+[244]
 第十四章
 (./生态学.tex
 
-[243
+[245
 
 ]
-
-[244]
-
-[245]
 
 [246]
 
@@ -3577,55 +3575,59 @@ File: Pics/精卵相互作用的示意图.png Graphic file (type bmp)
 
 [249]
 
-[250])
+[250]
 
 [251]
 
-[252
-
-]
-第十五章
-(./动物行为学.tex)
+[252])
 
 [253]
 
 [254
 
 ]
+第十五章
+(./动物行为学.tex)
 
 [255]
 
-[256]
-第十六章
-(./遗传学.tex
-
-[257
+[256
 
 ]
 
-[258]
+[257]
 
-[259]
+[258]
+第十六章
+(./遗传学.tex
+
+[259
+
+]
 
 [260]
 
 [261]
+
+[262]
+
+[263]
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesMath(2)/m/n' will be
 (Font)              scaled to size 6.00064pt on input line 156.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesMath(3)/m/n' will be
 (Font)              scaled to size 5.99936pt on input line 156.
 
 
-[262]
-
-[263]
-
 [264]
+
+[265]
+
+[266]
 File: ./Pics/苯丙氨酸代谢疾病.pdf Graphic file (type pdf)
 <use ./Pics/苯丙氨酸代谢疾病.pdf>
 
 
-[265]
+[267]
 Overfull \hbox (47.56934pt too wide) in paragraph at lines 272--273
 []\TU/方正书宋_GBK(0)/m/n/12.045 极 少 数 婴 儿 缺 乏 \TU/TimesNewRoman(0)/m/n/12.045 1-\T
 U/方正书宋_GBK(0)/m/n/12.045 磷 酸 葡 糖 尿 苷 转 移 酶  |（如[]图 \TU/TimesNewRoman(0)/m/n/12.
@@ -3638,39 +3640,39 @@ File: ./Pics/半乳糖代谢.pdf Graphic file (type pdf)
 <use ./Pics/半乳糖代谢.pdf>
 
 
-[266]
-
-[267]
-
 [268]
 
-[269])
+[269]
 
 [270]
+
+[271])
+
+[272]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[271]
+[273]
 Overfull \vbox (26.48453pt too high) has occurred while \output is active []
 
 
 
-[272]
+[274]
 第十七章
 (./进化生物学.tex)
 
-[273
+[275
 
 ]
 
-[274
+[276
 
 ]
 第十八章
 (./生物信息学.tex
 
-[275]
+[277]
 File: ./Pics/Genbank_X01715.png Graphic file (type bmp)
 <./Pics/Genbank_X01715.png>
 
@@ -3682,10 +3684,6 @@ Package fontspec Info:
 
 
 
-[276]
-
-[277]
-
 [278]
 
 [279]
@@ -3695,69 +3693,73 @@ Package fontspec Info:
 [281]
 
 [282]
+
+[283]
+
+[284]
 Underfull \vbox (badness 1910) has occurred while \output is active []
 
 
 
-[283]
+[285]
 File: ./Pics/三种同源关系.png Graphic file (type bmp)
 <./Pics/三种同源关系.png>
 
 
-[284]
-
-[285])
-
 [286]
 
-[287
-
-]
+[287])
 
 [288]
-附录 A
-
 
 [289
 
 ]
 
-[290
+[290]
+附录 A
+
+
+[291
+
+]
+
+[292
 
 ]
 附录 B
 
 
-[291]
+[293]
 
-[292
+[294
 
 ]
 附录 C
 
 
-[293
+[295
 
 
 ]
 
-[294
+[296
 
 ]
 附录 D
 
 
-[295]
+[297]
 
-[296
+[298
 
 ]
 附录 E
 
 
-[297]
+[299]
 
-[298
+[300
 
 ]
 附录 F
@@ -3766,29 +3768,29 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[299]
+[301]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-
-[300]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[301] (./生物竞赛提分秘籍.ind
 
 [302]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[303
+[303] (./生物竞赛提分秘籍.ind
+
+[304]
+
+
+
+[305
 
 ]
 
 
 
-[304
+[306
 
 ]) (./生物竞赛提分秘籍.aux)
  ***********
@@ -3803,22 +3805,16 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `生物竞赛提分秘籍.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `生物竞赛提分秘籍.out':
-(rerunfilecheck)             Before: EABB1432082A22EA3B02E710712F97D3;36082
-(rerunfilecheck)             After:  B1A303E30B5D71F5FA396809530CEE01;36190.
+Package rerunfilecheck Info: File `生物竞赛提分秘籍.out' has not changed.
+(rerunfilecheck)             Checksum: BD2AB4CFF7763381205A275292FC660C;37126.
  ) 
 Here is how much of TeX's memory you used:
- 134665 strings out of 473832
- 3149611 string characters out of 5729482
- 3403754 words of memory out of 5000000
- 156495 multiletter control sequences out of 15000+600000
+ 134668 strings out of 473832
+ 3149651 string characters out of 5729482
+ 3403566 words of memory out of 5000000
+ 156498 multiletter control sequences out of 15000+600000
  579811 words of font info for 262 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  153i,21n,142p,1626b,47347s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 生物竞赛提分秘籍.pdf (318 pages).
+Output written on 生物竞赛提分秘籍.pdf (320 pages).
