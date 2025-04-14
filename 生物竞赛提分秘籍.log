@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.4.4)  14 APR 2025 13:36
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.4.4)  14 APR 2025 20:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3402,23 +3402,25 @@ Overfull \hbox (11.60042pt too wide) in paragraph at lines 284--285
 [202]
 
 [203]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [204]
-Missing character: There is no ; ("3B) in font nullfont!
-Missing character: There is no ; ("3B) in font nullfont!
-Missing character: There is no ; ("3B) in font nullfont!
-Missing character: There is no ; ("3B) in font nullfont!
+Underfull \vbox (badness 2452) has occurred while \output is active []
+
 
 
 [205]
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
 
 [206]
 
 [207]
-Overfull \hbox (4.30614pt too wide) in paragraph at lines 490--491
+
+[208]
+Overfull \hbox (4.30614pt too wide) in paragraph at lines 536--537
 []\TU/方正书宋_GBK(0)/m/n/12.045 血 管 系 统 中。|  动 脉、|  毛 细 血 管、|  静 脉 依 次 串 联。|  动 脉 
 和 静 脉 管 壁 可 分 为 如[]图 \TU/TimesNewRoman(0)/m/n/12.045 13.2[][]\TU/方正书宋_GBK(0)/m/
 n/12.045 所
@@ -3431,24 +3433,22 @@ Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
 
 
-[208]
+[209]
 File: Pics/呼吸的三个环节.png Graphic file (type bmp)
 <Pics/呼吸的三个环节.png>
 
 
-[209]
-
 [210]
 
 [211]
+
+[212]
 File: Pics/肺的压力-容积曲线.png Graphic file (type bmp)
 <Pics/肺的压力-容积曲线.png>
 
 Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
 
-
-[212]
 
 [213]
 
@@ -3459,40 +3459,40 @@ Missing character: There is no ; ("3B) in font nullfont!
 [216]
 
 [217]
+
+[218]
 Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
 
-Overfull \hbox (15.36694pt too wide) in paragraph at lines 916--917
+Overfull \hbox (15.36694pt too wide) in paragraph at lines 962--963
  [][] 
  []
 
 
 
-[218]
-
 [219]
-Missing character: There is no ; ("3B) in font nullfont!
-Missing character: There is no ; ("3B) in font nullfont!
-Missing character: There is no ; ("3B) in font nullfont!
-Missing character: There is no ; ("3B) in font nullfont!
-Missing character: There is no ; ("3B) in font nullfont!
-Missing character: There is no ; ("3B) in font nullfont!
-Missing character: There is no ; ("3B) in font nullfont!
-
 
 [220]
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+Missing character: There is no ; ("3B) in font nullfont!
+
 
 [221]
 
 [222]
-Overfull \hbox (60.4517pt too wide) in paragraph at lines 1062--1063
+
+[223]
+Overfull \hbox (60.4517pt too wide) in paragraph at lines 1108--1109
 []$[] [] [] [] [] [] [][] []
  []
 
 
-
-[223]
 
 [224]
 
@@ -3507,6 +3507,8 @@ Overfull \hbox (60.4517pt too wide) in paragraph at lines 1062--1063
 [229]
 
 [230]
+
+[231]
 Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
 Missing character: There is no ; ("3B) in font nullfont!
@@ -3514,50 +3516,50 @@ File: ./Pics/精子的产生过程.pdf Graphic file (type pdf)
 <use ./Pics/精子的产生过程.pdf>
 
 
-[231]
+[232]
 File: ./Pics/曲细精管结构示意图.jpg Graphic file (type bmp)
 <./Pics/曲细精管结构示意图.jpg>
 
 
-[232]
-
 [233]
+
+[234]
 File: ./Pics/雄激素合成路径.png Graphic file (type bmp)
 <./Pics/雄激素合成路径.png>
 
 
-[234]
-
 [235]
+
+[236]
 File: Pics/睾丸的分级调节.png Graphic file (type bmp)
 <Pics/睾丸的分级调节.png>
 
 
-[236]
-
 [237]
+
+[238]
 File: Pics/雌激素的合成.png Graphic file (type bmp)
 <Pics/雌激素的合成.png>
 
 
-[238]
-
 [239]
 
 [240]
+
+[241]
 File: Pics/卵巢的分级调节.png Graphic file (type bmp)
 <Pics/卵巢的分级调节.png>
 
 
-[241]
+[242]
 File: Pics/月经周期中生殖激素、卵巢和子宫内膜的变化.png Graphic file (type bmp)
 <Pics/月经周期中生殖激素、卵巢和子宫内膜的变化.png>
 
 
-[242]
-
 [243]
-Overfull \hbox (25.00847pt too wide) in paragraph at lines 1708--1709
+
+[244]
+Overfull \hbox (25.00847pt too wide) in paragraph at lines 1754--1755
 []\TU/方正书宋_GBK(0)/m/n/12.045 精 子 头 部 的 顶 体 外 膜 破 裂，|  释 放 出 酶 溶 解 卵 细 胞 外 围 的 透
  明 带 和 放 射 冠。 （[]图 \TU/TimesNewRoman(0)/m/n/12.045 13.17[][]\TU/方正书宋_GBK(0)/m/n
 /12.045 ）| 
@@ -3567,19 +3569,17 @@ File: Pics/精卵相互作用的示意图.png Graphic file (type bmp)
 <Pics/精卵相互作用的示意图.png>
 
 
-[244]
+[245]
 
-[245])
+[246])
 
-[246]
-第十四章
-(./生态学.tex
+[247]
 
-[247
+[248
 
 ]
-
-[248]
+第十四章
+(./生态学.tex
 
 [249]
 
@@ -3591,55 +3591,59 @@ File: Pics/精卵相互作用的示意图.png Graphic file (type bmp)
 
 [253]
 
-[254])
+[254]
 
 [255]
 
-[256
-
-]
-第十五章
-(./动物行为学.tex)
+[256])
 
 [257]
 
 [258
 
 ]
+第十五章
+(./动物行为学.tex)
 
 [259]
 
-[260]
-第十六章
-(./遗传学.tex
-
-[261
+[260
 
 ]
 
-[262]
+[261]
 
-[263]
+[262]
+第十六章
+(./遗传学.tex
+
+[263
+
+]
 
 [264]
 
 [265]
+
+[266]
+
+[267]
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesMath(2)/m/n' will be
 (Font)              scaled to size 6.00064pt on input line 156.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesMath(3)/m/n' will be
 (Font)              scaled to size 5.99936pt on input line 156.
 
 
-[266]
-
-[267]
-
 [268]
+
+[269]
+
+[270]
 File: ./Pics/苯丙氨酸代谢疾病.pdf Graphic file (type pdf)
 <use ./Pics/苯丙氨酸代谢疾病.pdf>
 
 
-[269]
+[271]
 Overfull \hbox (47.56934pt too wide) in paragraph at lines 272--273
 []\TU/方正书宋_GBK(0)/m/n/12.045 极 少 数 婴 儿 缺 乏 \TU/TimesNewRoman(0)/m/n/12.045 1-\T
 U/方正书宋_GBK(0)/m/n/12.045 磷 酸 葡 糖 尿 苷 转 移 酶  |（如[]图 \TU/TimesNewRoman(0)/m/n/12.
@@ -3652,39 +3656,39 @@ File: ./Pics/半乳糖代谢.pdf Graphic file (type pdf)
 <use ./Pics/半乳糖代谢.pdf>
 
 
-[270]
-
-[271]
-
 [272]
 
-[273])
+[273]
 
 [274]
+
+[275])
+
+[276]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[275]
+[277]
 Overfull \vbox (26.48453pt too high) has occurred while \output is active []
 
 
 
-[276]
+[278]
 第十七章
 (./进化生物学.tex)
 
-[277
+[279
 
 ]
 
-[278
+[280
 
 ]
 第十八章
 (./生物信息学.tex
 
-[279]
+[281]
 File: ./Pics/Genbank_X01715.png Graphic file (type bmp)
 <./Pics/Genbank_X01715.png>
 
@@ -3696,10 +3700,6 @@ Package fontspec Info:
 
 
 
-[280]
-
-[281]
-
 [282]
 
 [283]
@@ -3709,69 +3709,73 @@ Package fontspec Info:
 [285]
 
 [286]
+
+[287]
+
+[288]
 Underfull \vbox (badness 1910) has occurred while \output is active []
 
 
 
-[287]
+[289]
 File: ./Pics/三种同源关系.png Graphic file (type bmp)
 <./Pics/三种同源关系.png>
 
 
-[288]
-
-[289])
-
 [290]
 
-[291
-
-]
+[291])
 
 [292]
-附录 A
-
 
 [293
 
 ]
 
-[294
+[294]
+附录 A
+
+
+[295
+
+]
+
+[296
 
 ]
 附录 B
 
 
-[295]
+[297]
 
-[296
+[298
 
 ]
 附录 C
 
 
-[297
+[299
 
 
 ]
 
-[298
+[300
 
 ]
 附录 D
 
 
-[299]
+[301]
 
-[300
+[302
 
 ]
 附录 E
 
 
-[301]
+[303]
 
-[302
+[304
 
 ]
 附录 F
@@ -3780,29 +3784,29 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[303]
+[305]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-
-[304]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-[305] (./生物竞赛提分秘籍.ind
 
 [306]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[307
+[307] (./生物竞赛提分秘籍.ind
+
+[308]
+
+
+
+[309
 
 ]
 
 
 
-[308
+[310
 
 ]) (./生物竞赛提分秘籍.aux)
  ***********
@@ -3826,4 +3830,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  153i,21n,142p,1626b,47347s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 生物竞赛提分秘籍.pdf (322 pages).
+Output written on 生物竞赛提分秘籍.pdf (324 pages).
