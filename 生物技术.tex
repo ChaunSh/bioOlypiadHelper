@@ -1,4 +1,4 @@
-\section{显微镜}
+\section{显微技术}
 
 显微镜分为光学显微镜、电子显微镜、扫描隧道显微镜三种。它们三者之间除了都能放大微观结构之外，没有任何共同之处。
 
@@ -354,7 +354,7 @@
 \end{figure}
 
 
-\section{核酸分离纯化}
+\section{核酸分离、纯化、定量}
 
 \subsection{酚-氯仿-异戊醇抽提}
 
@@ -425,9 +425,39 @@
 
 \section{基因工程}
 
-\subsubsection{分子克隆}
+\subsection{分子克隆——Gateway克隆}
 
-\subsubsection{聚合酶链式反应（PCR）}
+\subsubsection{原理和试剂}
+
+Gateway克隆就是噬菌体感染细菌时发生的整合和切割重组反应的体外版本。噬菌体DNA上含有attP位点，细菌DNA上含有attB位点，二者发生重组使噬菌体DNA整合进细菌DNA\footnote{att, \textbf{att}achment site; P, \textbf{p}hage; B, \textbf{b}acteria}。重组后，在细菌DNA上产生新的attL和attR位点，这两个位点可以再次发生重组，“吐出”噬菌体DNA。（\autoref{fig:Gateway克隆的原理}）
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=\textwidth]{GatewayClone1.png}
+	\caption{Gateway克隆的原理}
+	\label{fig:Gateway克隆的原理}
+\end{figure}
+
+试剂：
+\begin{itemize}
+	\item 底物：
+	\item 酶：商品化的BP Clonase和LR Clonase，分别催化BP反应和LR反应。
+\end{itemize}
+
+\subsubsection{反应过程}
+
+\autoref{fig:Gateway克隆的步骤}
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics{GatewayClone2.png}
+	\caption{Gateway克隆的步骤}
+	\label{fig:Gateway克隆的步骤}
+\end{figure}
+
+\textit{ccdB}编码的蛋白质是一种毒素，破坏细菌的拓扑异构酶II，使细菌死亡。在这里作为筛选标记，成功克隆的个体，\textit{ccdB}被破坏，可以生存。
+
+\subsection[聚合酶链式反应（PCR）]{\sy{聚合酶链式反应（PCR）}}
 
 \paragraph{PCR的反应体系}
 
@@ -446,7 +476,7 @@
 
 
 
-\section{蛋白质技术}
+\section{蛋白质分离、纯化、定量}
 
 \subsection{蛋白质分离纯化}
 
@@ -499,16 +529,27 @@
 
 \subsection{荧光偏振（FP）}
 
-\subsubsection{原理}
-
 当特定波长的偏振光激发荧光分子时，分子会吸收能量并跃迁到激发态。若分子处于静止状态（如结合到大分子上），其发射的荧光会保持较高的偏振度（polarization）；若分子快速旋转（如小分子自由运动），发射光的偏振度会降低。
 
-大分子或结合态分子：旋转速度慢，发射光偏振度高。
+\begin{itemize}
+	\item 大分子或结合态分子：旋转速度慢，发射光偏振度高；
+	\item 小分子或游离态分子：旋转速度快，偏振度低。
+\end{itemize}
 
-小分子或游离态分子：旋转速度快，偏振度低。
-通过测量偏振度的变化（ΔP），可判断分子是否发生了结合或构象改变
+通过测量偏振度的变化（$\upDelta$P），可判断分子是否发生了结合或构象改变
 
-\subsubsection{读图方法}
+\subsection{ATAC-seq}
 
+\section{文献阅读题中常见的缩写}
 
-
+\begin{table}[htbp]
+	\begin{tabularx}{\textwidth}{|c|C|C|}
+		\hline
+		缩写 & 全称 & 含义 \\ \hline
+		OE & Over Expression & 过表达 \\ \hline
+		$\updelta$ & 表示“变化”的惯用符号 & 基因敲除 \\ \hline
+		KO & Knock Out & 基因敲除 \\ \hline
+		:: & & 启动子::基因 \\ \hline
+		XFP & \begin{tabular}[c]{@{}c@{}}Green/Yellow/Red/Cyan \\ Flourescence Protein\end{tabular} & 荧光蛋白\\ \hline
+	\end{tabularx}
+\end{table}
