@@ -533,6 +533,7 @@ EPO的促红细胞生成作用：
 心肌细胞可分为\autoref{fig:心肌细胞的分类}。
 
 \begin{figure}[htbp]
+	\centering
 	\begin{forest}
 		forest scheme
 		[心肌细胞
@@ -690,6 +691,30 @@ EPO的促红细胞生成作用：
 液体流量\[Q=\frac{\uppi\upDelta Pr^4}{8\upeta L}\]
 
 血管直径是影响血流量的主要因素。
+
+\subsubsection{动脉}
+
+\autoref{tab:影响动脉血压的因素}
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabularx}{\textwidth}{|cC|C|C|C|}
+		\hline
+		\multicolumn{2}{|c|}{因素} & 收缩压 & 舒张压 & 脉压 \\ \hline
+		\multicolumn{1}{|c|}{\multirow{2}{*}{每搏输出量}} & $\uparrow$ & $\uparrow$$\uparrow$ & $\uparrow$ & $\uparrow$ \\ \cline{2-5}
+		\multicolumn{1}{|c|}{} & $\downarrow$ & $\downarrow$$\downarrow$ & $\downarrow$ & $\downarrow$ \\ \hline
+		\multicolumn{1}{|c|}{\multirow{2}{*}{心率}} & $\uparrow$ & $\uparrow$ & $\uparrow$$\uparrow$ & $\downarrow$ \\ \cline{2-5}
+		\multicolumn{1}{|c|}{} & $\downarrow$ & $\downarrow$ & $\downarrow$$\downarrow$ & $\uparrow$ \\ \hline
+		\multicolumn{1}{|c|}{\multirow{2}{*}{外周阻力}} & $\uparrow$ & $\uparrow$ & $\uparrow$$\uparrow$ & $\downarrow$ \\ \cline{2-5}
+		\multicolumn{1}{|c|}{} & $\downarrow$ & $\downarrow$ & $\downarrow$$\downarrow$ & $\uparrow$ \\ \hline
+		\multicolumn{1}{|c|}{动脉弹性} & $\downarrow$ & $\uparrow$ & $\downarrow$ & $\uparrow$ \\ \hline
+	\end{tabularx}
+	\caption{影响动脉血压的因素}
+	\label{tab:影响动脉血压的因素}
+\end{table}
+
+除此之外，循环血量和血管容量的匹配程度也会影响动脉血压。如大失血时，血压降低。
+
 \section{呼吸}
 
 在人和高等动物中，呼吸分为三个环节：（\autoref{fig:3steps_breath}）
@@ -1120,7 +1145,7 @@ PO/AH温度敏感性神经元的特性决定了体温调定点。发热时体温
 	\centering
 	\begin{tabularx}{\textwidth}{|c|C|C|}
 		\hline
-		\textbf{} & \textbf{皮质肾单位} & \textbf{髓质肾单位} \\ \hline
+		\textbf{} & \textbf{皮质肾单位} & \textbf{近髓肾单位} \\ \hline
 		\textbf{肾小体} & 皮质靠外 & 皮质靠内 \\ \hline
 		\textbf{肾小球} & 较小 & 较大 \\ \hline
 		\textbf{髓袢} & 较短，不到髓质或仅外髓 & 较长，深入髓质 \\ \hline
@@ -1134,14 +1159,14 @@ PO/AH温度敏感性神经元的特性决定了体温调定点。发热时体温
 
 \subsubsection{球旁器}
 
-见\autoref{fig:JuxtaglomerularApparatusStructure}.
+见\autoref{fig:JuxtaglomerularApparatusStructure}。
 
 \begin{figure}
 	\centering
 	\begin{forest}
 		forest scheme
 		[球旁器
-			[球旁细胞：合成、储存、释放肾素]
+			[球旁细胞（颗粒细胞）：合成、储存、释放肾素]
 			[致密斑：感受小管液中\ce{NaCl}的变化，“告知”球旁细胞调节肾素分泌]
 			[球外系膜细胞：吞噬、收缩]]
 	\end{forest}
