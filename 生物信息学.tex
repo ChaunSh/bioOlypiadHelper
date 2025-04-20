@@ -40,7 +40,7 @@
 
 \subsubsection{GenBank}
 
-登录\href{https://www.ncbi.nlm.nih.gov/genbank/}{GenBank}，进入一个条目（这里以\href{https://www.ncbi.nlm.nih.gov/nuccore/X01714}{X01714}为例，\autoref{fig:genbankx01714}和附录\autoref{chapter:GenbankX01714}）。
+登录\href{https://www.ncbi.nlm.nih.gov/genbank/}{GenBank}，进入一个条目（以\href{https://www.ncbi.nlm.nih.gov/nuccore/X01714}{X01714}为例，\autoref{fig:genbankx01714}和\autoref{chapter:GenbankX01714}）。
 
 \begin{figure}[htbp]
 	\centering
@@ -118,6 +118,8 @@ UniProt网站上提供的信息有：
 \subsubsection{PDB}
 
 PDB数据库是唯一储存生物大分子三维结构的数据库，除了蛋白质以外，还包括核酸和核酸与蛋白质的复合物。但是只有通过实验方法得到的数据才会被收录。
+
+PDB中，每个蛋白质都有一个四字节的序号，如\texttt{5RJM}，其中第一位永远是数字，后面三位是大写字母和数字的组合。
 
 \subsection{二级蛋白质数据库}
 
@@ -227,7 +229,7 @@ FASTA格式是蛋白质或核酸序列的一种通用书写格式。要点有：
 
 选择PAM还是BLOSUM的原则是：
 \begin{itemize}
-	\item 序列相似度越低，应选择的BLOSUM数值越高，PAM数值越低；
+	\item 序列相似度越高，应选择的BLOSUM数值越高，PAM数值越低；
 	\item 未知序列相似度时，先用BLOSUM62试一试；
 \end{itemize}
 
@@ -364,6 +366,10 @@ BLAST用于在数据库中，搜索输入的核酸或蛋白质序列的相似序
 
 外群 有根树 无根树
 
+已知n个物种，最多可以建出$(2n-5)!!$棵无根树，$(2n-3)!!$棵有根树。
+
+
+
 有根树反映进化的时间顺序
 
 无根树只反映分类单元之间的距离
@@ -389,30 +395,29 @@ UPGMA NJ MP \textbf{ML} Bayesian
 
 \section{蛋白质结构预测}
 
-获得蛋白质三维结构的方法：X射线衍射法、核磁共振法、冷冻电镜法
+\subsection{实验法}
 
-\subsection{蛋白质结构数据库}
+X射线衍射法、核磁共振法、冷冻电镜法
 
-\subsubsection{PDB(Protein Data Bank)}
-
-PDB中，每个蛋白质都有一个四字节的序号，如\texttt{5RJM}，其中第一位永远是数字，后面三位是大写字母和数字的组合，也就是说，总共允许出现$9\times36\times36\times36$个编号。
-
-从PDB中下载蛋白质的三维结构文件，其主体是这样的：
-
-
-\subsubsection{DSSP}
-
-DSSP存储了蛋白质的二级结构，是基于PDB的数据加工而来。
-
-\subsection{蛋白质结构预测软件}
+\subsection{软件法}
 
 \subsubsection{二级结构预测}
 
 PSIPRED、Jpred、APSSP2、NNPREDICT、PREDICTPROTEIN
 
-\subsection{蛋白质分子查看器}
+\subsubsection{分子结构查看器}
 
-相关软件有VMD、PyMOL等。
+VMD
 
-\subsubsection{VMD}
 
+
+\subsubsection{蛋白质三级结构预测}
+
+可按照下列流程选取预测程序：（\autoref{fig:蛋白质三级结构预测程序选择}）
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics{蛋白质三级结构预测程序选择.pdf}
+	\caption{蛋白质三级结构预测程序选择}
+	\label{fig:蛋白质三级结构预测程序选择}
+\end{figure}
