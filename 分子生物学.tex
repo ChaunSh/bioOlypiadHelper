@@ -22,7 +22,7 @@ DNA复制的一般特征包括：
 	\item[模板DNA需要解链] 暴露出在双螺旋内部的碱基。
 	\item[半保留复制] Meselson和Stahl的实验证明了这一点，注意使用的是\ce{CsCl}平衡密度梯度离心。（\autoref{fig:Meselson和Stahl的证明DNA半保留复制的实验流程}）
 	\item[通常需引物] 由DNA聚合酶的所致。引物多为RNA，少数为蛋白质，PCR的引物为DNA。一种噬菌体的DNA复制不需要引物。
-	\item[复制方向永远是5$\prime$$\longrightarrow$3$\prime$] 可以向复制体系中加入ddNTP来验证。若为5$\prime$$\longrightarrow$3$\prime$，则会掺入ddNTP，进而导致末端终止；若为3$\prime$$\longrightarrow$5$\prime$，则ddNTP根本没机会掺入，复制不终止。
+	\item[复制方向永远是5$\prime$$\longrightarrow$3$\prime$] 可以向复制体系中加入ddNTP来验证。若为5$\prime$$\longrightarrow$3$\prime$，则会掺入ddNTP，进而导致末端终止；若为3$\prime$$\longrightarrow$5$\prime$，则ddNTP根本没机会掺入，复制不终止。（\autoref{fig:证明DNA复制方向的实验}）
 	\item[起点固定] DNA复制的起点即复制起始区。详后。
 	\item[多双向，少单向] 从复制子开始向两侧复制，是为双向复制。
 	\item[半不连续性] 因dNTP只能5$\prime$$\longrightarrow$3$\prime$加入（\autoref{fig:证明DNA复制方向的实验}），故有前导链、后随链之分。后随链产生冈崎片段。
@@ -76,7 +76,7 @@ DNA复制主要涉及DNA聚合酶、DNA解链酶、单链DNA结合蛋白、DNA�
 
 \subsubsection{DNA聚合酶}
 
-DNA聚合酶，全名是依赖于DNA的DNA聚合酶（DNAP）。反应把dNTP转变成dNMP和PPi，相当于消耗了两个ATP。
+DNA聚合酶是依赖于DNA的DNA聚合酶。反应把dNTP转变成dNMP和PPi，相当于消耗了两个ATP。
 
 DNA聚合酶的共性：
 
@@ -84,34 +84,133 @@ DNA聚合酶的共性：
 	\item 不能催化DNA的从头合成，故DNA复制需要引物；
 	\item 只能催化DNA从5$\prime$$\longrightarrow$3$\prime$合成；
 	\item 类似于右手的构象：手指、手掌、拇指三个结构域；
-	\item 都需要2个\ce{Mg^2+}，一个随\ce{dNTP}进入活性中心、另一个本来就在那里。它们与活性中心的3个Asp残基结合。所有物种中，这3个Asp残基都是高度保守的；
+	\item 都需要2个\ce{Mg^2+}，一个随\ce{dNTP}进入活性中心、另一个本来就在那里。它们与活性中心的3个Asp残基结合。所有物种中，这3个Asp残基都是高度保守的。
 \end{itemize}
 
-	根据序列同源性，生物的DNAP可分为下面这些家族：（\autoref{tab:DNAP_family}）
-	\begin{table}[htbp]
-		\centering
-		\begin{tabularx}{\textwidth}{|c|l|X|}
-			\hline
-			\textbf{家族} & \multicolumn{1}{c|}{\textbf{存在生物}} & \multicolumn{1}{c|}{\textbf{代表DNA聚合酶}} \\ \hline
-			A类 & 噬菌体、真核生物线粒体、细菌 & T7噬菌体、线粒体$\upgamma$、细菌I \\ \hline
-			B类 & 细菌、古菌、真核生物 & 真核$\upalpha$、$\updelta$、$\upvarepsilon$、噬菌体T4和$\upPhi$29 \\ \hline
-			C类 & 细菌 & 细菌III \\ \hline
-			D类 & 古菌 &  \\ \hline
-			X类 & 真核生物 & $\upbeta$、$\uplambda$、$\upmu$ \\ \hline
-			Y类 & 真核生物、细菌 & 真核$\upeta$、$\upiota$、$\upkappa$、Rev1、细菌IV和V \\ \hline
-			RT类 & 广泛存在 & 真核端粒酶、病毒逆转录酶 \\ \hline
-		\end{tabularx}
-		\caption{DNA聚合酶七大家族}
-		\label{tab:DNAP_family}
-	\end{table}
+\paragraph{细菌的DNA聚合酶}
+
+大肠杆菌中发现了五种DNA聚合酶，用罗马数字表示为DNA聚合酶I、II、III、IV、V。
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabularx}{\textwidth}{|c|c|C|C|}
+		\hline
+		性质 & DNA聚合酶I & DNA聚合酶II & DNA聚合酶III \\
+		\hline
+		亚基数 & 单 & 单 & 多 \\
+		\hline
+		3$\prime$外切酶活性 & + & + & + \\
+		\hline
+		5$\prime$外切酶活性 & + & - & - \\
+		\hline
+		进行性 & 低 & 中 & 很高 \\
+		\hline
+		突变体表现型 & UV、硫酸二甲酯敏感 & 无 & 温度敏感 \\
+		\hline
+		生物功能 & DNA修复、切引物 & DNA修复 & 染色体DNA复制 \\
+		\hline
+	\end{tabularx}
+	\caption{DNA聚合酶I、II与III的性质比较}
+	\label{tab:DNA聚合酶I、II与III的性质比较}
+\end{table}
+
+\subparagraph{DNA聚合酶I}
+
+为了纪念发现者，DNA聚合酶I有时被称为Kornberg酶。Klenow用胰蛋白酶或枯草杆菌蛋白酶处理DNA聚合酶I，得到大小两个片段：
+
+\begin{itemize}
+	\item 大片段被称为Klenow酶，具有聚合酶和3$\prime$外切酶活性；
+	\item 小片段只有5$\prime$外切酶活性；
+	\item 总结来看，大片段失去了切除引物的功能。
+\end{itemize}
+
+\subparagraph{DNA聚合酶II}
+
+详见\autoref{tab:DNA聚合酶I、II与III的性质比较}
+
+\subparagraph{DNA聚合酶III}
+
+DNA聚合酶III由多亚基组成。它是大肠杆菌DNA复制的主要酶。
+
+DNA聚合酶III的亚基组成见\autoref{fig:大肠杆菌DNA聚合酶III的组成}：
+
+\begin{figure}[htbp]
+	\centering
+	\begin{forest}
+		forest scheme
+		[全酶
+			[核心酶
+				[$\upalpha$：聚合酶活性]
+				[$\upvarepsilon$：校对活性（3$\prime$外切酶）]
+				[$\uptheta$、$\uptau$]]
+			[$\upbeta$：滑动钳]
+			[$\upgamma$、$\updelta$、$\updelta\prime$、$\upchi$、$\uppsi$：钳载复合物]]
+	\end{forest}
+	\caption{大肠杆菌DNA聚合酶III的组成}
+	\label{fig:大肠杆菌DNA聚合酶III的组成}
+\end{figure}
+
+\subparagraph{DNA聚合酶IV和V}
+
+二者进行性较低，易错，参与DNA修复合成，尤其是SOS反应中的损伤跨越。
+
+\paragraph{真核生物的DNA聚合酶}
+
+真核生物的DNA聚合酶种类很多，用希腊字母编号，甚至快用光了希腊字母。详见\autoref{tab:真核生物主要DNA聚合酶的比较}。
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabularx}{\textwidth}{|c|C|C|c|C|c|}
+		\hline
+		性质 & $\upalpha$ & $\upbeta$ & $\upgamma$ & $\updelta$ & $\upvarepsilon$ \\
+		\hline
+		亚细胞定位 & 核 & 核 & 线粒体基质 & 核 & 核 \\
+		\hline
+		引发酶活性 & + & - & - & - & - \\
+		\hline
+		亚基数目 & 4 & 1 & 4 & 2 & $\geq$4 \\
+		\hline
+		内在进行性 & 中等 & 低 & 高 & 低 & 高 \\
+		\hline
+		3$'$-外切酶活性 & - & - & + & + & + \\
+		\hline
+		5$'$-外切酶活性 & - & - & - & - & - \\
+		\hline
+		复制/修复 & 核复制 & 核修复 & 线粒体复制 & 核复制 & 核复制、修复 \\
+		\hline
+	\end{tabularx}
+	\caption{真核生物主要DNA聚合酶的比较}
+	\label{tab:真核生物主要DNA聚合酶的比较}
+\end{table}
+
+DNA聚合酶$\updelta$还需要一个辅助蛋白：增值细胞核抗原（PCNA），起到滑动钳的作用。核DNA复制时，在复制因子C（RFC）帮助下，三个PCNA亚基组成滑动钳（\autoref{fig:pcna}）。它的功能有：
+
+\begin{itemize}
+	\item 牢牢结合DNA单链，提高聚合酶$\updelta$进行性；
+	\item 帮助聚合酶$\upvarepsilon$与DNA模板结合；
+	\item 在DNA损伤修复和染色质重塑过程中招募相关蛋白质。
+\end{itemize}
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.5\linewidth]{PCNA滑动钳.png}
+	\caption{PCNA滑动钳}
+	\label{fig:pcna}
+\end{figure}
+
+DNA聚合酶$\upgamma$只存在于线粒体基质，只负责线粒体DNA复制。
+
+\paragraph{古菌的DNA聚合酶}
+
+古菌的DNA聚合酶有两类，一类与真核生物的$\updelta$和$\upvarepsilon$相似，也具有PCNA钳；另一类主要包括耐热的\textit{Pfu} DNA聚合酶（有校对活性）、\textit{Taq} DNA聚合酶（无校对活性）。
 
 \subsubsection{DNA解链酶}
 
-DNA解链酶就是催化DNA双螺旋解开的酶。任何一种DNA解链酶都可以序列无关地结合DNA，大多数解链酶优先结合DNA单链区域。
+DNA解链酶就是催化DNA双螺旋解开的酶。任何一种DNA解链酶都可以序列无关地结合DNA。大多数解链酶优先结合DNA单链区域。
 
 DNA解链酶具有下列酶活性：
 \begin{description}
-	\item[移位酶] 这使得DNA解链酶可以在DNA链这个轨道上移动（\ref{fig:Dnab}）；
+	\item[移位酶] 这使得DNA解链酶可以在DNA链这个轨道上移动（\autoref{fig:Dnab}）；
 	\item[ATP酶] 解链需要打破氢键、碱基堆积力，这需要ATP提供能量。
 \end{description}
 
@@ -127,14 +226,16 @@ DNA解链酶具有下列酶活性：
 
 \subsubsection{单链结合蛋白（SSB）}
 
-SSB专门与DNA单链区域结合，本身并没有酶活性。它具有以下功能：\begin{itemize}
+SSB专门与DNA单链区域结合，本身并没有酶活性。它具有以下功能：
+
+\begin{itemize}
 	\item 维持DNA的单链状态，防止互补碱基重新配对；
 	\item 防止DNA自发形成链内双螺旋，防止DNA聚合酶进行性因链内双螺旋受到影响；
 	\item 包被单链DNA区段，防止核酸酶的水解；
 	\item 刺激某些酶的活性。
 \end{itemize}
 
-SSB与DNA的结合还具有协同效应，就是说，当第一个SSB与DNA结合后，后面来的SSB就会更容易与DNA结合。
+SSB与DNA的结合还具有协同效应，当第一个SSB与DNA结合后，后面来的SSB就会更容易与DNA结合。
 
 利用SSB与DNA单链的特异性结合，可以设计蛋白质纯化的方法。将目的蛋白和SSB融合表达，再将含融合蛋白的细胞裂解液通过与DNA交联的树脂，融合蛋白就被吸附在树脂上，后续进行洗脱即可。
 
@@ -158,7 +259,7 @@ DNA复制时，前面的DNA解链，后面的DNA就被挤成了正超螺旋（\a
 	\label{fig:DNA_topoisomerase}
 \end{figure}
 
-所有DNA拓扑异构酶的作用都是通过两次转酯反应完成的。酶的活性中心有一个Tyr残基，其羟基亲核进攻DNA主链上的3',5'-磷酸二酯键，使DNA发生断裂。断裂后，DNA拓扑学结构发生变化。做完这件事，拓扑异构酶就催化逆反应，把DNA重新接上。（\autoref{fig:DNA_topoisomerase_mechanism}）
+所有DNA拓扑异构酶的作用都是通过两次转酯反应完成的，依靠活性中心的Tyr残基。先催化DNA链断裂，移动后再催化其连接。（\autoref{fig:DNA_topoisomerase_mechanism}）
 
 \begin{figure}[h]
 	\centering
@@ -167,27 +268,11 @@ DNA复制时，前面的DNA解链，后面的DNA就被挤成了正超螺旋（\a
 	\label{fig:DNA_topoisomerase_mechanism}
 \end{figure}
 
-DNA拓扑异构酶有不同类型，性质有所不同（\autoref{tab:dna_topoisomerase_subclass}）。参与DNA复制的主要是II类。
+DNA拓扑异构酶有不同类型，性质有所不同。I型切开一条链，II型切开两条链。参与DNA复制的主要是II类。
 
 细菌的旋转酶就属于II类DNA拓扑异构酶，A、B亚基各2个。环丙沙星抑制A亚基，抑制ATP酶活性；新生霉素作用于B亚基，增强旋转酶切断DNA酶的能力、抑制DNA链的重新连接。
 
 喜树碱可以抑制真核生物的DNA拓扑异构酶，可以用于治疗癌症。
-
-\begin{table}[htbp]
-	\centering
-	\begin{tabular}{|>{\centering\arraybackslash}m{7em}|>{\centering\arraybackslash}m{5em}|>{\centering\arraybackslash}m{5em}|>{\centering\arraybackslash}m{5em}|>{\centering\arraybackslash}m{5em}|}
-		\hline
-		分类 & \multicolumn{2}{c|}{I} & \multicolumn{2}{c|}{II} \\ \hline
-		亚类 & IA & IB & IIA & IIB \\ \hline
-		\ce{Mg^2+}的依赖性 & √ & × & √ & √ \\ \hline
-		ATP的依赖性 & × & × & √ & √ \\ \hline
-		切开DNA的几条链 & 1 & 1 & 2 & 2 \\ \hline
-		切口与酶的连接方式 & 5'-磷酸酪氨酸酯键 & 3'-磷酸酪氨酸酯键 & 5'-磷酸酪氨酸酯键 & 5'-磷酸酪氨酸酯键 \\ \hline
-		连环数的变化 & $\pm 1$ & 任何整数 & $\pm 2$ & $\pm 2$ \\ \hline
-	\end{tabular}
-	\caption{DNA拓扑异构酶的亚类和性质}
-	\label{tab:dna_topoisomerase_subclass}
-\end{table}
 
 \subsubsection{DNA引发酶}
 
@@ -199,15 +284,15 @@ DNA引发酶是特殊的RNA聚合酶，负责RNA引物的合成。由于DNA复�
 
 RNA引物在DNA复制完之后就要被切除。
 
-细菌切除引物的酶是DNA聚合酶I或核糖核酸酶H（RNase H）。DNA聚合酶I利用自身5'外切酶活性切除引物；RNase H专门水解和DNA杂交（Hybrid）的RNA，其中就包含RNA引物。
+细菌切除引物的酶是DNA聚合酶I或核糖核酸酶H（RNase H）。DNA聚合酶I利用自身5$\prime$外切酶活性切除引物；RNase H专门水解和DNA杂交（Hybrid）的RNA，其中就包含RNA引物。
 
-真核生物没有兼职切引物的DNA聚合酶。RNase H1/FEN1这两个酶配合在一起负责切除RNA引物。FEN1称为翼式内切酶，有5'外切酶和内切酶活性。一般认为，RNase H1切除引物，但是最后剩一个没切掉，由FEN1切除。
+真核生物没有兼职切引物的DNA聚合酶。RNase H1/FEN1这两个酶配合在一起负责切除RNA引物。FEN1称为翼式内切酶，有5$\prime$外切酶和内切酶活性。一般认为，RNase H1先切除引物，但是最后剩一个，由FEN1切除。
 
 \subsubsection{DNA连接酶}
 
-DNA连接酶识别DNA分子内相邻的3'-羟基和5'-磷酸，并催化形成3',5'-磷酸二酯键。有时甚至催化的是DNA分子两条链上的碱基相连。
+DNA连接酶识别DNA分子内相邻的3$\prime$-羟基和5$\prime$-磷酸，并催化形成3$\prime$,5$\prime$-磷酸二酯键，其活性中心是Lys残基。有时甚至催化的是DNA分子两条链上的碱基相连。
 
-DNA连接酶在DNA复制中，担当连接冈崎片段的任务。在DNA修复和重组中，则负责闭合DNA链上的切口。
+DNA连接酶在DNA复制中，担当连接冈崎片段的任务；在DNA修复和重组中，则负责闭合DNA链上的切口。
 
 DNA连接酶催化反应时消耗的能量来源于\ce{NAD+}或ATP。绝大多数细菌属于前者，少数细菌、所有真核生物、古菌、病毒属于后者。从\ce{NAD+}的结构就可以看出，它“相当于”一个ADP。
 
@@ -225,34 +310,36 @@ DNA每次复制，后随链上最后一个冈崎片段切除掉RNA引物后，�
 
 端粒酶是逆转录酶，含有蛋白质和RNA，RNA是逆转录的模板。
 
-端粒酶作用机制见。需要注意的是，端粒酶并非直接延长变短的端粒，而是先延长模板链（老链），再由DNA聚合酶把变短的端粒补上。（\autoref{fig:telomere_mechanism}）
+端粒酶作用机制见。需要注意的是，\zhongdian{端粒酶并非直接延长变短的端粒，而是先延长模板链（老链），再由DNA聚合酶把变短的端粒补上。}（\autoref{fig:telomere_mechanism}）
 
-\begin{figure}[h]
+\begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.4\linewidth]{Pics/端粒酶1}
 	\caption{端粒酶的作用机制}
 	\label{fig:telomere_mechanism}
 \end{figure}
 
-多细胞生物体内大多数体细胞都没有端粒酶活性，这是为了限制分裂次数，防止DNA突变的积累。体内，只有胚胎细胞、生殖细胞、癌细胞才有端粒酶活性。
+\zhongdian{多细胞生物体内大多数体细胞都没有端粒酶活性}，这是为了限制分裂次数，防止DNA突变的积累。只有\zhongdian{胚胎细胞、生殖细胞、癌细胞才有端粒酶活性}。
 
-对于单细胞真核生物，其体内端粒酶活性一直很高。这很显然，要不然它们早就灭绝了。
+对于\zhongdian{单细胞真核生物，其体内端粒酶活性一直很高}，要不然它们早就灭绝了。
 
-细菌、线粒体、叶绿体等具有环形DNA的生物（或结构），不需要端粒酶。
+细菌、线粒体、叶绿体等\zhongdian{具有环形DNA的生物（或结构），不需要端粒酶}。
+
+\sy{Werner综合征}的病因是端粒比正常人更快变短。
 
 \subsection{DNA复制的详细机制}
 
-DNA复制是以复制子为单位进行的。任何一个复制子都含有一个复制起始区，有的还含有终止区。
+DNA复制是以\sy{复制子}为单位进行的。任何一个复制子都含有一个复制起始区，有的还含有终止区。没有终止区不影响DNA复制的终止。
 
 细菌、噬菌体、质粒、线粒体的基因组都只有一个复制子，真核细胞内每个染色体上的DNA都有多个复制子。
 
-任何DNA复制过程，都可以人为分为起始、延伸和终止三个阶段。
+起始、延伸和终止三个阶段是人为划分的。
 
 \subsubsection{以大肠杆菌为代表的$\uptheta$复制}
-\paragraph{DNA复制的起始}
-这一阶段起始于对\textit{OriC}的识别，结束于引发体的形成。
 
-\begin{longtable}[c]{|l|l|}
+$\uptheta$复制所需的蛋白质及其功能见\autoref{tab:ecoli_DNA_duplicatipn}。
+
+\begin{longtable}[c]{|c|l|}
 	\hline
 	\multicolumn{1}{|c|}{蛋白质名称} & \multicolumn{1}{c|}{功能} \\ \hline
 	\endfirsthead
@@ -278,10 +365,31 @@ DNA复制是以复制子为单位进行的。任何一个复制子都含有一�
 	DNA连接酶 & 缝合相邻的冈崎片段 \\ \hline
 	DNA拓扑异构酶IV & 分离子代DNA \\ \hline
 	Tus & 复制终止
-	 \\ \hline
+	\\ \hline
 	\caption{参与大肠杆菌DNA复制的主要蛋白质}
 	\label{tab:ecoli_DNA_duplicatipn}
 \end{longtable}
+\paragraph{DNA复制的起始}
+
+这一阶段起始于对\textit{oriC}的识别，结束于引发体的形成。
+
+\textit{oriC}包含四类序列：
+
+\begin{description}
+	\item[4个9bp重复序列] DnaA蛋白识别并结合的区域。
+	\item[3个富含AT的13bp重复序列] 最先解链的区域，称为DNA解链元件。
+	\item[GATC甲基化位点] 其中的A发生甲基化修饰，可解除SeqA对复制起始的抑制，激活DnaA蛋白表达。
+	\item[CTG序列] 引发酶识别的序列，合成引物用。CTG还散布于后随链中。
+\end{description}
+
+复制起始之前，DNA腺嘌呤甲基转移酶（Dam）被激活，使GATC中A甲基化，DnaA含量逐渐上升。
+
+复制起始阶段的主要反应：
+
+\begin{enumerate}
+	\item 含ATP的DnaA蛋白四聚体在HU蛋白和IHF帮助下，结合到\textit{oriC}。这种结合具有协同性。HU与DNA非特异性结合，IHF与DNA的\textit{oriC}特异性结合。
+	\item
+\end{enumerate}
 
 
 
@@ -289,15 +397,14 @@ DNA复制是以复制子为单位进行的。任何一个复制子都含有一�
 
 \section{DNA的损伤、修复和突变}
 
-DNA是唯一一种在发生损伤后可以在体内被完全修复的分子，但也并不是所有情况都可以修复。流程是这样的：DNA发生损伤$\longrightarrow$尝试修复$\longrightarrow$修复不了就等于发生了突变，修复得了就一切正常。
+DNA是唯一一种在发生损伤后可以在体内能被完全修复的分子，但也并不是所有情况都可以修复。DNA发生损伤$\longrightarrow$尝试修复$\longrightarrow$修复不了就等于发生了突变，修复得了就一切正常。
 
-细胞之所以这么重视DNA，是因为DNA只有有限的拷贝数，对于单倍体生物更是少得可怜。此外，DNA具有互补的双螺旋结构，使修复变得容易。
 \subsection{DNA的损伤}
 
 DNA损伤分为碱基损伤和DNA链损伤。
 
 碱基损伤可如下分类：\begin{description}
-	\item[碱基脱落] 原因是，化学上来说，$\upbeta$-N-糖苷键可以自发水解，碱基就掉下来了。脱嘌呤最普遍。
+	\item[碱基脱落] $\upbeta$-N-糖苷键可以自发水解，造成碱基脱落。脱嘌呤最普遍。
 	\item[碱基转换] 一种碱基变为另一种碱基。成因可以是碱基自发地脱氨基，如C$\longrightarrow$U，A$\longrightarrow$I；可以是化学诱变剂或碱基类似物。
 	\item[碱基修饰] 由某些化学试剂或活性氧造成的。如：鸟嘌呤$\xrightarrow{\text{硫酸二甲酯}}$\ce{O^6}-甲基鸟嘌呤、鸟嘌呤$\xrightarrow{\text{活性氧}}$8-氧鸟嘌呤。
 	\item[碱基交联] 紫外线导致DNA上相邻的嘧啶碱基形成嘧啶二聚体，尤其是TT碱基。嘧啶二聚体包括环丁烷二聚体、4-6光产物两种类型（\autoref{fig:uv_damage}）。
@@ -311,7 +418,7 @@ DNA损伤分为碱基损伤和DNA链损伤。
 \end{description}
 
 DNA链损伤分为以下四类：\begin{description}
-	\item[核糖核苷酸的掺入] 细胞中的NTP误入DNAP的活性中心导致的。
+	\item[核糖核苷酸的掺入] 细胞中的NTP误入DNAP的活性中心导致。
 	\item[DNA链的有断裂] 有单链断裂和双链断裂两种类型。原因有离子辐射和某些化学试剂的作用，如博来霉素。这种损伤是最严重的，当DNA链出现太多裂口，尤其是双链断裂，难以修复，就会导致细胞凋亡。
 	\item[DNA链间交联] 这是由于某些双功能试剂的使用，如丝裂霉素C和顺铂。
 	\item[DNA与蛋白质交联] 甲醛或较强的紫外线可诱导DNA结合蛋白与DNA之间形成共价键。
@@ -323,18 +430,24 @@ DNA修复可分为直接修复、切除修复、双链断裂修复和损伤跨�
 
 \subsubsection{直接修复}
 
-直接修复是将损伤的碱基或者核苷酸直接逆转，而不是切除。能够这样被修复的有嘧啶二聚体和\ce{O^6}-烷基鸟嘌呤，此外，若DNA链在磷酸二酯键上断裂，且裂口是5'-磷酸和3'-羟基，那么DNA连接酶也会直接修复。
+直接修复是将损伤的碱基或者核苷酸直接逆转，而不是切除。能够这样被修复的有：
+
+\begin{itemize}
+	\item 嘧啶二聚体；
+	\item \textit{O}$^{6}$-烷基鸟嘌呤；
+	\item DNA连接酶修复DNA链5'-磷酸和3'-羟基之间的断裂。
+\end{itemize}
 
 \paragraph{嘧啶二聚体的直接修复}
 
-催化反应的酶是光裂合酶（光复活酶），分为两种：\begin{description}
-	\item[第一类] 有两个辅基：\begin{enumerate}
-		\item 以半醌形式存在的\ce{FAD-}；
-		\item 5,10-甲炔基-四氢叶酸（MTHF）或8-羟基-5-去氮黄素（8-HDF）。
-	\end{enumerate}
-	\item[第二类] 只有一个\ce{FAD-}辅基。
-\end{description}
-辅基的功能与光系统中的捕光色素类似，捕捉蓝光和近紫外光（\qtyrange{350}{450}{\nano\meter}）。对于催化修复反应来说，只有\ce{FAD-}是必须的，另外的MTHF或8-HDF能在低光条件下提高反应速率。
+催化反应的酶是光裂合酶（光复活酶），分为两种：
+
+\begin{itemize}
+	\item 第一类有两个辅基： 以半醌形式存在的\ce{FAD-}；5,10-甲炔基-四氢叶酸（MTHF）或8-羟基-5-去氮黄素（8-HDF）。
+	\item 第二类只有一个\ce{FAD-}辅基。
+\end{itemize}
+
+对于催化修复反应来说，只有\ce{FAD-}是必须的，另外的MTHF或8-HDF能在低光条件下提高反应速率。\ce{FAD-}就相当于光系统中的中心色素，MTHF或8-HDF相当于天线色素。
 
 大肠杆菌的光裂合酶可以结合单链或双链DNA，酶分子表面在结合DNA的地方有带正电的小孔，正好容纳嘧啶二聚体。嘧啶二聚体的出现使DNA链发生扭转、链间碱基的作用力减弱，也就使翻转过程变得容易。
 
@@ -350,11 +463,11 @@ DNA修复可分为直接修复、切除修复、双链断裂修复和损伤跨�
 	\item 第一类光裂合酶的MTHF或8-HDF辅基吸光，把光能传给\ce{FAD-}，第二类则是\ce{FAD-}直接捕获光能。\ce{FAD-}接收光能后失去一个电子，传给嘧啶二聚体，使它变得不稳定，最后二聚体之间的共价键被打破，电子又回来。\ce{FAD-}再生。
 \end{enumerate}
 
-光裂合酶广泛存在于细菌、古菌、真核生物中，甚至一些真核生物的线粒体、叶绿体，遗憾的是胎盘类哺乳动物没有。但是在人和其他哺乳动物体内发现了光复活酶的同源蛋白——隐蔽色素（CRY）。它们具有\ce{FAD-}和捕光色素，但没有光裂合酶的活性，可能是光信号的受体，参与生物钟的调节。
+光裂合酶广泛存在于各种生物中，但\zhongdian{胎盘类哺乳动物没有}。在这些动物体内发现了隐花色素（CRY），是光复活酶的同源蛋白，具有\ce{FAD-}和捕光色素，但没有光裂合酶的活性，可能是光信号的受体，参与生物钟的调节。
 
 \paragraph{烷基化碱基的直接修复}
 
-酶是烷基转移酶，以\ce{O^6}-甲基鸟嘌呤甲基转移酶（MGMT）最常见。它是“自杀式催化” 的（\autoref{fig:alkyltranseferase}）。
+由烷基转移酶催化，以\textit{O}$^{6}$-甲基鸟嘌呤甲基转移酶（MGMT）最常见。它是“自杀式催化” 的（\autoref{fig:alkyltranseferase}）。直接将碱基上的烷基转移到自己的Cys巯基上，然后失活。该酶是一种诱导酶。
 
 \begin{wrapfigure}{r}{0.3\textwidth}
 	\centering
@@ -363,7 +476,7 @@ DNA修复可分为直接修复、切除修复、双链断裂修复和损伤跨�
 	\label{fig:alkyltranseferase}
 \end{wrapfigure}
 
-甲基转移酶的Cys残基得到甲基后就失活了，随后被泛素化降解。该酶是一种诱导酶。
+人体的\textit{O}$^{6}$-烷基鸟嘌呤甲基转移酶（AGT）与DNA结合的模体是HTH，但却在小沟内识别碱基序列。AGT会先通过Tyr残基，催化G的翻转落入活性中心，空缺的位置用酶的Arg残基填补。
 
 \subsubsection{切除修复}
 
@@ -373,27 +486,94 @@ DNA修复可分为直接修复、切除修复、双链断裂修复和损伤跨�
 	\item[碱基切除修复（BER）] 直接识别受损伤的碱基；
 	\item[核苷酸切除修复（NER）] 识别损伤对DNA双螺旋结构的扭曲，这意味着损伤更严重。
 \end{description}
-BER和NER的选择，就在于损伤的性质。
+
+BER和NER的选择，就在于损伤的性质。若损伤对整个DNA链造成影响，则会采用NER。
 
 \paragraph{碱基切除修复（BER）}
 
-\begin{figure}[h!]
+NER的过程如下：（\autoref{fig:ber}）
+
+\begin{enumerate}
+	\item DNA糖苷酶沿小沟扫描，发现损伤碱基后讲起翻转，空位由Arg残基填补；
+	\item DNA糖苷酶断裂碱基的$\beta$-\textit{N}-糖苷键，碱基被切除，产生无碱基位点（AP）；
+	\item 无碱基位点不稳定，需要被AP内切酶切断脱氧核糖之间的磷酸二酯键；
+	\item 切口3$\prime$-OH可直接做引物，DNA聚合酶启动修补合成；
+	\item 修补合成分为短修补和长修补，短修补为主；
+	\item 短修补后产生单个暴露在外的AP位点，由磷酸二酯酶、裂合酶或外切酶切除；长修补产生游离的寡聚核苷酸，由外切酶切除。
+	\item 最后DNA连接酶催化连接。
+\end{enumerate}
+
+进行短修补和长修补是由各类DNA聚合酶的相对活性决定的。如真核细胞短修补用聚合酶$\upbeta$，长修补则使用$\updelta$、$\upvarepsilon$。
+
+\begin{figure}[htbp]
 	\centering
-	\includegraphics{尿嘧啶BER.pdf}
+	\includegraphics{尿嘧啶BER.png}
 	\caption{尿嘧啶的切除修复}
 	\label{fig:ber}
 \end{figure}
 
-
 \paragraph{核苷酸切除修复（NER）}
 
-NER用于修复
-NER分为全局NER（GGR）和转录偶联性NER（TCR）。
+NER用于修复比较大的损伤，如嘧啶二聚体。
+
+NER分为全局NER（GGR）和转录偶联性NER（TCR）。GGR效率低，TCR效率高。TCR的区别只是由RNA聚合酶识别损伤，其余步骤与GGR相同。
+
+\subparagraph{细菌的NER}
+
+大肠杆菌的GGR系统需要UvrA\textasciitilde UvrD、DNA聚合酶I/II、DNA连接酶。
+
+修复的具体步骤：
+
+\begin{enumerate}
+	\item 形成UvrA$_{2}$UvrB三聚体，与DNA随机结合，单向移动查找碱基损伤，需要ATP；
+	\item 发现损伤后，UvrA立即解离，UvrB催化损伤处DNA解链，形成预剪切复合物；
+	\item UvrC被招募，先后在损伤下、上游产生切口。UvrC两次切割的过程使用不同的活性中心。该反应需要UvrB结合ATP，但不需要水解；
+	\item UvrC解离，UvrD随后催化解链，将切下来的寡核苷酸片段移除；
+	\item DNA聚合酶I/II将UvrB取代下来，催化修复合成；
+	\item DNA连接酶缝合缺口。
+\end{enumerate}
+
+TCR系统中，RNA聚合酶发现损伤后，招募转录修复偶联因子（TRCF）。TRCF释放转录物，招募UvrA$_{2}$UvrB，促进UvrA$_{2}$解离，加快预剪切复合物形成。
+
+\subparagraph{真核生物的NER}
+
+
+\autoref{tab:原核生物和真核生物的NER比较}
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabularx}{\textwidth}{|c|CC|CC|}
+		\hline
+		\multirow{2}{*}{功能} & \multicolumn{2}{c|}{原核生物} & \multicolumn{2}{c|}{真核生物} \\ \cline{2-5}
+		& \multicolumn{1}{C|}{GGR} & TCR & \multicolumn{1}{C|}{GGR} & TCR \\ \hline
+		识别损伤 & \multicolumn{1}{c|}{UvrA$_{2}$UvrB} & RNA聚合酶 & \multicolumn{1}{c|}{XPC/HR23B} & RNA聚合酶 \\ \hline
+		TCR招募 & \multicolumn{1}{c|}{} & TRCF & \multicolumn{1}{c|}{} & CSA、CSB \\ \hline
+		解链 & \multicolumn{2}{c|}{UvrB、UvrD} & \multicolumn{2}{c|}{XPB、XPD} \\ \hline
+		切除损伤 & \multicolumn{2}{c|}{UvrC} & \multicolumn{2}{c|}{XPG、XPF/ERCC1} \\ \hline
+		修复合成 & \multicolumn{2}{c|}{DNA聚合酶I、II} & \multicolumn{2}{c|}{DNA聚合酶$\updelta$、 $\upvarepsilon$、PCNA} \\ \hline
+		缝合切口 & \multicolumn{2}{c|}{DNA连接酶} & \multicolumn{2}{c|}{DNA连接酶I} \\ \hline
+	\end{tabularx}
+	\caption{原核生物和真核生物的NER比较}
+	\label{tab:原核生物和真核生物的NER比较}
+\end{table}
 
 \paragraph{错配修复（MMR）}
 
 
 \section{DNA重组}
+
+
+\subsection{转座重组}
+
+\begin{gs}[：“跳跃基因”的发现]
+	\hspace{2em}Barbara McClintock 在20世纪30年代末期，开始了她关于遗传学的革命性研究。当时，科学界普遍认为基因是静止的，固定在染色体上的。然而，McClintock 在玉米的研究中发现了一种异常现象——某些基因能够在染色体上移动，这种现象被她称为“跳跃基因”。
+
+	\hspace{2em}起初，这一发现并没有得到学术界的认可。许多人认为她的观察结果过于怪异，甚至怀疑她的实验数据。尽管如此，McClintock 依然坚持自己的理论，继续深入研究。她在实验中仔细记录着每一次基因移动的过程，逐渐揭示了基因并非一成不变，它们能够在染色体之间跳跃，从而影响遗传特征。
+
+	\hspace{2em}随着时间的推移，McClintock 的理论逐渐被认可。她的发现为基因研究带来了新的视角，打破了原有的静态观念，揭示了基因的动态变化。直到20世纪50年代和60年代，学术界才开始意识到她的贡献，并逐渐给予她应有的尊重。
+
+	\hspace{2em}最终，McClintock 在1983年因其对遗传学的杰出贡献获得了诺贝尔生理学或医学奖。这一奖项不仅是对她科学成就的肯定，也为她多年来坚持不懈的研究和探索提供了回报。她的工作为现代分子生物学的发展奠定了基础，改变了我们对基因及其功能的理解。
+\end{gs}
 
 \section{DNA转录}
 
