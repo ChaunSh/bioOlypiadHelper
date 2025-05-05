@@ -1,7 +1,12 @@
 \section{氨基酸}
+
 \subsection{氨基酸的结构与分类}
 
 根据氨基酸是否直接参与肽链合成，可分为蛋白质氨基酸和非蛋白质氨基酸；从营养价值来说，分为人体不能合成的必需氨基酸和人体能合成的非必需氨基酸。人体必需的氨基酸有：V、I、L、F、M、W、T、K、H，半必需氨基酸有R。其中，H曾被认为是半必需氨基酸。
+
+\begin{qj}[：必需氨基酸的记忆]
+	
+\end{qj}
 
 \subsubsection{蛋白质氨基酸}
 
@@ -18,13 +23,13 @@ Sec只存在于含硒蛋白中，如谷胱甘肽过氧化物酶和\ce{I3}去碘�
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=\linewidth]{20种氨基酸.pdf}
-	\caption{20种氨基酸}
+	\caption{20种常见氨基酸}
 	\label{fig:20种氨基酸}
 \end{figure}
 
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=0.4\linewidth]{Pics/Pyl和Sec}
+	\includegraphics[width=0.5\linewidth]{Pics/Pyl和Sec}
 	\caption{硒代半胱氨酸和吡咯赖氨酸}
 	\label{fig:pylsec}
 \end{figure}
@@ -162,7 +167,7 @@ Sec只存在于含硒蛋白中，如谷胱甘肽过氧化物酶和\ce{I3}去碘�
 
 \paragraph{F、Y、W的紫外吸收性质}
 
-Phe、Tyr、Trp三种氨基酸的侧链含有苯环，赋予它们近紫外吸收的效应。Trp的紫外吸收最强。Tyr与Trp的吸收峰都靠近\SI{208}{\nm}。
+Phe、Tyr、Trp三种氨基酸的侧链含有苯环，赋予它们近紫外吸收的效应。Trp的紫外吸收最强。Tyr与Trp的吸收峰都靠近\SI{280}{\nm}。
 
 \paragraph{亲水和疏水基团}
 
@@ -171,7 +176,7 @@ Phe、Tyr、Trp三种氨基酸的侧链含有苯环，赋予它们近紫外吸�
 亲水氨基酸的侧链具有反应性，参与行使多种生物学功能。
 \begin{description}
 	\item[羟基] S、T、Y三种氨基酸侧链具有羟基，可被磷酸化修饰。
-	\item[$\epsilon$-氨基] K具有$\epsilon$-氨基，可作为亲和基团参与酶的催化，与羧基形成酰胺键实现共价连接，与醛基形成席夫碱，发生乙酰化、甲基化、泛酰化修饰。
+	\item[$\varepsilon$-氨基] K具有$\varepsilon$-氨基，可作为亲和基团参与酶的催化，与羧基形成酰胺键实现共价连接，与醛基形成席夫碱，发生乙酰化、甲基化、泛酰化修饰。
 	\item[巯基和硒醇基] C的巯基可作为亲核基团参与催化。两个巯基可被氧化形成二硫键。U含有还原性更强的硒醇基，具有抗氧化活性。
 	\item[咪唑基] H的咪唑基，$\mathrm{p}K_{\text{a}}$约为7，使得它在生理条件下可以作为质子的供体和受体。许多酶的活性中心含有H。咪唑基也可以发生磷酸化修饰。
 	\item[羧基] Asp和Glu侧链上含有羧基，在特定情况下可以作为质子的供体和受体，参与广义酸碱催化。羧基带负电荷的特性也可结合金属离子。
@@ -871,7 +876,7 @@ YADH这种专一性定为A型，有相同专一性的脱氢酶被称为A型脱�
 米氏方程基于下面三个条件：
 \begin{itemize}
 	\item 反应速率为初速率；
-	\item [ES]不变；
+	\item \mbox{[ES]}不变；
 	\item 反应速率与底物浓度成正比（质量作用定律）。
 \end{itemize}
 
@@ -906,7 +911,7 @@ $k_{\text{cat}}$指的是单位时间内，酶能把多少分子的底物转换�
 
 对于米氏酶，$\displaystyle k_{\text{cat}}=\frac{V_{\text{max}}}{[E_{\text{t}}]}$。
 
-\paragraph{$k_{\frac{\text{cat}}{K_{\text{m}}}}$}
+\paragraph{$\frac{k_{\text{cat}}}{K_{\text{m}}}$}
 
 $\frac{k_{\text{cat}}}{K_{\text{m}}}$是一个表观二级速率常数。
 
@@ -940,7 +945,7 @@ $\frac{k_{\text{cat}}}{K_{\text{m}}}$是一个表观二级速率常数。
 		\draw[dashed] (axis cs:1.5,0) -- (axis cs:1.5,2);
 		\draw[dashed] (axis cs:0,2) -- (axis cs:1.5,2);
 		\fill (axis cs:1.5,2) circle (2pt)
-		node[above right, xshift=8pt] {$(K_m, \frac{V_{\max}}{2})$}; % 右上方标注避免超出左边界
+		node[above right, xshift=8pt] {$(K_{\text{m}}, \frac{V_{\max}}{2})$}; % 右上方标注避免超出左边界
 	\end{axis}
 	\end{tikzpicture}
 	\caption{米氏方程的曲线}
@@ -1081,6 +1086,158 @@ $\frac{k_{\text{cat}}}{K_{\text{m}}}$是一个表观二级速率常数。
 
 \subsection{别构酶的动力学}
 
+\section{酶的催化机制}
+
+\section{酶活性的调节}
+
+\section{酶的应用和研究方法}
+
+\subsection{酶活力的测定}
+
+\subsubsection{酶活力的表示}
+
+常用“活力单位”U表示酶的活性，1U是指在最适条件下每分钟催化1微摩尔底物转化的酶量。
+
+IUPAC还提出了kat单位，它被定义为每秒钟催化1摩尔底物转化的酶量。\SI{1}{\katal}=$6\times10^{7}$U。
+
+\section{维生素和辅酶}
+
+维生素总结见\autoref{tab:维生素汇总}。
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabularx}{\textwidth}{|C|c|c|c|c|c|}
+		\hline
+		\textbf{字母} & \textbf{名字} & \textbf{体内} & \textbf{反应} & \textbf{缺乏症} & \textbf{产} \\ \hline
+		B1 & 硫胺素 & TPP & \begin{tabular}[c]{@{}c@{}}$\alpha$-酮酸脱羧/\\ 转酮/抑AchE\end{tabular} & 脚气病 & 否 \\ \hline
+		B2 & 核黄素 & FAD、FMN & 脱氢/光复活酶等 & 口角炎 & 否 \\ \hline
+		\begin{tabular}[c]{@{}c@{}}B3/\\ PP\end{tabular} & 烟酸/酰胺 & NAD(P)H & \begin{tabular}[c]{@{}c@{}}脱氢/合成/\\ ADP-核糖基化/供能\end{tabular} & 癞皮病 & 是 \\ \hline
+		B5 & 泛酸 & CoA-SH & 数不胜数 & 未发现 & 否 \\ \hline
+		B6 & \begin{tabular}[c]{@{}c@{}}吡哆醇/\\ 醛/胺\end{tabular} & \begin{tabular}[c]{@{}c@{}}磷酸吡哆\\ 醛/胺\end{tabular} & \begin{tabular}[c]{@{}c@{}}转氨/消旋/脱羧/\\ 脱巯基/糖原磷酸解\end{tabular} & 未发现 & 菌 \\ \hline
+		B7/H & 生物素 & 生物胞素 & 羧化 & 皮炎、忧郁 & 菌 \\ \hline
+		B9 & 叶酸 & 四氢叶酸 & 一碳单位载体 & 巨幼红细胞贫血 & 菌 \\ \hline
+		B12 & 钴胺素 & \begin{tabular}[c]{@{}c@{}}甲基/脱氧\\ 腺苷钴胺素\end{tabular} & 一碳单位转移 & 恶性贫血 & 菌 \\ \hline
+		C & L-抗坏血酸 & 同 & 羟化/抗氧化 & 坏血病 & 否 \\ \hline
+		D &  & \begin{tabular}[c]{@{}c@{}}1, 25-\\ 二羟维D\end{tabular} & 升钙升磷 & 佝偻病 & 是 \\ \hline
+		A & 视黄醇 & 视黄醛/酸 & 视觉/抗氧化 & 干眼病 & 否 \\ \hline
+		K &  & 同 & 凝血/成骨的羧化 & 凝血障碍 & 菌 \\ \hline
+		E & 生育酚 & 同 & \begin{tabular}[c]{@{}c@{}}抗氧化/呼吸链/\\ 酶活调节\end{tabular} & 未发现 & 否 \\ \hline
+	\end{tabularx}
+	\caption{维生素汇总}
+	\label{tab:维生素汇总}
+\end{table}
+
+\section{脂质和生物膜}
+
+\subsection{脂质}
+
+脂质分为简单脂、复合脂、异戊二烯类脂。
+
+\subsubsection{简单脂}
+
+简单脂：脂肪酸、甘油三酯、蜡。
+
+亚油酸和$\alpha$-亚麻酸是必须脂肪酸，它们都是不饱和脂肪酸。
+
+\begin{itemize}
+	\item 亚油酸是花生四烯酸的前体，花生四烯酸是多种前列腺素的前体；
+	\item $\alpha$-亚麻酸是DHA和EPA（二十碳五烯酸）的前体。
+\end{itemize}
+
+$\alpha$-亚麻酸、DHA、EPA在末端第三个C上都有双键，被称为$\omega$-3脂肪酸。（\autoref{fig:三种OMEGA3脂肪酸}）
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.7\linewidth]{三种OMEGA3脂肪酸.png}
+	\caption{三种OMEGA3脂肪酸}
+	\label{fig:三种OMEGA3脂肪酸}
+\end{figure}
+
+
+天然脂肪酸多为偶数个C。
+
+按饱和度：
+
+\begin{itemize}
+	\item 饱和脂肪酸有：月桂酸（12）、豆蔻酸（14）、软脂酸（16）、硬脂酸（18）花生酸（20）等；
+	\item 不饱和脂肪酸有：油酸（18）、亚油酸（18）、亚麻酸（18）、花生四烯酸（20）、脑黄金（二十二碳六烯酸，DHA）等；
+\end{itemize}
+
+天然不饱和脂肪酸多具有顺式双键。
+
+蜡是长链脂肪酸和高级脂肪醇形成的酯。
+
+\subsubsection{复合脂}
+
+复合脂还含有非脂成分，可按\autoref{fig:复合脂的类型}分类。
+
+\begin{figure}[htbp]
+	\centering
+	\begin{forest}
+		forest scheme
+		[复合脂
+			[磷脂
+				[甘油磷脂：以甘油为骨架]
+				[鞘磷脂：以鞘氨醇为骨架]]
+			[糖脂
+				[甘油糖脂]
+				[鞘糖脂]]]
+	\end{forest}
+	\caption{复合脂的类型}
+	\label{fig:复合脂的类型}
+\end{figure}
+
+\paragraph{甘油磷脂}
+
+甘油磷脂的结构如\autoref{fig:甘油磷脂结构通式}所示，X是可变的，若为H则是磷脂酸。还可分别形成磷脂酰胆碱（PC，卵磷脂）、磷脂酰丝氨酸（PS）、磷脂酰肌醇（PI）、磷脂酰乙醇胺（PE）、二磷脂酰甘油（心磷脂）。
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.7\linewidth]{甘油磷脂结构通式.jpeg}
+	\caption{甘油磷脂结构通式}
+	\label{fig:甘油磷脂结构通式}
+\end{figure}
+
+
+醚磷脂是甘油磷脂中特殊的一类，存在于古菌的细胞膜。（\autoref{fig:古菌的膜脂}）
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=\linewidth]{古菌的膜脂.png}
+	\caption{古菌的膜脂}
+	\label{fig:古菌的膜脂}
+\end{figure}
+
+\paragraph{鞘磷脂}
+
+鞘磷脂用神经鞘氨醇代替甘油：神经鞘氨醇$\xrightarrow{\text{脂酰化}}$神经酰胺$\xrightarrow{\text{磷酸化}}$鞘磷脂。（\autoref{fig:鞘磷脂}）鞘磷脂在髓鞘中较多。
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.7\linewidth]{鞘磷脂.png}
+	\caption{鞘磷脂}
+	\label{fig:鞘磷脂}
+\end{figure}
+
+\paragraph{糖脂}
+
+\zhongdian{糖脂不含磷酸基团。}甘油糖脂的脂质部分是二酰甘油，鞘糖脂的脂质部分是神经酰胺。
+
+鞘磷脂和鞘糖脂这样含有神经鞘氨醇的脂质统称鞘脂。
+
+脑苷脂（半乳糖神经酰胺）是中性鞘糖脂；神经节苷脂是含有唾液酸的酸性鞘糖脂。
+
+鞘糖脂参与：细胞间通信、ABO血型抗原、受体。
+
+\subsubsection{异戊二烯类脂}
+
+衍生于异戊二烯，包括萜类、脂溶性维生素、类固醇。
+
+\begin{itemize}
+	\item 萜类如番茄红素，具有抗氧化效应；
+	\item 类固醇（\xpinyin*{甾}类）如胆固醇，是一种强疏水的两性脂。豆科有豆固醇、谷物有谷固醇、真菌细胞膜有麦角固醇。麦角固醇和胆固醇可稳定细胞膜；
+	\item 维生素如维生素D、A、K、E。
+\end{itemize}
 
 
 \section[激素和信号转导]{激素及其受体介导的信号转导}

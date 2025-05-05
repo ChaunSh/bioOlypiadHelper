@@ -547,7 +547,7 @@ TCR系统中，RNA聚合酶发现损伤后，招募转录修复偶联因子（TR
 		\multirow{2}{*}{功能} & \multicolumn{2}{c|}{原核生物} & \multicolumn{2}{c|}{真核生物} \\ \cline{2-5}
 		& \multicolumn{1}{C|}{GGR} & TCR & \multicolumn{1}{C|}{GGR} & TCR \\ \hline
 		识别损伤 & \multicolumn{1}{c|}{UvrA$_{2}$UvrB} & RNA聚合酶 & \multicolumn{1}{c|}{XPC/HR23B} & RNA聚合酶 \\ \hline
-		TCR招募 & \multicolumn{1}{c|}{} & TRCF & \multicolumn{1}{c|}{} & CSA、CSB \\ \hline
+		TCR招募 & \multicolumn{1}{c|}{---} & TRCF & \multicolumn{1}{c|}{---} & CSA、CSB \\ \hline
 		解链 & \multicolumn{2}{c|}{UvrB、UvrD} & \multicolumn{2}{c|}{XPB、XPD} \\ \hline
 		切除损伤 & \multicolumn{2}{c|}{UvrC} & \multicolumn{2}{c|}{XPG、XPF/ERCC1} \\ \hline
 		修复合成 & \multicolumn{2}{c|}{DNA聚合酶I、II} & \multicolumn{2}{c|}{DNA聚合酶$\updelta$、 $\upvarepsilon$、PCNA} \\ \hline
@@ -562,7 +562,84 @@ TCR系统中，RNA聚合酶发现损伤后，招募转录修复偶联因子（TR
 
 \section{DNA重组}
 
+DNA重组指核苷酸序列在一个或两个DNA分子之间的交换、重排、转移现象。主要包括同源重组、位点特异性重组、转座重组。
 
+\subsection{同源重组}
+
+同源重组也称为一般性重组，指的是两个DNA分子之间的同源序列直接交换的过程，
+
+解释同源重组的模型有Holliday模型、单链断裂模型、双链断裂模型。其中Holliday模型是基础。
+
+\subsubsection{Holliday模型}
+
+Holliday模型是这样描述同源重组过程的：（\autoref{fig:holliday}）
+
+\begin{enumerate}
+	\item 2个同源DNA分子相互靠近，各有一条链被特异性内切酶切开；
+	\item 被切开的链发生交换，形成X状的Holliday连接（\autoref{fig:电镜下的Holliday连接}）；
+	\item 分叉点可发生迁移，发生更多序列的交换；
+	\item 旋转、剪切后得到两种不同的结果，如果发生了分叉迁移，则都会带有异源双链。
+\end{enumerate}
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Holliday连接的过程.png}
+	\caption{Holliday连接的过程}
+	\label{fig:holliday}
+\end{figure}
+
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.5\linewidth]{电镜下的Holliday连接.png}
+	\caption{电镜下的Holliday连接}
+	\label{fig:电镜下的Holliday连接}
+\end{figure}
+
+\subsubsection{单链断裂模型}
+
+单链断裂模型与经典Holliday模型的不同在于，只有一个DNA分子的一条链出现断裂。过程如下：（\autoref{fig:单链断裂模型}）
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics{单链断裂模型.png}
+	\caption{单链断裂模型}
+	\label{fig:单链断裂模型}
+\end{figure}
+
+\begin{enumerate}
+	\item 单链出现缺口；
+	\item 断裂处发生取代合成，被取代的链侵入另一DNA分子，产生取代环（D环）；
+	\item 形成Holliday连接，如前述。
+\end{enumerate}
+
+\subsubsection{双链断裂模型}
+
+双链断裂模型认为，是1个DNA分子上的两条链同时断裂，导致DNA重组，过程如下：（\autoref{fig:双链断裂重组}）
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.7\linewidth]{双链断裂重组}
+	\caption{双链断裂重组}
+	\label{fig:双链断裂重组}
+\end{figure}
+
+\begin{enumerate}
+	\item 一个DNA分子发生双链断裂，在外切酶的作用下，缺口扩大；
+	\item 断裂的链侵入到完整链之中，形成部分的异源双链；
+	\item 侵入的单链3$\prime$端进行修补合成，同时另外一条断裂单链与被取代链配对。
+	\item 存在两种切割方式，不论垂直还是水平，只要两个Holliday连接采用相同的切割方式，则不发生基因重组，但发生链的交换。
+\end{enumerate}
+
+\subsubsection{参与同源重组的酶和蛋白质}
+
+\paragraph{RecA蛋白}
+
+Rec即recombination。RecA参与大肠杆菌全部的同源重组途径，是同源重组中最重要的蛋白质。
+
+\paragraph{RecBCD蛋白}
+
+\paragraph{RuvABC蛋白}
 \subsection{转座重组}
 
 \begin{gs}[：“跳跃基因”的发现]
@@ -607,17 +684,12 @@ DNA转录有以下共同特征：
 	\item 转录需要模板、解链，但不需要引物。
 	\item 最先转录出来的通常是嘌呤碱基。
 	\item 转录也有高度忠实性，但比DNA复制低。
-	\item 方向和DNA复制一样，从5'$\rightleftharpoons$3'。
+	\item 方向和DNA复制一样，从5'$\longrightarrow$3'。
 	\item 高度的进行性。意思是说，RNA聚合酶一旦结合，在转录终止前就不再脱落，万一酶从模板上解离，就再也不会重新结合。
 	\item 转录受到严格调控。
 \end{enumerate}
 
 \subsection{RNA聚合酶}
-
-转录起主导作用的是RNA聚合酶，全名叫依赖于DNA的RNA聚合酶。催化的反应通式为：
-\[
-n\text{NTPs}\xrightarrow[\text{RNA聚合酶}]{\text{DNA模板}，\ce{Mg^2+}}(\text{NMP})_{n}+\text{PPi}
-\]
 
 反应机制与DNA聚合酶极为相似，再次提醒，这里生成PPi，相当于是两个ATP的能量。
 
@@ -641,20 +713,79 @@ n\text{NTPs}\xrightarrow[\text{RNA聚合酶}]{\text{DNA模板}，\ce{Mg^2+}}(\te
 
 \subsubsection{细菌的RNA聚合酶——以大肠杆菌为例}
 
-大肠杆菌的RNA聚合酶有核心酶和全酶两种形式，核心酶的组成为$\upalpha_2\upbeta\upbeta'\upomega$，其中$\upbeta'$亚基结合有2个\ce{Mg^2+}。$\text{全酶}=\text{核心酶} + \upsigma\text{因子}$各亚基功能见\autoref{tab:ecoli_RNAP}。
+大肠杆菌的RNA聚合酶有核心酶和全酶两种形式，核心酶的组成为$\upalpha_2\upbeta\upbeta'\upomega$，其中$\upbeta'$亚基结合有2个\ce{Mg^2+}。$\text{全酶}=\text{核心酶} + \upsigma\text{因子}$。各亚基功能见\autoref{tab:ecoli_RNAP}。
 
-\begin{table}[h]
+\begin{table}[htbp]
 	\centering
-	\begin{tabular}{|c|c|c|c|m{15em}|}
+	\begin{tabularx}{\textwidth}{|c|c|X|}
 		\hline
-		\textbf{亚基} & \textbf{基因} & \textbf{分子量（$\displaystyle\times 10^{3}$）} & 数目/酶 & \multicolumn{1}{c|}{\textbf{功能}} \\ \hline
-		$\upalpha$ & \textit{RopA} & 36 & 2 & 核心酶的组装，转录起始，与调节蛋白的作用 \\ \hline
-		$\upbeta$ & \textit{RopB} & 151 & 1 & 转录的起始和延伸 \\ \hline
-		$\upbeta'$ & \textit{RopC} & 155 & 1 & 与DNA非特异性结合 \\ \hline
-		$\upomega$ & \textit{RopZ} & 11 & 1 & 促进核心酶的组装，为β′亚基的分子伴侣，在体外为变性的RNA聚合酶成功复性所必需 \\ \hline
-		$\upsigma_{70}$ & \textit{RopD} & 70 & 1 & 启动子的识别 \\ \hline
-	\end{tabular}
+		\textbf{亚基} & 数目 & \multicolumn{1}{c|}{\textbf{功能}} \\ \hline
+		$\upalpha$ & 2 & 核心酶的组装，转录起始，与调节蛋白的作用 \\ \hline
+		$\upbeta$ & 1 & 转录的起始和延伸 \\ \hline
+		$\upbeta'$ & 1 & 与DNA非特异性结合 \\ \hline
+		$\upomega$ & 1 & 促进核心酶的组装，为β′亚基的分子伴侣 \\ \hline
+		$\upsigma_{70}$ & 1 & 启动子的识别 \\ \hline
+	\end{tabularx}
 	\caption{大肠杆菌RNA聚合酶的组成}
 	\label{tab:ecoli_RNAP}
 \end{table}
 
+\section{mRNA的翻译}
+
+\subsection{翻译所需的生物分子}
+
+\subsection{翻译的一般特征}
+
+\subsection{翻译的详细过程}
+
+\autoref{tab:细菌IF、EF、RF的功能}
+\begin{table}
+	\begin{tabularx}{\textwidth}{|c|X|}
+		\hline
+		\textbf{名称} & \multicolumn{1}{c|}{\textbf{功能}} \\ 
+		\hline
+		IF1 & 协助IF3 \\ 
+		\hline
+		IF2 (GTP) & 小G蛋白，促进起始tRNA与核糖体小亚基结合 \\ 
+		\hline
+		IF3 & 核糖体的解离和mRNA的结合 \\ 
+		\hline\hline
+		EF-Tu (GTP) & 小G蛋白，促进氨酰tRNA进入A位 \\ 
+		\hline
+		EF-Ts & EF-Tu的GEF，使活性EF-Tu再生 \\ 
+		\hline
+		EF-G (GTP) & 小G蛋白，结合核糖体和GTP，促进核糖体移位 \\ 
+		\hline\hline
+		RF1, 2 & 都识别UAA，RF1识别UAG，RF2识别UGA \\ 
+		\hline
+		RF3 (GTP) & 小G蛋白，促进 RF1 和 RF2 的作用 \\ 
+		\hline
+		RRF & 在翻译终止后，促进核糖体的解体 \\ 
+		\hline
+	\end{tabularx}
+	\caption{细菌IF、EF、RF的功能}
+	\label{tab:细菌IF、EF、RF的功能}
+\end{table}
+
+\autoref{tab:原核生物与真核生物翻译的比较}
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabularx}{\textwidth}{|c|CC|}
+		\hline
+		\textbf{功能} & \multicolumn{1}{C|}{\textbf{原核}} & \textbf{真核} \\ \hline
+		检查 & \multicolumn{1}{c|}{无} & eIF-4 \\ \hline
+		\multirow{2}{*}{起始密码子识别}& \multicolumn{1}{c|}{SD序列} & 5$\prime$鸟苷帽和poly A尾 \\ \cline{2-3}
+		& \multicolumn{1}{c|}{测距式} & 扫描式 \\ \hline
+		起始密码子 & \multicolumn{1}{c|}{AUG、GUG、CUG} & AUG \\ \hline
+		起始tRNA & \multicolumn{1}{c|}{fMet-tRNA} & Met-tRNA \\ \hline
+		IF & \multicolumn{1}{c|}{IF-1, 2, 3} & 多种eIF \\ \hline
+		\multirow{2}{*}{EF} & \multicolumn{1}{c|}{EF-Tu, Ts} & eEF-1 \\ \cline{2-3}
+		& \multicolumn{1}{c|}{EF-G} & eEF-2 \\ \hline
+		终止密码子 & \multicolumn{2}{c|}{UAA、UAG、UGA} \\ \hline
+		\multirow{2}{*}{释放} & \multicolumn{1}{c|}{RF-1, 2} & eRF-1 \\ \cline{2-3}
+		& \multicolumn{1}{c|}{RF-3} & eRF-3 \\ \hline
+	\end{tabularx}
+	\caption{原核生物与真核生物翻译的比较}
+	\label{tab:原核生物与真核生物翻译的比较}
+\end{table}

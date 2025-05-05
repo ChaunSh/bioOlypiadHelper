@@ -153,11 +153,11 @@
 
 该反应受硝酸还原酶的催化，主要存在于高等植物的根和叶中。硝酸还原酶是诱导酶。
 
-整个反应过程从NAD(P)H开始，经过FAD、细胞色素$_{557}$、Mo辅因子，最后把电子交给$\mathrm{NO_{3}^{-}}$，同时生成一分子水。
+整个反应过程从NAD(P)H开始，经过FAD、cyt$_{557}$、Mo辅因子，最后把电子交给$\mathrm{NO_{3}^{-}}$，同时生成一分子水。
 
 \subparagraph{第二步：亚硝酸盐$\longrightarrow$铵盐}
 
-该反应由亚硝酸还原酶（NiR）催化，电子供体为铁氧还蛋白Fd$_{\text{red}}$。NiR的\zhongdian{辅基是铁硫簇（\ce{Fe4S4}）和血红素}。（\autoref{fig:亚硝酸还原酶的机理}，其中Heme代表血红素）
+该反应由亚硝酸还原酶（NiR）催化，电子供体为铁氧还蛋白Fd$_{\text{red}}$。NiR的\zhongdian{辅基是铁硫簇（\ce{Fe4S4}）和血红素（Heme）}。（\autoref{fig:亚硝酸还原酶的机理}，最后一步随铵根生成的还有一分子\ce{N2O}，是温室气体。）
 
 \begin{figure}[htbp]
 	\centering
@@ -461,27 +461,93 @@ S态转换机制
 
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=0.5\textwidth]{光呼吸}
+	\includegraphics[width=0.45\textwidth]{光呼吸}
+	\includegraphics[width=0.45\textwidth]{光呼吸2}
 	\caption{光呼吸}
 	\label{fig:光呼吸}
 \end{figure}
 
+\autoref{fig:光呼吸}中，谷氨酸和$\alpha$-酮戊二酸的循环，看似会持续消耗氨基，但是线粒体中Gly脱下的氨可在叶绿体内与$\alpha$-酮戊二酸生成Glu。
 
+\section{呼吸作用}
+
+\subsection{呼吸链}
+
+除了一般的电子传递链（细胞色素途径），植物还具有下列呼吸链组分：
+
+\begin{itemize}
+	\item 线粒体内膜基质侧，不受鱼藤酮抑制的NADH、NADPH脱氢酶；
+	\item 线粒体内膜膜间隙侧，不受鱼藤酮抑制的NADH、NADPH脱氢酶；
+	\item 交替氧化酶（AOX），负责抗氰呼吸。
+\end{itemize}
+
+\subsubsection{交替途径}
+
+交替途径即抗氰呼吸，不受氰化物对复合体IV的抑制。电子传递路径：复合体I/II$\longrightarrow$UQ$\longrightarrow$黄素蛋白$\longrightarrow$AOX$\longrightarrow$\ce{O2}$\longrightarrow$\ce{H2O2}$\longrightarrow$\ce{H2O}+$\frac{1}{2}$\ce{O2}。抗氰呼吸只产热，不产生质子梯度。
+
+抗氰呼吸存在于\zhongdian{天南星科}、睡莲科、白星海芋科植物的花粉，玉米、豌豆、绿豆的种子，马铃薯块茎，木薯、胡萝卜的根，\zhongdian{黑粉菌}，红酵母、桦树的菌根等。
+
+抗氰呼吸的意义有：
+
+\begin{itemize}
+	\item 帮助传粉。产热促进挥发性物质散发，吸引昆虫；
+	\item 耗散能量。线粒体还原力过多，会抑制产能代谢；
+	\item 增强抗逆性。抗氰呼吸接受UQ的电子，防止超氧阴离子产生。
+\end{itemize}
+
+\subsubsection{外NAD(P)H支路}
+
+线粒体内膜外侧的NADH、NADPH脱氢酶直接催化细胞质中的NAD(P)H氧化，电子传给UQ。不受鱼藤酮抑制。
+
+\subsubsection{内NAD(P)H支路}
+
+在复合体I负荷过重时，线粒体内膜基质侧的NADH、NADPH脱氢酶催化NAD(P)H氧化，电子传给UQ。也不受鱼藤酮抑制。
+
+\subsection{氧化磷酸化}
+
+需要注意的是，虽然植物的ATP合酶与动物的同源，但是其\zhongdian{CF$_{\text{o}}$亚基不受寡霉素抑制}。ATP合成过程与动物类似。
+
+\subsection{末端氧化酶}
+
+末端氧化酶指的是把电子传给\ce{O2}，生成\ce{H2O}或\ce{H2O2}的酶。
+线粒体膜上有细胞色素c氧化酶、交替氧化酶，线粒体之外有酚氧化酶、抗坏血酸氧化酶、黄素氧化酶等。
+
+\subsubsection{交替氧化酶}
+
+交替氧化酶是二聚体，之间的二硫键的氧化和还原状态起到传递电子的功能。含有铁。
+
+\subsubsection{酚氧化酶}
+
+酚氧化酶含铜，分为单酚氧化酶和多酚氧化酶。细胞结构受到破坏时，酚氧化酶和底物接触，催化酚氧化成醌，可毒害微生物。
+
+\subsubsection{抗坏血酸氧化酶}
+
+含铜，催化抗坏血酸氧化。与受精有关。
+
+\subsubsection{过氧化物酶、过氧化氢酶}
+
+含铁卟啉，可促进\ce{H2O2}的分解。
+
+\subsubsection{乙醇酸氧化酶}
+
+参与光呼吸，在过氧化物酶体中催化乙醇酸氧化为乙醛酸（\autoref{fig:光呼吸}）。
+
+乙醇酸氧化途径是水稻根部细胞独有的产氧途径（不是光呼吸），在缺氧时能从乙酰CoA$\longrightarrow$乙酸$\longrightarrow$乙醇酸$\longrightarrow$乙醛酸$\longrightarrow$草酸$\longrightarrow$甲酸依次氧化获得\ce{H2O2}，产生氧气。
 
 \section{植物同化物的运输}
 
-\subsection{概述：运输的途径和方向}
+\subsection{运输的途径和方向}
 
 \subsubsection{运输途径}
 
 \begin{description}
-	\item[短距离运输] 同化物在细胞内或细胞之间的运输；
+	\item[短距离运输] 同化物在细胞内或细胞之间的运输，包括质外体和共质体运输；
 	\item[长距离运输] 同化物经维管系统，从源到库的运输。
 \end{description}
 
-\paragraph{短距离运输}
+\paragraph{短距离运输——胞间连丝}
 
-胞间连丝\autoref{fig:胞间连丝的结构}
+胞间连丝（\autoref{fig:胞间连丝的结构}）在共质体运输中发挥重要作用。
 
 \begin{figure}[htbp]
 	\centering
@@ -490,7 +556,36 @@ S态转换机制
 	\label{fig:胞间连丝的结构}
 \end{figure}
 
-\paragraph{长距离运输}
+胞间连丝的数目会随着发育时期而改变。
+
+胞间连丝中，胞质套筒（内质网）和中央腔都是物质运输的通道。
+
+\paragraph{长距离运输——筛管和伴胞}
+
+长距离运输主要由筛管和伴胞担任。二者来自共同的母细胞，合称筛分子-伴胞复合体（SE-CC）。
+
+伴胞和筛管之间有许多胞间连丝。核酸、蛋白质等大分子物质可以通过胞间连丝。
+
+\subparagraph{伴胞}
+
+伴胞为筛管提供能量和代谢支持。伴胞有三种类型：
+
+\begin{description}
+	\item[通常伴胞] 胞间连丝较少。
+	\item[传递细胞] 细胞壁向内突出，胞间连丝长而分支。
+	\item[居间细胞] 胞间连丝多，能合成棉子糖和水苏糖。
+\end{description}
+
+\subparagraph{筛管分子}
+
+被子植物成熟筛管缺少大部分细胞器，但保留质膜、线粒体、滑面内质网。
+
+筛管分子呈筒状，首尾相接处形成筛板，筛板上有筛孔。多数筛管内壁还有韧皮蛋白（P-蛋白），可堵塞受损筛管的筛孔。
+
+筛管的质膜和细胞壁之间有胼胝质，筛管受损时可大量合成，堵住筛孔。
+
+裸子植物无筛管，由筛胞代替。筛胞无P-蛋白，无通道相连。
+
 
 \subsection{韧皮部装载}
 
@@ -553,7 +648,8 @@ S态转换机制
 	\item[甲羟戊酸途径（MVA）] 位于细胞质基质中。原料是3分子乙酰CoA，反应关键酶是HMG-CoA还原酶（HMGR），催化生成MVA\footnote{甲羟戊酸也被称为甲瓦龙酸。}。
 	\item[甲基赤藓糖醇磷酸途径（MEP）] 位于质体中。原料是丙酮酸和3-磷酸甘油醛，反应关键酶是DXP还原异构酶（DXR），催化生成MEP。
 \end{description}
-两种途径最后都生成异戊烯基焦磷酸（IPP）和二甲丙烯焦磷酸（DMAPP），之后进一步合成萜类。IPP和DMAPP被称为“活化的异戊二烯”。
+
+两种途径最后都生成IPP和DMAPP，之后进一步合成萜类。
 
 DMAPP+IPP$\longrightarrow$牻牛儿基焦磷酸（GPP，单萜前体）$\xrightarrow{\text{+IPP}}$法尼基焦磷酸（FPP，倍半萜和三萜前体）$\xrightarrow{\text{+IPP}}$牻牛儿牻牛儿基焦磷酸（GGPP，二萜和四萜前体）。（\autoref{fig:萜类合成途径}）
 
@@ -576,8 +672,8 @@ DMAPP+IPP$\longrightarrow$牻牛儿基焦磷酸（GPP，单萜前体）$\xrighta
 
 \begin{itemize}
 	\item 从4-磷酸赤藓糖（来自磷酸戊糖途径）和磷酸烯醇式丙酮酸（来自糖酵解）开始；
-	\item 经过重要中间产物莽草酸$\xrightarrow{\text{多步反应}}$分支酸\footnote{这里的分支酸{\color{red}并非}分枝菌酸，二者有天壤之别}。
-	\item 从分支酸可以合成Tyr、Phe、Trp三个具苯环的氨基酸。
+	\item 经过重要中间产物莽草酸$\xrightarrow{\text{多步反应}}$分支酸\footnote{这里的分支酸{\color{red}并非}分枝菌酸，二者有天壤之别。}；
+	\item 从分支酸可以合成F、Y、W三个具苯环的氨基酸。
 \end{itemize}
 
 苯丙素类和黄酮类的合成起始于Phe或Tyr。
@@ -596,7 +692,7 @@ DMAPP+IPP$\longrightarrow$牻牛儿基焦磷酸（GPP，单萜前体）$\xrighta
 
 \subsubsection{含氰苷}
 
-含氰苷本身无毒，存在于植物叶表皮细胞的液泡中。叶肉细胞中含有糖苷酶。一旦植物被啃食，这两种物质就会接触，生成糖和氰醇，氰醇再生成酮和氰化物。氰化物可抑制呼吸链复合体IV（细胞色素c氧化酶）。木薯中含有较多含氰苷。
+\zhongdian{含氰苷本身无毒}，存在于植物叶表皮细胞的液泡中。叶肉细胞中含有糖苷酶。一旦植物被啃食，这两种物质就会接触，生成糖和氰醇，氰醇再生成酮和\zhongdian{有毒的氰化物}。。\zhongdian{木薯中含有较多含氰苷。}
 
 \subsubsection{芥子油苷}
 
@@ -675,7 +771,7 @@ PI在PI激酶和PIP激酶的作用下形成PIP$_{2}$。PIP$_{2}$在磷脂酶C（
 
 \subsubsection{蛋白质降解}
 
-泛素-蛋白酶体途径是真核细胞内降解蛋白质的主要途径。肽链上的F-box结构域参与构成E3泛素连接酶。
+泛素-蛋白酶体途径是真核细胞内降解蛋白质的主要途径。肽链上的\zhongdian{F-box结构域参与构成E3泛素连接酶}。
 
 \section{植物生长物质}
 
@@ -683,40 +779,15 @@ PI在PI激酶和PIP激酶的作用下形成PIP$_{2}$。PIP$_{2}$在磷脂酶C（
 
 \subsection{生长素}
 
-\subsubsection{生长素的结构}
+\subsubsection{生长素的结构、分布}
 
 生长素是最先被发现的植物激素。
 
 植物体内的生长素类物质有：IAA、IBA、4-Cl-IAA、PAA。
 
-人工合成的生长素类似物有：2,4-D、2,4,5-三氯苯氧乙酸、NAA。
+具有生长素活性的化学物质的特点是：具有芳香环、羧基侧链、二者之间有芳香环或氧原子间隔。人工合成的生长素类似物有：2,4-D、2,4,5-三氯苯氧乙酸、NAA。
 
-生长素有无活性的束缚型和有活性的自由型两类，二者可互变。
-
-\subsubsection{生长素的运输}
-
-生长素有极性运输和非极性运输两类运输方式。
-
-\paragraph{极性运输}
-
-生长素极性运输依赖于输入载体AUX/IUX1家族，和输出载体PIN家族、ABCB/PGP家族。\\
-\begin{itemize}
-	\item 不同PIN蛋白表达的时间、部位是不同的；
-	\item PGP蛋白是ABC超家族B转运蛋白亚家族的成员，可以自己独立转运生长素，也可以辅助PIN蛋白发挥作用；
-\end{itemize}
-
-生长素极性运输的机制可以用化学渗透学说来解释：
-
-\begin{itemize}
-	\item 质膜上的质子泵将\ce{H+}泵入细胞壁，使胞外较酸；
-	\item IAAH\footnote{为了突出IAA的解离与否，这里写上H。}在细胞外不解离，自由扩散进入细胞。解离的\ce{IAA-}通过与\ce{H+}同向协同转运（载体为AUX）进入细胞；
-	\item 细胞内偏碱性，解离的\ce{IAA-}通过PIN载体出细胞、
-\end{itemize}
-
-\paragraph{非极性运输}
-
-生长素可通过韧皮部和木质部进行非极性运输，不消耗细胞能量， 运输方向由浓度决定。
-
+自由的IAA分布在细胞质基质和叶绿体中，IAA结合物只存在于细胞质基质中。
 \subsubsection{生长素的代谢}
 
 \paragraph{合成}
@@ -726,36 +797,103 @@ IAA主要在叶原基、嫩叶、发育中的种子中合成，亚细胞定位�
 依赖色氨酸的途径有4条：
 
 \begin{description}
-	\item[吲哚丙酮酸途径] Trp$\xrightarrow{\text{色氨酸氨基转移酶}}$吲哚-3-丙酮酸$\xrightarrow{\text{黄素单加氧酶}}$IAA。这是最基本的途径。
-	\item[色胺途径] Trp$\xrightarrow{\text{色氨酸脱羧酶}}$色胺$\xrightarrow{\text{一系列酶促反应}}$吲哚-3-乙醛$\xrightarrow{\text{脱氢}}$IAA。较少见，存在于大麦、小麦、烟草中。
-	\item[吲哚乙醛\xpinyin*{肟}途径] Trp$\longrightarrow$吲哚-3-乙醛肟$\longrightarrow$吲哚乙\xpinyin*{腈}$\xrightarrow{\text{腈水解酶}}$IAA。可能存在于十字花科、蔷薇科、豆科、葫芦科、禾本科、芭蕉科。
-	\item[吲哚乙酰胺途径] Trp$\longrightarrow$吲哚-3-乙酰胺$\xrightarrow{\text{水解酶}}$IAA。存在于细菌中。
+	\item[吲哚丙酮酸（IPA）途径] Trp$\xrightarrow{\text{TAA1}}$IPA$\xrightarrow{\text{YUCCA}}$IAA。这是最基本的途径。
+	\item[吲哚乙醛\xpinyin*{肟}（IAOx）途径] Trp$\longrightarrow$IAOx$\longrightarrow$吲哚乙\xpinyin*{腈}$\xrightarrow{\text{腈水解酶}}$IAA。可能存在于十字花科、蔷薇科、豆科、葫芦科、禾本科、芭蕉科植物。中间产物有IAM。\zhongdian{似乎没有组织特异性。}
+	\item[色胺（TAM）途径] Trp$\xrightarrow{\text{Trp脱羧酶}}$TAM$\xrightarrow{\text{一系列反应}}$吲哚乙醛$\xrightarrow{\text{脱氢}}$IAA。较少见，存在于大麦、小麦、烟草中。
+	\item[吲哚乙酰胺（IAM）途径] Trp$\longrightarrow$IAM$\xrightarrow{\text{水解酶}}$IAA。只存在于细菌中。
 \end{description}
 
-非色氨酸依赖的合成前体尚未发现，中间产物有吲哚-3-丙酮酸和吲哚乙腈等。
+非色氨酸依赖的合成前体可能是吲哚和其前体吲哚甘油磷酸酯（IGP），中间产物有吲哚-3-丙酮酸和吲哚乙腈等。
 
 不同植物在不同发育阶段，主要的生长素合成途径会发生变化。
 
+吲哚丁酸（IBA）与IAA可以互相转变。
+
 \paragraph{结合、降解}
 
-大多数生长素以失活的结合形式存在，分为两类：
-
-\begin{itemize}
-	\item 与肌醇、甲基、葡萄糖结合的酯键类；
-	\item 与氨基酸结合的氨基类；
-\end{itemize}
+大多数生长素以失活的结合形式存在，是生长素的储存形式。生长素可与肌醇、葡萄糖、氨基酸、肽、蛋白质结合。生长素还可甲酯化。
 
 生长素可通过酶促降解（脱羧降解、非脱羧降解）和光氧化（核黄素催化）的形式降解。
 
-\subsubsection{生长素的信号转导}
+\subsubsection{生长素的运输}
+
+生长素有极性运输和非极性运输两类运输方式。\zhongdian{生长素是唯一极性运输的激素}。
+
+\paragraph{极性运输}
+
+生长素\sy{极性运输}依赖于输入载体AUX/IUX1家族，和输出载体PIN家族、ABCB/PGP家族。
+
+\begin{itemize}
+	\item 不同PIN蛋白表达的时间、部位是不同的；
+	\item PGP蛋白是ABC超家族B转运蛋白亚家族的成员，可以自己独立非极性转运生长素，也可以辅助PIN蛋白发挥作用（极性）；
+\end{itemize}
+
+三种转运体的特点总结如\autoref{tab:生长素运输载体}：
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabularx}{\textwidth}{|c|C|c|C|}
+		\hline
+		\textbf{载体} & \textbf{运输方向} & \textbf{转运形式} & \textbf{分布} \\ \hline
+		AUX & 内运 & 同向协同，IAA$^{-}$和2H$^{+}$ & 极性 \\ \hline
+		PIN & 外运 & 主动，IAA$^{-}$ & 极性 \\ \hline
+		ABCB & 外运 & 主动，IAA$^{-}$ & 均匀 \\ \hline
+	\end{tabularx}
+	\caption{生长素运输载体}
+	\label{tab:生长素运输载体}
+\end{table}
+
+生长素极性运输的机制可以用\sy{化学渗透学说}来解释：（\autoref{fig:生长素极性运输}）
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=\linewidth]{生长素极性运输}
+	\caption{生长素极性运输}
+	\label{fig:生长素极性运输}
+\end{figure}
+
+\begin{itemize}
+	\item 质膜上的质子泵将\ce{H+}泵入细胞壁，使胞外较酸；
+	\item IAAH\footnote{为了突出IAA的解离与否，这里写上H。}在细胞外不解离，自由扩散进入细胞。解离的\ce{IAA-}通过与\ce{H+}同向协同转运（载体为AUX）进入细胞；
+	\item 细胞内偏碱性，解离的\ce{IAA-}通过PIN载体出细胞、
+\end{itemize}
+
+\paragraph{非极性运输}
+
+生长素及其结合物可通过韧皮部进行非极性运输，不消耗细胞能量，运输方向由浓度决定。
+
+\subsubsection{生理功能}
+
+\paragraph{细胞伸长}
+
+生长素可以诱导细胞伸长，可用\sy{酸生长理论}解释：
+
+\begin{enumerate}
+	\item 生长素增强了质膜上质子泵的活性，使细胞壁酸化；
+	\item 细胞壁中的扩张蛋白在酸性条件下通过弱化多糖之间的氢键，疏松细胞壁。
+\end{enumerate}
+
+生长素对细胞伸长有双重作用，是因为过高浓度的生长素促进乙烯合成，抑制了根茎的伸长。
+
+\paragraph{向性}
+
+如向重力性和向光性。
+
+\paragraph{胚胎发育、生长发育基本模式}
+
+植物胚胎中的生长素呈梯度分布。早球形胚时期，胚基部生长素浓度最高，促进胚根形成；心形胚时期，胚顶端生长素浓度最高，决定子叶形成。
+
+生长素刺激形成层分化为维管组织。较高浓度的生长素抑制主根形成，促进侧根和不定根的形成。生长素还促进叶序、花芽、果实发育。
+
+\subsubsection{信号转导}
 
 \paragraph{受体}
 
 已知两类IAA受体：ABP1和TIR1。
 
 \begin{description}
-	\item[ABP1] 大量位于内质网，少数在质膜。通过增加质子泵的表达、激活，提高细胞壁延展性。ABP1参与细胞骨架重排、PIN定位调控。
-	\item[TIR1] 核内受体，具有F-box序列，是降解蛋白质的SCF复合体组分。TIR1发挥作用的过程见\autoref{fig:iaa}。
+	\item[ABP1] \zhongdian{大量位于内质网，少数在质膜。}通过增加质子泵的表达、激活，提高细胞壁延展性。ABP1参与细胞骨架重排、PIN定位调控。
+	\item[TIR1] \zhongdian{核内受体，具有F-box序列}，是降解蛋白质的SCF复合体组分。TIR1发挥作用的过程见\autoref{fig:iaa}。
 \end{description}
 
 \begin{figure}[htbp]
@@ -771,12 +909,23 @@ IAA主要在叶原基、嫩叶、发育中的种子中合成，亚细胞定位�
 	\item 在IAA不存在的情况下，转录因子ARF与AUX/IAA蛋白形成无活性的异源二聚体，阻断了早期生长素基因的转录。没有生长素反应。
 	\item 在生长素存在的情况下，AUX/IAA蛋白被激活的泛素连接酶（SCF$^{\text{TIR1}}$复合物）破坏，并被26S蛋白酶体降解。
 	\item AUX/IAA蛋白降解后，允许活性ARF同源二聚体形成。
-	\item 活性ARF同源二聚体结合到早期基因启动子中的回文序列AuxREs，激活转录。
+	\item 活性ARF同源二聚体结合到早期基因启动子中的回文序列（生长素响应原件AuxRE），激活生长素早期响应基因转录。
 \end{enumerate}
 
 \paragraph{下游组分}
 
-生长素反应基因包括早期反应基因和晚期反应基因。\textit{AUX/IAA}就是一个早期反应基因，参与生长素信号的负反馈调节。
+生长素反应基因包括早期反应基因和晚期反应基因。
+
+早期反应基因编码的蛋白质有：
+
+\begin{itemize}
+	\item 调控晚期基因表达所需的蛋白质；
+	\item 参与细胞间通信的蛋白质；
+	\item 抑制生长素活性的蛋白质，如\textit{Aux/IAA}、\textit{GH3}，避免细胞内生长素的过度积累；
+	\item 另外，\textit{SAUR}表达的蛋白质参与质子泵活性调节。
+\end{itemize}
+
+晚期反应基因包含编码谷胱甘肽-S-转移酶的\textit{GST}、ACC合酶家族。
 
 \subsection{赤霉素}
 
@@ -784,9 +933,7 @@ IAA主要在叶原基、嫩叶、发育中的种子中合成，亚细胞定位�
 
 \subsubsection{结构}
 
-赤霉素是双萜类化合物。根据第20号碳原子（甲基）的有无，分为\ce{C19}和\ce{C20}两类。生理活性较强的赤霉素包括GA$_{\text{1,3,4,7}}$，它们全都是\ce{C19}类的。GA$_{4}$的活性最强。
-
-结合态的赤霉素无活性。
+赤霉素是双萜类化合物。根据第20号碳原子（甲基）的有无，分为\ce{C19}和\ce{C20}两类。生理活性较强的赤霉素包括GA$_{\text{1,3,4,7}}$，它们全都是\ce{C19}类的。GA$_{4}$的活性最强。3-$\beta$-OH是赤霉素具有活性的必要条件。
 
 \subsubsection{分布和运输}
 
@@ -796,19 +943,72 @@ IAA主要在叶原基、嫩叶、发育中的种子中合成，亚细胞定位�
 
 \paragraph{合成}
 
-赤霉素合成的亚细胞定位是质体、内质网、细胞质基质。前体是牻牛儿牻牛儿基焦磷酸。所有赤霉素的共同前体是GA$_{12}$。
+赤霉素合成的亚细胞定位是质体、内质网、细胞质基质。前体是牻牛儿牻牛儿基焦磷酸（GGPP）。所有赤霉素的共同前体是GA$_{12}$。
 
 \paragraph{失活、降解}
 
-GA$_{2}$氧化酶催化GA$_{1}$、GA$_{4}$加上羟基失活。赤霉素的结合形式也是失活的一种方式。
+赤霉素的结合形式是失活的一种方式，它也可能是一种储存方式。
 
-\subsubsection{赤霉素的信号转导}
+其他失活形式：
+
+\begin{description}
+	\item[羟基化] GA$_{2}$氧化酶催化GA$_{1}$、GA$_{4}$加上羟基失活。
+	\item[环氧化] GA$_{4,9,12}$可被水稻\textit{EUI}基因编码的cyt P450单氧化酶环氧化。
+	\item[甲基化] 赤霉素甲基转移酶以SAM为甲基供体，将活性GA甲基化失活。
+\end{description}
+
+赤霉素可通过光周期、温度、负反馈调节自身的含量。
+
+\subsubsection{生理功能}
+
+\paragraph{诱导$\alpha$-淀粉酶合成}
+
+宏观流程如下：
+
+\begin{enumerate}
+	\item 胚中合成的GA通过盾片进入胚乳；
+	\item 胚乳中的GA扩散进入糊粉层；
+	\item 糊粉层中的细胞被诱导合成$\alpha$-淀粉酶及其他水解酶；
+	\item 淀粉及其他大分子物质被$\alpha$-淀粉酶等酶分解成小分子；
+	\item 胚乳中的养料经盾片吸收后运输到胚中。
+\end{enumerate}
+
+分子机制如\autoref{fig:GA诱导淀粉酶合成的分子机制}所示。
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=\linewidth]{GA诱导淀粉酶合成的分子机制}
+	\caption{GA诱导淀粉酶合成的分子机制}
+	\label{fig:GA诱导淀粉酶合成的分子机制}
+\end{figure}
+
+赤霉素还可通过其他方式打破休眠，促进种子萌发。
+
+\paragraph{促进营养生长}
+
+赤霉素也通过增加细胞壁延展性来促进伸长生长，但是没有细胞壁酸化，且迟滞较长。赤霉素通过促进XET（木葡聚糖糖基转移酶）软化细胞壁，这是赤霉素的特异性功能。
+
+赤霉素即可促进也可抑制细胞分裂。
+
+\paragraph{影响生殖生长}
+
+赤霉素可以促进或抑制从幼年期向成年期的转变。赤霉素影响花芽分化，促进开雄花。
+
+
+\subsubsection{信号转导}
 
 \paragraph{受体}
 
 GID1受体是发现的第一个GA受体，位于细胞核中。C端形成结合GA的口袋，N端形成盖住口袋的“盖子”。
 
-GID1介导的GA信号转导过程如下：
+GID1介导的GA信号转导过程如下：（\autoref{fig:GA信号转导}）
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=\linewidth]{GA信号转导.png}
+	\caption{GA信号转导}
+	\label{fig:GA信号转导}
+\end{figure}
 
 \begin{enumerate}
 	\item GA、GID1与DELLA蛋白的N端DELLA和VHYNP基序结合，形成复合物；
@@ -816,15 +1016,13 @@ GID1介导的GA信号转导过程如下：
 	\item 解除了DELLA蛋白的阻遏作用，相关基因得以表达。
 \end{enumerate}
 
-\paragraph{信号转导组分——DELLA蛋白}
+\paragraph{DELLA蛋白}
 
-DELLA蛋白因其N端17个氨基酸基序的前五个为DELLA得名，是一种转录抑制因子。植物体内多种DELLA蛋白，在不同发育阶段发挥作用。
+DELLA蛋白因其N端17个氨基酸基序的前五个为DELLA得名，是一种转录抑制因子。DELLA蛋白具有N端的DELLA调节域和C端的GRAS抑制子域。植物体内有多种DELLA蛋白，在不同发育阶段发挥作用。
 
-下面是GA促进$\alpha$-淀粉酶合成、胚乳中淀粉水解的过程：
+\paragraph{SCF E3泛素连接酶}
 
-
-
-
+如\autoref{fig:GA信号转导}所示，SCF$^{\text{SLY/GID2}}$是一种F-box蛋白。
 
 \subsection{细胞分裂素}
 
@@ -854,10 +1052,62 @@ DELLA蛋白因其N端17个氨基酸基序的前五个为DELLA得名，是一种�
 
 细胞分裂素被细胞分裂素氧化酶（CKX）降解。
 
-\subsubsection{细胞分裂素的信号转导途径}
+\subsubsection{信号转导}
+
+如\autoref{fig:CTK信号转导}所示，细胞分裂素采取二元转导途径。
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=\linewidth]{CTK信号转导}
+	\caption{CTK信号转导}
+	\label{fig:CTK信号转导}
+\end{figure}
 
 
+\subsection{脱落酸}
 
+\subsubsection{结构、分布}
+
+ABA在高等维管植物中广泛存在，地钱中以新月酸取而代之。
+
+脱落酸是倍半萜。脱落酸具有手性。
+
+\subsubsection{代谢}
+
+\paragraph{合成}
+
+前体为玉米黄素。
+
+\subsection{乙烯}
+
+\subsubsection{结构、分布}
+
+几乎所有植物都能合成乙烯。
+
+\subsubsection{代谢}
+
+\paragraph{合成}
+
+前体Met。
+\autoref{fig:杨氏循环}
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{杨氏循环}
+	\caption{杨氏循环}
+	\label{fig:杨氏循环}
+\end{figure}
+
+
+\subsubsection{信号转导}
+
+\autoref{fig:乙烯信号转导}
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=\linewidth]{乙烯信号转导.png}
+	\caption{乙烯信号转导}
+	\label{fig:乙烯信号转导}
+\end{figure}
 
 \section{植物光形态建成}
 
